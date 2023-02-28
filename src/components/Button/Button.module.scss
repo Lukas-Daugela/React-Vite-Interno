@@ -1,10 +1,13 @@
 @import '../../sass/index';
 
 .button {
+  align-items: center;
   background-color: var(--color-secondary);
   border: unset;
   border-radius: 1.8rem;
   box-shadow: 0 10px 20px var(--color-gray-750);
+  display: flex;
+  gap: 0.9rem;
   height: 7.5rem;
   padding: 0 5.4rem;
 
@@ -12,5 +15,13 @@
 
   &__gold {
     background-color: var(--color-primary);
+  }
+}
+
+.image {
+  stroke: var(--color-primary);
+
+  &__gold {
+    stroke: var(--color-secondary);
   }
 }
