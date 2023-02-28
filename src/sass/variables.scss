@@ -1,5 +1,22 @@
 :root {
   /* Colors */
+  --color-dark-190: #292f36;
+  --color-dark-310: #4d5053;
+
+  --color-white-100: #ffffff;
+
+  --color-golden-630: #cda274;
+  --color-golden-940: #f4f0ec;
 
   /* Base */
+  --color-primary: var(--color-golden-630);
+  --color-secondary: var(--color-dark-190);
+  --color-tertiary: var(--color-golden-940);
+  --color-base: var(--color-dark-310);
+
+  --font-family-primary: 'Dm Serif Display';
+  --font-family-secondary: 'Jost';
+  --line-height-heading: 1.22;
+  --line-height-base: 1.5;
+  --font-size-base: 1.8rem;
 }
