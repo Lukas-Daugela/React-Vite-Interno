@@ -30,6 +30,6 @@ export default function CollapsibleV1({ title, children }) {
 }
 
 CollapsibleV1.propTypes = {
-  title: PropTypes.string.isReqiured,
+  title: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
 };

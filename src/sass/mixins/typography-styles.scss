@@ -43,11 +43,16 @@ $body-sizes: (
   }
 }
 
-@mixin heading-styles($type, $weight: 700, $color: var(--color-secondary)) {
+@mixin heading-styles(
+  $type,
+  $weight: 700,
+  $color: var(--color-secondary),
+  $line-height: var(--line-height-heading)
+) {
   color: $color;
   font-family: var(--font-family-primary);
   font-weight: $weight;
-  line-height: var(--line-height-heading);
+  line-height: $line-height;
   @include map-sizes($heading-sizes, $type);
 }
 
