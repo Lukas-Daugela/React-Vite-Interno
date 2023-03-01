@@ -1,0 +1,38 @@
+@import '../../sass/index';
+
+.chevron {
+  border-bottom: 1px solid var(--color-primary);
+  padding: 0 2.2rem 3.2rem 0;
+
+  &__title {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    user-select: none;
+
+    @include heading-styles('small', $weight: 400, $line-height: var(--line-height-base));
+
+    &--expanded {
+      color: var(--color-primary);
+    }
+  }
+
+  &__icon {
+    transform: rotate(0);
+    transition: 0.25s transform ease;
+
+    &--expanded {
+      transform: rotate(90deg);
+    }
+  }
+
+  &__text {
+    cursor: default;
+    margin: 0;
+    max-width: 88%;
+    padding: 1.3rem 0 0.2rem;
+    @include body-styles('large');
+  }
+}
