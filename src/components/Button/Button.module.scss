@@ -8,10 +8,20 @@
   box-shadow: 0 10px 20px var(--color-gray-750);
   display: flex;
   gap: 0.9rem;
-  height: 7.5rem;
-  padding: 0 5.4rem;
+  height: 4.5rem;
+  padding: 0 3.5rem;
 
   @include body-styles('small', $color: var(--color-white-100), $weight: 600);
+
+  @include media-query('md') {
+    height: 5.5rem;
+    padding: 0 4rem;
+  }
+
+  @include media-query('xl') {
+    height: 7.5rem;
+    padding: 0 5.4rem;
+  }
 
   &__gold {
     background-color: var(--color-primary);
@@ -20,8 +30,13 @@
 
 .image {
   stroke: var(--color-primary);
+  width: 1.5rem;
 
   &__gold {
     stroke: var(--color-secondary);
+  }
+
+  @include media-query('md') {
+    width: 1.9rem;
   }
 }
