@@ -1,3 +1,5 @@
 import Arrow from './Arrow';
+import Plus from './Plus';
+import Minus from './Minus';
 
-export { Arrow };
+export { Arrow, Plus, Minus };
