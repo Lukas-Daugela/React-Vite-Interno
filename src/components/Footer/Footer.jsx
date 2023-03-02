@@ -10,13 +10,13 @@ import {
   Twitter,
 } from '../../../public/assets/svg';
 import NavLogo from '../../../public/assets/svg/NavLogo';
+import FooterListCard from '../FooterListCard';
 import styles from './Footer.module.scss';
+import { pageLinks } from './text';
 
 const cn = classNames.bind(styles);
 
 export default function Footer() {
-  const [isPagesOpen, setIsPagesOpen] = useState(false);
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isContactsOpen, setIsContactsOpen] = useState(false);
 
   return (
@@ -53,100 +53,11 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        {/* Pages */}
-        <div className={cn('page-links__container')}>
-          <button
-            onClick={() => setIsPagesOpen(!isPagesOpen)}
-            className={cn('page-links__button')}
-          >
-            <h3 className={cn('page-links__title')}>
-              Pages
-              <Chevron
-                className={cn('page-links__chevron-icon', {
-                  'page-links__chevron-icon--expanded': isPagesOpen,
-                })}
-              />
-            </h3>
-          </button>
-          <ul
-            className={cn('page-links__list', {
-              'page-links__list--expanded': isPagesOpen,
-            })}
-          >
-            <li>
-              <Link to="about" className={cn('link')}>
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="projects" className={cn('link')}>
-                Our Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={cn('link')}>
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" className={cn('link')}>
-                Contact Us
-              </Link>
-            </li>
-            <li>
-              <Link to="services" className={cn('link')}>
-                Services
-              </Link>
-            </li>
-          </ul>
-        </div>
-        {/* Services */}
-        <div className={cn('page-links')}>
-          <button
-            onClick={() => setIsServicesOpen(!isServicesOpen)}
-            className={cn('page-links__button')}
-          >
-            <h3 className={cn('page-links__title')}>
-              Services
-              <Chevron
-                className={cn('page-links__chevron-icon', {
-                  'page-links__chevron-icon--expanded': isServicesOpen,
-                })}
-              />
-            </h3>
-          </button>
-          <ul
-            className={cn('page-links__list', {
-              'page-links__list--expanded': isServicesOpen,
-            })}
-          >
-            <li>
-              <Link to="/" className={cn('link')}>
-                Kitchen
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={cn('link')}>
-                Living Area
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={cn('link')}>
-                Bathroom
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={cn('link')}>
-                Dining Hall
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className={cn('link')}>
-                Bedroom
-              </Link>
-            </li>
-          </ul>
-        </div>
+        {pageLinks.map((link) => {
+          return (
+            <FooterListCard key={link.title} links={link.links} title={link.title} />
+          );
+        })}
         {/* Contact */}
         <div className={cn('page-links')}>
           <button

@@ -1,4 +1,4 @@
-import { pageLinks } from './pageLinks';
 import { contactInfo } from './contact';
+import { pageLinks } from './pageLinks';
 
-export { pageLinks, contactInfo };
+export { contactInfo, pageLinks };
