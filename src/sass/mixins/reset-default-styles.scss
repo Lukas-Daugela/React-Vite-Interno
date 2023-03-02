@@ -4,3 +4,8 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin reset-link-style {
+  color: inherit;
+  text-decoration: none;
+}

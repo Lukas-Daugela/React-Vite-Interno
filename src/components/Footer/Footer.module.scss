@@ -1,0 +1,62 @@
+@import '../../sass/index';
+
+.footer {
+  display: grid;
+  gap: 5rem;
+
+  @include media-query('md') {
+    gap: 17.4rem;
+  }
+
+  &__links-wrapper {
+    display: grid;
+    gap: 2rem;
+    max-width: 50rem;
+
+    @include media-query('md') {
+      gap: 5rem;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: unset;
+    }
+    @include media-query('lg') {
+      gap: 10rem;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__logo-title {
+    align-items: center;
+    display: flex;
+    font-family: var(--font-family-primary);
+    font-size: 4rem;
+    gap: 1rem;
+    line-height: var(--line-height-heading);
+    text-decoration: none;
+
+    @include reset-link-style;
+  }
+
+  &__title-chevron {
+    // asdas
+
+    @include media-query('md') {
+      display: none;
+    }
+  }
+}
+
+.page-links {
+  &__links-list {
+    display: grid;
+    gap: 2rem;
+  }
+}
+
+.footer__social-links,
+.page-links__links-list {
+  @include reset-list-style;
+}
+
+.link {
+  @include reset-link-style;
+}

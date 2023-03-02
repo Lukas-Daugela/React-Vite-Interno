@@ -15,13 +15,6 @@
     gap: 1rem;
     line-height: var(--line-height-heading);
     text-decoration: none;
-  }
-
-  &__logo-title,
-  &__logo-title:hover,
-  &__logo-title:focus,
-  &__logo-title:active {
-    color: inherit;
-    text-decoration: none;
+    @include reset-link-style;
   }
 }
