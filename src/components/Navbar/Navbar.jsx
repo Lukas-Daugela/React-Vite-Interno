@@ -21,7 +21,6 @@ export default function Navbar() {
         className={cn('nav-button')}
         onClick={() => setIsBurgerOpen((prev) => !prev)}
       >
-        Button
         {isBurgerOpen ? <CloseIcon /> : <BurgerIcon />}
       </button>
       <nav
