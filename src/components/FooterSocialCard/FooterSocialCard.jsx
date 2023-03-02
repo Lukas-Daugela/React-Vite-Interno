@@ -20,7 +20,6 @@ export default function FooterSocialCard({ socialInfo }) {
       <p className={cn('social-card__description')}>{description}</p>
       <ul className={cn('social-card__social-links')}>
         {socialIcons.map((socialIcon) => {
-          console.log(socialIcon);
           return (
             <li key={socialIcon.imgUrl} className={cn('social-card__social-option')}>
               <Link to={socialIcon.link} className={cn('link')}>
