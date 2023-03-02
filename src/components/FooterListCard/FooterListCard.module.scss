@@ -68,4 +68,8 @@
   &__link {
     @include reset-link-style;
   }
+
+  &__contact-text {
+    margin: 0;
+  }
 }

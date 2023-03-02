@@ -1,24 +1,16 @@
 import classNames from 'classnames/bind';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-import {
-  Chevron,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-} from '../../../public/assets/svg';
+import { Facebook, Instagram, Linkedin, Twitter } from '../../../public/assets/svg';
 import NavLogo from '../../../public/assets/svg/NavLogo';
 import FooterListCard from '../FooterListCard';
 import styles from './Footer.module.scss';
-import { pageLinks } from './text';
+import { contactInfo, pageLinks } from './text';
 
 const cn = classNames.bind(styles);
 
 export default function Footer() {
-  const [isContactsOpen, setIsContactsOpen] = useState(false);
-
   return (
     <footer className={cn('footer')}>
       <div className={cn('footer__links-wrapper')}>
@@ -58,39 +50,7 @@ export default function Footer() {
             <FooterListCard key={link.title} links={link.links} title={link.title} />
           );
         })}
-        {/* Contact */}
-        <div className={cn('page-links')}>
-          <button
-            onClick={() => setIsContactsOpen(!isContactsOpen)}
-            className={cn('page-links__button')}
-          >
-            <h3 className={cn('page-links__title')}>
-              Contact
-              <Chevron
-                className={cn('page-links__chevron-icon', {
-                  'page-links__chevron-icon--expanded': isContactsOpen,
-                })}
-              />
-            </h3>
-          </button>
-          <ul
-            className={cn('page-links__list', {
-              'page-links__list--expanded': isContactsOpen,
-            })}
-          >
-            <li>
-              <p className={cn('page-links__contact-text')}>
-                55 East Birchwood Ave. Brooklyn, New York 11201
-              </p>
-            </li>
-            <li>
-              <p className={cn('page-links__contact-text')}>contact@interno.com</p>
-            </li>
-            <li>
-              <p className={cn('page-links__contact-text')}>(123) 456 - 7890</p>
-            </li>
-          </ul>
-        </div>
+        <FooterListCard contactInfo={contactInfo} />
       </div>
       <div className={cn('footer__copyright')}>
         Copyright © Interno | Designed by Victorflow Templates - Made by Lukas
