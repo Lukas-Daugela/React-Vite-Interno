@@ -1,8 +1,10 @@
 @import '../../sass/index';
 
 .footer {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 5rem;
+  margin: 0 auto;
   max-width: 120rem;
   padding: 0 4rem 4rem;
 
@@ -20,8 +22,11 @@
       max-width: unset;
     }
     @include media-query('lg') {
-      gap: 10rem;
+      gap: 11rem;
       grid-template-columns: repeat(4, 1fr);
+    }
+    @include media-query('xl') {
+      grid-template-columns: 29% 10% 10% 22%;
     }
   }
 

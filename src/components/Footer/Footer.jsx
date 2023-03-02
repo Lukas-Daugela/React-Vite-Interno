@@ -2,7 +2,13 @@ import classNames from 'classnames/bind';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Chevron } from '../../../public/assets/svg';
+import {
+  Chevron,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+} from '../../../public/assets/svg';
 import NavLogo from '../../../public/assets/svg/NavLogo';
 import styles from './Footer.module.scss';
 
@@ -26,23 +32,23 @@ export default function Footer() {
           </p>
           <ul className={cn('footer__social-links')}>
             <li className={cn('footer__social-option')}>
-              <Link to="about" className={cn('link')}>
-                1
+              <Link to="/" className={cn('link')}>
+                <Facebook />
               </Link>
             </li>
             <li className={cn('footer__social-option')}>
-              <Link to="about" className={cn('link')}>
-                1
+              <Link to="/" className={cn('link')}>
+                <Twitter />
               </Link>
             </li>
             <li className={cn('footer__social-option')}>
-              <Link to="about" className={cn('link')}>
-                1
+              <Link to="/" className={cn('link')}>
+                <Linkedin />
               </Link>
             </li>
             <li className={cn('footer__social-option')}>
-              <Link to="about" className={cn('link')}>
-                1
+              <Link to="/" className={cn('link')}>
+                <Instagram />
               </Link>
             </li>
           </ul>
@@ -115,12 +121,12 @@ export default function Footer() {
             })}
           >
             <li>
-              <Link to="about" className={cn('link')}>
+              <Link to="/" className={cn('link')}>
                 Kitchen
               </Link>
             </li>
             <li>
-              <Link to="projects" className={cn('link')}>
+              <Link to="/" className={cn('link')}>
                 Living Area
               </Link>
             </li>
@@ -130,12 +136,12 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="contact" className={cn('link')}>
+              <Link to="/" className={cn('link')}>
                 Dining Hall
               </Link>
             </li>
             <li>
-              <Link to="services" className={cn('link')}>
+              <Link to="/" className={cn('link')}>
                 Bedroom
               </Link>
             </li>
