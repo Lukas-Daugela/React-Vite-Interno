@@ -1,0 +1,28 @@
+import classNames from 'classnames/bind';
+import React from 'react';
+
+import FooterListCard from '../FooterListCard';
+import FooterSocialCard from '../FooterSocialCard/FooterSocialCard';
+import styles from './Footer.module.scss';
+import { contactInfo, pageLinks, socialInfo } from './text';
+
+const cn = classNames.bind(styles);
+
+export default function Footer() {
+  return (
+    <footer className={cn('footer')}>
+      <div className={cn('footer__links-wrapper')}>
+        <FooterSocialCard socialInfo={socialInfo} />
+        {pageLinks.map((link) => {
+          return (
+            <FooterListCard key={link.title} links={link.links} title={link.title} />
+          );
+        })}
+        <FooterListCard contactInfo={contactInfo} />
+      </div>
+      <div className={cn('footer__copyright')}>
+        Copyright © Interno | Designed by Victorflow Templates - Made by Lukas
+      </div>
+    </footer>
+  );
+}

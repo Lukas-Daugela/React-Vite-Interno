@@ -1,0 +1,36 @@
+@import '../../sass/index';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 4rem 4rem;
+
+  @include media-query('md') {
+    gap: 17.4rem;
+  }
+
+  &__links-wrapper {
+    display: grid;
+    max-width: 32rem;
+
+    @include media-query('md') {
+      gap: 5rem;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: unset;
+    }
+    @include media-query('lg') {
+      gap: 8rem;
+      grid-template-columns: 29% 10% 10% 22%;
+    }
+    @include media-query('xl') {
+      gap: 11rem;
+    }
+  }
+
+  &__copyright {
+    @include flex-center;
+  }
+}
