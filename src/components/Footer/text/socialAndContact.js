@@ -2,16 +2,20 @@ export const socialInfo = {
   description: 'It is a long established fact that a reader will be distracted lookings.',
   socialIcons: [
     {
-      url: '/assets/facebook.svg',
+      link: '/',
+      imgUrl: '/assets/svg/facebook.svg',
     },
     {
-      url: '/assets/twitter.svg',
+      link: '/',
+      imgUrl: '/assets/svg/twitter.svg',
     },
     {
-      url: '/assets/linkedin.svg',
+      link: '/',
+      imgUrl: '/assets/svg/linkedin.svg',
     },
     {
-      url: '/assets/instagram.svg',
+      link: '/',
+      imgUrl: '/assets/svg/instagram.svg',
     },
   ],
 };

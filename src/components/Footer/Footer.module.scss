@@ -22,42 +22,15 @@
       max-width: unset;
     }
     @include media-query('lg') {
-      gap: 11rem;
-      grid-template-columns: repeat(4, 1fr);
-    }
-    @include media-query('xl') {
+      gap: 8rem;
       grid-template-columns: 29% 10% 10% 22%;
     }
-  }
-
-  &__logo-title {
-    align-items: center;
-    display: flex;
-    font-family: var(--font-family-primary);
-    font-size: 4rem;
-    gap: 1rem;
-    line-height: var(--line-height-heading);
-    text-decoration: none;
-
-    @include reset-link-style;
-  }
-
-  &__description {
-    margin: 1.8rem 0 3.1rem;
-  }
-
-  &__social-links {
-    align-items: center;
-    display: flex;
-    gap: 5.4rem;
-    @include reset-list-style;
+    @include media-query('xl') {
+      gap: 11rem;
+    }
   }
 
   &__copyright {
     @include flex-center;
   }
-}
-
-.link {
-  @include reset-link-style;
 }
