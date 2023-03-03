@@ -3,21 +3,37 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Arrow } from '../../../public/assets/svg';
+import { Arrow, Chevron } from '../../../public/assets/svg';
 import styles from './CustomLink.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function CustomLink({ children, path }) {
+export function CircleLink({ path, size = 'small', className }) {
+  const customLinkClass = `circle-link__${size}`;
+
   return (
-    <Link className={cn('link')} to={path}>
-      {children}
-      <Arrow className={cn('link__arrow')} />
+    <Link className={cn('circle-link', customLinkClass, className)} to={path}>
+      <Chevron />
     </Link>
   );
 }
 
-CustomLink.propTypes = {
+CircleLink.propTypes = {
+  path: PropTypes.string.isRequired,
+  size: PropTypes.oneOf('small', 'large'),
+  className: PropTypes.string,
+};
+
+export function ArrowLink({ children, path }) {
+  return (
+    <Link className={cn('arrow-link')} to={path}>
+      {children}
+      <Arrow className={cn('arrow-link__icon')} />
+    </Link>
+  );
+}
+
+ArrowLink.propTypes = {
   children: PropTypes.string.isRequired,
-  path: PropTypes.string,
+  path: PropTypes.string.isRequired,
 };

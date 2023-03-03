@@ -1,1 +1,3 @@
-export { default } from './CustomLink';
+import { ArrowLink, CircleLink } from './CustomLink';
+
+export { ArrowLink, CircleLink };
