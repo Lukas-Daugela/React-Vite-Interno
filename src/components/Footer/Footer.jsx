@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind';
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import FooterListCard from '../FooterListCard';
@@ -8,9 +9,9 @@ import { contactInfo, pageLinks, socialInfo } from './text';
 
 const cn = classNames.bind(styles);
 
-export default function Footer() {
+export default function Footer({ className }) {
   return (
-    <footer className={cn('footer')}>
+    <footer className={cn('footer', className)}>
       <div className={cn('footer__links-wrapper')}>
         <FooterSocialCard socialInfo={socialInfo} />
         {pageLinks.map((link) => {
@@ -26,3 +27,7 @@ export default function Footer() {
     </footer>
   );
 }
+
+Footer.proptTypes = {
+  className: PropTypes.string,
+};

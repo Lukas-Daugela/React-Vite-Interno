@@ -1,5 +1,11 @@
 import React from 'react';
 
+import MainLayout from '../../layouts/MainLayout';
+
 export default function Services() {
-  return <div>Services</div>;
+  return (
+    <MainLayout>
+      <div>Services</div>
+    </MainLayout>
+  );
 }

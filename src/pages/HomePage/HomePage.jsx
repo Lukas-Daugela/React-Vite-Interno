@@ -1,12 +1,11 @@
 import React from 'react';
 
-import Footer from '../../components/Footer/Footer';
+import MainLayout from '../../layouts/MainLayout';
 
 export default function HomePage() {
   return (
-    <>
+    <MainLayout>
       <div>HomePage</div>
-      <Footer />
-    </>
+    </MainLayout>
   );
 }

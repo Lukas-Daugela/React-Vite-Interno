@@ -4,8 +4,12 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
-  width: 100%;
+
+  @include padding-y(2rem);
+
+  @include media-query('md') {
+    @include padding-y(4.5rem);
+  }
 
   &__logo-title {
     align-items: center;

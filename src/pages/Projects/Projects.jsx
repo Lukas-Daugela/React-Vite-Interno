@@ -1,5 +1,11 @@
 import React from 'react';
 
+import MainLayout from '../../layouts/MainLayout';
+
 export default function Projects() {
-  return <div>Projects</div>;
+  return (
+    <MainLayout>
+      <div>Projects</div>
+    </MainLayout>
+  );
 }

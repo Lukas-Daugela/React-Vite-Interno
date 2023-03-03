@@ -1,5 +1,11 @@
 import React from 'react';
 
+import MainLayout from '../../layouts/MainLayout';
+
 export default function Contact() {
-  return <div>Contact</div>;
+  return (
+    <MainLayout>
+      <div>Contact</div>
+    </MainLayout>
+  );
 }
