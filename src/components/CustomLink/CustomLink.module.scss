@@ -1,0 +1,16 @@
+@import '../../sass/index';
+
+.link {
+  align-items: center;
+  display: inline-flex;
+  height: 1.8rem;
+  text-decoration: none;
+
+  @include body-styles('small', $weight: 600);
+
+  &__arrow {
+    padding-left: 1.2rem;
+    stroke: var(--color-primary);
+    width: auto;
+  }
+}
