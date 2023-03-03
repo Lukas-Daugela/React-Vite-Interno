@@ -1,0 +1,27 @@
+@import '../../sass/index';
+
+.service-card {
+  border-radius: 30px;
+  max-width: 39.8rem;
+  text-align: center;
+  width: 100%;
+
+  @include padding-y(8.3rem);
+
+  &:hover {
+    background-color: var(--color-tertiary);
+  }
+
+  &__title {
+    margin: 0;
+    @include heading-styles('small', $weight: 400);
+  }
+
+  &__description {
+    margin: 0 auto;
+    max-width: 30.8rem;
+
+    @include padding-y($top: 1.3rem, $bottom: 4.6rem);
+    @include body-styles('large');
+  }
+}
