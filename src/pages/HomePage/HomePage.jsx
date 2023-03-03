@@ -1,12 +1,7 @@
 import React from 'react';
 
-import Footer from '../../components/Footer/Footer';
+import PageLayout from '../../layouts/PageLayout';
 
 export default function HomePage() {
-  return (
-    <>
-      <div>HomePage</div>
-      <Footer />
-    </>
-  );
+  return <PageLayout>HomePage</PageLayout>;
 }
