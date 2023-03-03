@@ -12,7 +12,7 @@
     justify-content: center;
   }
 
-  &__heading {
+  &__header {
     @include container-width;
     @include padding-x(1.75rem);
 
@@ -25,12 +25,8 @@
     @include container-width;
     @include padding-x(1.75rem);
 
-    padding-bottom: 2rem;
-
     @include media-query('md') {
       @include padding-x(4rem);
-
-      padding-bottom: 4.6rem;
     }
   }
 }
