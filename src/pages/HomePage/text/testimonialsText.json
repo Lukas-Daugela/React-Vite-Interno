@@ -1,0 +1,20 @@
+[
+  {
+    "imgUrl": "/assets/images/Nattasha-picture.jpg",
+    "name": "Nattasha Mith",
+    "address": "Sydney, USA",
+    "comment": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been."
+  },
+  {
+    "imgUrl": "/assets/images/Raymond-picture.jpg",
+    "name": "Raymond Galario",
+    "address": "Sydney, Australia",
+    "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, soluta?"
+  },
+  {
+    "imgUrl": "/assets/images/Benny-picture.jpg",
+    "name": "Benny Roll",
+    "address": "Sydney, New York",
+    "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam!"
+  }
+]
