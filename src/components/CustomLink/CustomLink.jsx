@@ -20,7 +20,7 @@ export function CircleLink({ path, size = 'small', className }) {
 
 CircleLink.propTypes = {
   path: PropTypes.string.isRequired,
-  size: PropTypes.oneOf[('small', 'large')],
+  size: PropTypes.string,
   className: PropTypes.string,
 };
 
