@@ -1,0 +1,30 @@
+@import '../../sass/index';
+
+.project-card__img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-card__bottom-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+  @include media-query('md') {
+    margin-top: 2.4rem;
+  }
+}
+
+.project-card__title {
+  @include heading-styles('small', $weight: 400);
+}
+
+.project-card__category {
+  @include body-styles('large');
+}
+
+.project-card__category,
+.project-card__title {
+  margin: 0;
+}
