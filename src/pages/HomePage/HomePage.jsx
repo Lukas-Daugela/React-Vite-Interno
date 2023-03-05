@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <MainLayout>
       <HomeHero text={heroInfo} />
-      <div>HomePage</div>
     </MainLayout>
   );
 }

@@ -16,9 +16,5 @@
     @include media-query('sm') {
       @include padding-x(4rem);
     }
-
-    @include media-query('xl') {
-      @include padding-x(12.8rem);
-    }
   }
 }
