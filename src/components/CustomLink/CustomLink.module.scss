@@ -12,8 +12,13 @@
   }
 
   &__large {
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
+
+    @include media-query('md') {
+      height: 7rem;
+      width: 7rem;
+    }
   }
 }
 

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
+    "title": "Modern Kitchen",
+    "category": "Decor",
+    "path": "/"
+  },
+  {
+    "id": 2,
+    "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
+    "title": "Minimal Living room",
+    "category": "Decor",
+    "path": "/"
+  },
+  {
+    "id": 3,
+    "imgUrl": "/assets/images/projectsImages/work-space.jpg",
+    "title": "Work space",
+    "category": "Decor",
+    "path": "/"
+  },
+  {
+    "id": 4,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "category": "Decor",
+    "path": "/"
+  }
+]
