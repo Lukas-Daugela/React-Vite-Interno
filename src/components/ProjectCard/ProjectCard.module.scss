@@ -1,9 +1,4 @@
-@import '../../sass/mixins/index.scss';
-
-.project-card__img {
-  object-fit: cover;
-  width: 100%;
-}
+@import '../../sass/mixins/index';
 
 .project-card__bottom-container {
   align-items: center;
