@@ -74,6 +74,11 @@
     @include body-styles('large');
   }
 
+  &__button-link {
+    display: grid;
+    width: fit-content;
+  }
+
   &__img {
     border-radius: 0 80px;
     height: 46rem;
