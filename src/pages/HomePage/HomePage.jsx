@@ -14,10 +14,10 @@ export default function HomePage() {
   return (
     <MainLayout>
       <HomeHero text={heroText} />
-      <SectionHomeProjects projects={projects} />
       <SectionHomeServices cardsText={serviceCardsText} />
       <SectionEstimate estimateInfo={estimateText} />
       <SectionClients />
+      <SectionHomeProjects projects={projects} />
     </MainLayout>
   );
 }
