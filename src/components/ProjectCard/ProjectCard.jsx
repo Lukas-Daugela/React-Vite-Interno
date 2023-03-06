@@ -7,12 +7,12 @@ import styles from './ProjectCard.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function ProjectCard({ cardInfo, imgClassName }) {
-  const { imgUrl, title, category, path } = cardInfo;
+export default function ProjectCard({ cardInfo, children }) {
+  const { title, category, path } = cardInfo;
 
   return (
     <>
-      <img className={cn('project-card__img', imgClassName)} src={imgUrl} alt="" />
+      {children}
       <div className={cn('project-card__bottom-container')}>
         <span className={cn('project-card__title-category')}>
           <p className={cn('project-card__title')}>{title}</p>
@@ -26,5 +26,5 @@ export default function ProjectCard({ cardInfo, imgClassName }) {
 
 ProjectCard.propTypes = {
   cardInfo: PropTypes.object,
-  imgClassName: PropTypes.string,
+  children: PropTypes.node,
 };

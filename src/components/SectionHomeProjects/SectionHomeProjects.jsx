@@ -18,7 +18,9 @@ export default function SectionHomeProjects({ projects }) {
       <div className={cn('projects__cards-container')}>
         {projects.slice(0, 4).map((project) => (
           <div key={project.id} className={cn('projects__card')}>
-            <ProjectCard cardInfo={project} imgClassName="home__img" />
+            <ProjectCard cardInfo={project}>
+              <img src={project.imgUrl} alt="" />
+            </ProjectCard>
           </div>
         ))}
       </div>
