@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HomeHero from '../../components/HomeHero';
+import SectionClients from '../../components/SectionClients/SectionClients';
 import SectionEstimate from '../../components/SectionEstimate/SectionEstimate';
 import SectionHomeServices from '../../components/SectionHomeServices';
 import MainLayout from '../../layouts/MainLayout';
@@ -13,6 +14,7 @@ export default function HomePage() {
       <HomeHero text={heroText} />
       <SectionHomeServices cardsText={serviceCardsText} />
       <SectionEstimate estimateInfo={estimateText} />
+      <SectionClients />
     </MainLayout>
   );
 }
