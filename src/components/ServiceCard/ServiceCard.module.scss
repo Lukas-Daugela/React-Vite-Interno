@@ -5,8 +5,11 @@
   max-width: 39.8rem;
   text-align: center;
   width: 100%;
+  @include padding-y(3rem);
 
-  @include padding-y(8.3rem);
+  @include media-query('lg') {
+    @include padding-y(8.3rem);
+  }
 
   &:hover {
     background-color: var(--color-tertiary);
@@ -21,7 +24,10 @@
     margin: 0 auto;
     max-width: 30.8rem;
 
-    @include padding-y($top: 1.3rem, $bottom: 4.6rem);
+    @include padding-y($top: 1.3rem, $bottom: 3rem);
+    @include media-query('lg') {
+      @include padding-y($top: 1.3rem, $bottom: 4.6rem);
+    }
     @include body-styles('large');
   }
 }
