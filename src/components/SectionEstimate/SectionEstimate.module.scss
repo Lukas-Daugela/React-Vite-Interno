@@ -10,7 +10,7 @@
   @include media-query('lg') {
     flex-direction: row;
     justify-content: space-between;
-    @include padding-y(20rem);
+    @include padding-y($top: 11.7rem, $bottom: 20rem);
   }
 
   &__text-container {
