@@ -1,14 +1,13 @@
 import React from 'react';
 
-import SectionCommaV1 from '../../components/SectionCommaV1/SectionCommaV1';
+import SectionCommaV2 from '../../components/SectionCommaV2';
 import MainLayout from '../../layouts/MainLayout';
-import { commaText } from '../../shared';
 
 export default function About() {
   return (
     <MainLayout>
       <div>About</div>
-      <SectionCommaV1 sectionInfo={commaText} />
+      <SectionCommaV2 text={'The details are not the details. They make the design.'} />
     </MainLayout>
   );
 }
