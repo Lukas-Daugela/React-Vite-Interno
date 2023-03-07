@@ -10,5 +10,14 @@
 
   &__section {
     @include container-width;
+    @include padding-x(1.75rem);
+
+    @include media-query('sm') {
+      @include padding-x(4rem);
+    }
+
+    @include media-query('xl') {
+      padding: 0;
+    }
   }
 }
