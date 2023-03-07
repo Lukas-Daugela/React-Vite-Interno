@@ -8,9 +8,15 @@ const cn = classNames.bind(styles);
 
 export default function CustomLayout({ children }) {
   return (
-    <div>
-      {Children.map(children, (child) => (
-        <section className={cn('custom-layout__section')}>{child}</section>
+    <div className={cn('custom-layout')}>
+      {Children.map(children, (child, index) => (
+        <section
+          className={cn(
+            index !== 0 ? 'custom-layout__section' : 'custom-layout__section-wide',
+          )}
+        >
+          {child}
+        </section>
       ))}
     </div>
   );

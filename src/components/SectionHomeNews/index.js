@@ -1,1 +1,1 @@
-export { default } from './SectionHomeBlog';
+export { default } from './SectionHomeNews';
