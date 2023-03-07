@@ -2,18 +2,16 @@ import React from 'react';
 
 import HomeHero from '../../components/HomeHero';
 import SectionAchievments from '../../components/SectionAchievments';
-import SectionClients from '../../components/SectionClients/SectionClients';
-import SectionEstimate from '../../components/SectionEstimate/SectionEstimate';
+import SectionClients from '../../components/SectionClients';
+import SectionEstimate from '../../components/SectionEstimate';
 import SectionHomeNews from '../../components/SectionHomeNews';
-import SectionHomeProjects from '../../components/SectionHomeProjects/SectionHomeProjects';
+import SectionHomeProjects from '../../components/SectionHomeProjects';
 import SectionHomeServices from '../../components/SectionHomeServices';
+import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import achievments from '../../shared/achievments.json';
-import newsCards from '../../shared/newsCards.json';
-import projects from '../../shared/projects.json';
-import serviceCardsText from '../../shared/serviceCardsText.json';
+import { achievments, newsCards, projects, serviceCards } from '../../shared';
 import { estimateText, heroText, testimonialsText } from './text';
 
 export default function HomePage() {
@@ -21,7 +19,7 @@ export default function HomePage() {
     <>
       <MainLayout>
         <HomeHero text={heroText} />
-        <SectionHomeServices cardsText={serviceCardsText} />
+        <SectionHomeServices cardsText={serviceCards} />
         <SectionEstimate estimateInfo={estimateText} />
         <SectionTestimonials
           testimonialsInfo={testimonialsText}
@@ -33,6 +31,7 @@ export default function HomePage() {
       <CustomLayout>
         <SectionAchievments achievments={achievments} />
         <SectionHomeNews cardsInfo={newsCards} />
+        <SectionJoinTeam />
       </CustomLayout>
     </>
   );

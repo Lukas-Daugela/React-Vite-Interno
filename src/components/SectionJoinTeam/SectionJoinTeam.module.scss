@@ -3,13 +3,17 @@
 .join-team {
   background: var(--color-secondary);
   border-radius: 36px;
-  margin: 0 auto;
+  margin: 10rem auto;
   padding: 4rem 1rem;
   text-align: center;
 
   @include media-query('md') {
     border-radius: 70px;
     padding: 8rem 0;
+  }
+
+  @include media-query('lg') {
+    margin: 20.2rem 0 13.5rem;
   }
 
   &__title {
