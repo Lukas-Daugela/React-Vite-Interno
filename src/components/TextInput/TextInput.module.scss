@@ -2,6 +2,7 @@
 
 .text-input {
   @include wrapper;
+  @include remove-number-arrows;
 
   &__field {
     @include field;

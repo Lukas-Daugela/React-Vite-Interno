@@ -1,5 +1,18 @@
 @import '../../sass/mixins/index';
 
-.text-area {
-  //
+.text-input {
+  @include wrapper;
+
+  &__field {
+    @include field;
+    @include focus;
+
+    &--has-error {
+      @include has-error;
+    }
+  }
+
+  &__error-msg {
+    @include error-msg;
+  }
 }
