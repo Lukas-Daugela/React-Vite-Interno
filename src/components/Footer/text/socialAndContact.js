@@ -3,19 +3,19 @@ export const socialInfo = {
   socialIcons: [
     {
       link: '/',
-      imgUrl: '/assets/svg/facebook.svg',
+      imgUrl: '/assets/svg/socialMediaIcons/facebook.svg',
     },
     {
       link: '/',
-      imgUrl: '/assets/svg/twitter.svg',
+      imgUrl: '/assets/svg/socialMediaIcons/twitter.svg',
     },
     {
       link: '/',
-      imgUrl: '/assets/svg/linkedin.svg',
+      imgUrl: '/assets/svg/socialMediaIcons/linkedin.svg',
     },
     {
       link: '/',
-      imgUrl: '/assets/svg/instagram.svg',
+      imgUrl: '/assets/svg/socialMediaIcons/instagram.svg',
     },
   ],
 };
