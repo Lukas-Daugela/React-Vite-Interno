@@ -1,11 +1,25 @@
 @import '../../sass/mixins/index';
 
+.workflow {
+  display: grid;
+  gap: 8rem;
+
+  @include media-query('lg') {
+    gap: 15rem;
+  }
+}
+
 .workflow-single {
   display: grid;
   gap: 4.1rem;
 
   @include media-query('lg') {
     display: flex;
+    justify-content: space-between;
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
   }
 
   &__text-container {
@@ -16,7 +30,7 @@
     max-width: 65rem;
 
     @include media-query('lg') {
-      max-width: 50rem;
+      max-width: 44rem;
     }
   }
 
