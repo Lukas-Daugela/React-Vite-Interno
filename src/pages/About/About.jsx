@@ -8,7 +8,7 @@ export default function About() {
   return (
     <MainLayout>
       <div>About</div>
-      <MessageForm text={formTexts} checkboxText={formTexts.checkboxText} />
+      <MessageForm text={formTexts} />
     </MainLayout>
   );
 }
