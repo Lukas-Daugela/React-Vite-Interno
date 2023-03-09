@@ -3,7 +3,10 @@ import { Form, Formik } from 'formik';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { validationSchema } from '../../shared/form/validation/validationSchema';
+import {
+  messageCheckboxValidationSchema,
+  messageValidationSchema,
+} from '../../shared/form/validation/validationSchema';
 import Button from '../Button';
 import Checkbox from '../Checkbox';
 import TextArea from '../TextArea';
@@ -17,6 +20,10 @@ export default function MessageForm({ text, checkboxText }) {
     ? 'contact-form__button-wrapper--with-checkbox'
     : 'contact-form__button-wrapper';
 
+  const validationSchema = checkboxText
+    ? messageCheckboxValidationSchema
+    : messageValidationSchema;
+
   const initialValues = {
     name: '',
     email: '',
@@ -26,8 +33,9 @@ export default function MessageForm({ text, checkboxText }) {
 
   const { name, email, message } = text;
 
-  const handleOnSubmit = () => {
-    // submit function
+  const handleOnSubmit = (values, { resetForm }) => {
+    console.log('Form values', values);
+    resetForm();
   };
 
   return (
@@ -36,7 +44,7 @@ export default function MessageForm({ text, checkboxText }) {
       validationSchema={validationSchema}
       onSubmit={handleOnSubmit}
     >
-      {(handleSubmit) => (
+      {({ handleSubmit }) => (
         <Form className={cn('contact-form')}>
           <div className={cn('contact-form__container')}>
             <TextInput
@@ -61,7 +69,9 @@ export default function MessageForm({ text, checkboxText }) {
             />
           )}
           <div className={cn(btnWrapperCustomClass)}>
-            <Button onClick={handleSubmit}>Submit</Button>
+            <Button type={'submit'} onClick={handleSubmit}>
+              Submit
+            </Button>
           </div>
         </Form>
       )}
