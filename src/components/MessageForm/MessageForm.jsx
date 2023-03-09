@@ -8,7 +8,7 @@ import Checkbox from '../Checkbox';
 import TextArea from '../TextArea';
 import TextInput from '../TextInput';
 import styles from './MessageForm.module.scss';
-import { validationSchema } from './validation/validationSchema';
+import { validationSchema } from '../../shared/form/validation/validationSchema';
 
 const cn = classNames.bind(styles);
 
