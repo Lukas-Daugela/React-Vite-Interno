@@ -7,12 +7,12 @@ import styles from './Button.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function Button({ children, type }) {
-  const customBtnClass = type ? `button__${type}` : '';
-  const customImgClass = type ? `image__${type}` : '';
+export default function Button({ children, styleType, type }) {
+  const customBtnClass = styleType ? `button__${styleType}` : '';
+  const customImgClass = styleType ? `image__${styleType}` : '';
 
   return (
-    <button className={cn('button', customBtnClass)}>
+    <button type={type} className={cn('button', customBtnClass)}>
       {children}
       <Arrow className={cn('image', customImgClass)} />
     </button>
@@ -21,5 +21,6 @@ export default function Button({ children, type }) {
 
 Button.propTypes = {
   children: PropTypes.string.isRequired,
+  styleType: PropTypes.string,
   type: PropTypes.string,
 };
