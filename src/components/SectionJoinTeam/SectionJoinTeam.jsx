@@ -14,7 +14,7 @@ export default function SectionJoinTeam() {
         It is a long established fact will be distracted.
       </p>
       <div className={cn('join-team__button-container')}>
-        <Button type={'gold'}>Contact With Us</Button>
+        <Button styleType={'gold'}>Contact With Us</Button>
       </div>
     </div>
   );
