@@ -1,0 +1,46 @@
+[
+  {
+    "name": "John Smith",
+    "country": "Australia",
+    "profession": "Design",
+    "phone": "+1 (378) 400-1234",
+    "email": "john@email.com",
+    "facebookLink": "/",
+    "twitterLink": "/",
+    "linkedinLink": "/",
+    "instagramLink": "/"
+  },
+  {
+    "name": "Angie R. Higgins",
+    "country": "Europe",
+    "profession": "Front-end developer",
+    "phone": "+1 (378) 421-7482",
+    "email": "angie@email.com",
+    "facebookLink": "/",
+    "twitterLink": "/",
+    "linkedinLink": "/",
+    "instagramLink": "/"
+  },
+  {
+    "name": "Nattasha Julie",
+    "country": "United States",
+    "profession": "CEO",
+    "phone": "+1 (378) 454-5478",
+    "email": "nattasha@email.com",
+    "facebookLink": "/",
+    "twitterLink": "/",
+    "linkedinLink": "/",
+    "instagramLink": "/"
+  },
+  {
+    "name": "Charlie Singh",
+    "country": "Australia",
+    "profession": "Design",
+    "phone": "+1 (378) 520-1874",
+    "email": "charlie@email.com",
+    "facebookLink": "/",
+    "twitterLink": "/",
+    "linkedinLink": "/",
+    "instagramLink": "/"
+  }
+]
