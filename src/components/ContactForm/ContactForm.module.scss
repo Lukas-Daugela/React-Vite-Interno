@@ -5,37 +5,38 @@
 
   &__container {
     display: grid;
-    gap: 2rem;
-    padding-bottom: 2rem;
+    gap: 2.5rem;
+    padding-bottom: 2.5rem;
 
     @include media-query('md') {
       gap: 4rem;
       grid-template-columns: repeat(2, 1fr);
-      padding-bottom: 4.5rem;
+      padding-bottom: 5rem;
+      row-gap: 5rem;
     }
   }
 
   &__checkbox {
-    margin: 4rem auto 0;
+    margin: 3.6rem 0 0;
   }
 
   &__button-wrapper {
     display: flex;
-    justify-content: center;
-    padding-top: 5rem;
+    justify-content: end;
+    padding-top: 4rem;
 
     @include media-query('md') {
-      padding-top: 7.7rem;
+      padding-top: 5.8rem;
     }
   }
 
   &__button-wrapper--with-checkbox {
     display: flex;
-    justify-content: center;
-    padding-top: 3rem;
+    justify-content: start;
+    padding-top: 4rem;
 
     @include media-query('md') {
-      padding-top: 4.1rem;
+      padding-top: 6.3rem;
     }
   }
 }
