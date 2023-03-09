@@ -5,6 +5,7 @@
   @include remove-number-arrows;
 
   &__field {
+    max-height: 4.7rem;
     @include field;
     @include focus;
 
@@ -14,11 +15,6 @@
   }
 
   &__error-msg {
-    visibility: hidden;
     @include error-msg;
-
-    &--active {
-      visibility: visible;
-    }
   }
 }

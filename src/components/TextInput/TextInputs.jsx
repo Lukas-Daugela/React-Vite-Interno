@@ -24,13 +24,7 @@ export default function TextInput({ placeholder, autoComplete, ...props }) {
         aria-describedby={`${meta.name}-error`}
         autoComplete={autoComplete}
       />
-      <span
-        className={cn('text-input__error-msg', {
-          'text-input__error-msg--active': error,
-        })}
-      >
-        {meta.error}
-      </span>
+      {error && <span className={cn('text-input__error-msg')}>{meta.error}</span>}
     </div>
   );
 }
