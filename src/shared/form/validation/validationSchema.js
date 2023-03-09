@@ -9,6 +9,10 @@ export const validationSchema = yup.object({
     .max(40, ERROR_MESSAGES.LENGTH(40))
     .email(ERROR_MESSAGES.EMAIL)
     .required(ERROR_MESSAGES.REQUIRED),
+  phone: yup
+    .string()
+    .max(11, ERROR_MESSAGES.LENGTH(11))
+    .required(ERROR_MESSAGES.REQUIRED),
   message: yup.mixed().required(ERROR_MESSAGES.REQUIRED),
   privacy: yup.bool().oneOf([true], ERROR_MESSAGES.PRIVACY).required(),
 });

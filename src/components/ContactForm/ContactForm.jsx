@@ -8,11 +8,11 @@ import Button from '../Button';
 import Checkbox from '../Checkbox';
 import TextArea from '../TextArea';
 import TextInput from '../TextInput';
-import styles from './MessageForm.module.scss';
+import styles from './ContactForm.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function MessageForm({ text, checkboxText }) {
+export default function ContactForm({ text, checkboxText }) {
   const btnWrapperCustomClass = checkboxText
     ? 'contact-form__button-wrapper--with-checkbox'
     : 'contact-form__button-wrapper';
@@ -20,11 +20,13 @@ export default function MessageForm({ text, checkboxText }) {
   const initialValues = {
     name: '',
     email: '',
+    subject: '',
+    phone: '',
     message: '',
     privacy: false,
   };
 
-  const { name, email, message } = text;
+  const { name, email, subject, phone, message } = text;
 
   const handleOnSubmit = () => {
     // submit function
@@ -51,6 +53,13 @@ export default function MessageForm({ text, checkboxText }) {
               type="text"
               placeholder={email.placeholder}
             />
+            <TextInput name="subject" type="text" placeholder={subject.placeholder} />
+            <TextInput
+              name="phone"
+              autoComplete="tel"
+              type="tel"
+              placeholder={phone.placeholder}
+            />
           </div>
           <TextArea name="message" placeholder={message.placeholder} />
           {checkboxText && (
@@ -61,7 +70,7 @@ export default function MessageForm({ text, checkboxText }) {
             />
           )}
           <div className={cn(btnWrapperCustomClass)}>
-            <Button onClick={handleSubmit}>Submit</Button>
+            <Button onClick={handleSubmit}>Send Now</Button>
           </div>
         </Form>
       )}
@@ -69,7 +78,7 @@ export default function MessageForm({ text, checkboxText }) {
   );
 }
 
-MessageForm.proptTypes = {
+ContactForm.proptTypes = {
   text: PropTypes.object.isRequired,
   checkboxText: PropTypes.string,
 };
