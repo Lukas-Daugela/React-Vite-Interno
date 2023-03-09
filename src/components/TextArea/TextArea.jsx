@@ -15,7 +15,7 @@ export default function TextArea({ placeholder, ...props }) {
   return (
     <div className={cn('text-area')}>
       <textarea
-        rows={10}
+        rows={5}
         cols={40}
         {...field}
         {...props}

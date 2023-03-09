@@ -1,20 +1,27 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import { Form, Formik } from 'formik';
+import PropTypes from 'prop-types';
 import React from 'react';
 
-import TextInput from '../TextInput';
-import TextArea from '../TextArea';
 import Button from '../Button';
+import Checkbox from '../Checkbox';
+import TextArea from '../TextArea';
+import TextInput from '../TextInput';
 import styles from './MessageForm.module.scss';
+import { validationSchema } from './validation/validationSchema';
 
 const cn = classNames.bind(styles);
 
-export default function MessageForm({ text }) {
+export default function MessageForm({ text, checkboxText }) {
+  const btnWrapperCustomClass = checkboxText
+    ? 'contact-form__button-wrapper--with-checkbox'
+    : 'contact-form__button-wrapper';
+
   const initialValues = {
     name: '',
     email: '',
     message: '',
+    privacy: false,
   };
 
   const { name, email, message } = text;
@@ -30,21 +37,30 @@ export default function MessageForm({ text }) {
       onSubmit={handleOnSubmit}
     >
       {(handleSubmit) => (
-        <Form ref={form} className={cn('contact-form')}>
-          <TextInput
-            name="name"
-            autoComplete="given-name"
-            type="text"
-            placeholder={name.placeholder}
-          />
-          <TextInput
-            name="email"
-            autoComplete="email"
-            type="text"
-            placeholder={email.placeholder}
-          />
+        <Form className={cn('contact-form')}>
+          <div className={cn('contact-form__container')}>
+            <TextInput
+              name="name"
+              autoComplete="given-name"
+              type="text"
+              placeholder={name.placeholder}
+            />
+            <TextInput
+              name="email"
+              autoComplete="email"
+              type="text"
+              placeholder={email.placeholder}
+            />
+          </div>
           <TextArea name="message" placeholder={message.placeholder} />
-          <div className={cn('contact-form__button-wrapper')}>
+          {checkboxText && (
+            <Checkbox
+              name="privacy"
+              label={checkboxText}
+              className={cn('contact-form__checkbox')}
+            />
+          )}
+          <div className={cn(btnWrapperCustomClass)}>
             <Button onClick={handleSubmit} btnType="submit">
               Submit
             </Button>
@@ -57,4 +73,5 @@ export default function MessageForm({ text }) {
 
 MessageForm.proptTypes = {
   text: PropTypes.object.isRequired,
+  checkboxText: PropTypes.string,
 };

@@ -14,6 +14,11 @@
   }
 
   &__error-msg {
+    visibility: hidden;
     @include error-msg;
+
+    &--active {
+      visibility: visible;
+    }
   }
 }

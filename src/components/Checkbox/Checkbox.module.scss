@@ -2,12 +2,15 @@
 
 .checkbox {
   &__label {
-    align-items: center;
+    align-items: start;
     cursor: pointer;
     display: flex;
     gap: 1rem;
 
     @include body-styles('small', $color: var(--color-primary));
+    @include media-query('sm') {
+      align-items: center;
+    }
   }
 
   &__input {
@@ -18,9 +21,14 @@
     flex-shrink: 0;
     height: 1.7rem;
     margin: 0;
+    margin-top: 0.5rem;
     transition: background-color 0.1s, border-color 0.1s;
     width: 1.7rem;
     @include flex-center;
+
+    @include media-query('sm') {
+      margin-top: unset;
+    }
 
     &:focus {
       @include focus;

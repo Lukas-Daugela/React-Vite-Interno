@@ -10,4 +10,5 @@ export const validationSchema = yup.object({
     .email(ERROR_MESSAGES.EMAIL)
     .required(ERROR_MESSAGES.REQUIRED),
   message: yup.mixed().required(ERROR_MESSAGES.REQUIRED),
+  privacy: yup.bool().oneOf([true], ERROR_MESSAGES.PRIVACY).required(),
 });
