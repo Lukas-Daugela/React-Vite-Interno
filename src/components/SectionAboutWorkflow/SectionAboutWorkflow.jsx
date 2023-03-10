@@ -8,9 +8,9 @@ import styles from './SectionAboutWorkflow.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function SectionAboutWorkflow({ texts }) {
+export default function SectionAboutWorkflow({ texts, className }) {
   return (
-    <div className={cn('workflow')}>
+    <div className={cn('workflow', className)}>
       {texts.map((text) => (
         <div key={text.id} className={cn('workflow-single')}>
           <div className={cn('workflow-single__text-container')}>
@@ -29,4 +29,5 @@ export default function SectionAboutWorkflow({ texts }) {
 
 SectionAboutWorkflow.propTypes = {
   texts: PropTypes.array.isRequired,
+  className: PropTypes.string,
 };
