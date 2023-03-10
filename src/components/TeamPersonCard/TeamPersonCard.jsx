@@ -4,6 +4,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import facebookIcon from '/assets/svg/socialMediaIcons/facebook.svg';
+import instagramIcon from '/assets/svg/socialMediaIcons/instagram.svg';
+import linkedinIcon from '/assets/svg/socialMediaIcons/linkedin.svg';
+import twitterIcon from '/assets/svg/socialMediaIcons/twitter.svg';
 
 import styles from './TeamPersonCard.module.scss';
 
@@ -18,34 +21,39 @@ export default function TeamPersonCard({ text }) {
 
   return (
     <div className={cn('employee-card')}>
-      <p className={cn('employee-card')}>{name}</p>
-      <p className={cn('employee-card')}>
-        {profession}, {country}
-      </p>
-      <ul className={cn('employee-card')}>
-        <li className={cn('employee-card')}>
-          <Link to={facebookLink}>
-            <img src={facebookIcon} alt="" className={cn('employee-card')} />
-          </Link>
-        </li>
-        <li className={cn('employee-card')}>
-          <Link to={twitterLink}>
-            <img src="/" alt="" className={cn('employee-card')} />
-          </Link>
-        </li>
-        <li className={cn('employee-card')}>
-          <Link to={linkedinLink}>
-            <img src="/" alt="" className={cn('employee-card')} />
-          </Link>
-        </li>
-        <li className={cn('employee-card')}>
-          <Link to={instagramLink}>
-            <img src="/" alt="" className={cn('employee-card')} />
-          </Link>
-        </li>
-      </ul>
-      <p className={cn('employee-card')}>{phone}</p>
-      <p className={cn('employee-card')}>{email}</p>
+      <div className={cn('employee-card__wrapper')}>
+        <div className={cn('card-back')}>
+          <p className={cn('card-back__name')}>{name}</p>
+          <p className={cn('card-back__profession-country')}>
+            {profession}, {country}
+          </p>
+          <ul className={cn('social-media')}>
+            <li>
+              <Link to={facebookLink}>
+                <img src={facebookIcon} alt="" />
+              </Link>
+            </li>
+            <li>
+              <Link to={twitterLink}>
+                <img src={twitterIcon} alt="" />
+              </Link>
+            </li>
+            <li>
+              <Link to={linkedinLink}>
+                <img src={linkedinIcon} alt="" />
+              </Link>
+            </li>
+            <li>
+              <Link to={instagramLink}>
+                <img src={instagramIcon} alt="" />
+              </Link>
+            </li>
+          </ul>
+          <p className={cn('card-back__phone')}>{phone}</p>
+          <p className={cn('card-back__email')}>{email}</p>
+        </div>
+        <img src={imgUrl} alt="" className={cn('card-front')} />
+      </div>
     </div>
   );
 }
