@@ -1,13 +1,13 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 
+import { projects } from '../../shared';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './SectionHomeProjects.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function SectionHomeProjects({ projects }) {
+export default function SectionHomeProjects() {
   return (
     <div className={cn('projects')}>
       <div className={cn('projects__text-container')}>
@@ -29,7 +29,3 @@ export default function SectionHomeProjects({ projects }) {
     </div>
   );
 }
-
-SectionHomeProjects.propTypes = {
-  projects: PropTypes.array,
-};

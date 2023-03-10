@@ -11,26 +11,21 @@ import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import { achievments, newsCards, projects, serviceCards } from '../../shared';
-import { estimateText, heroText, testimonialsText } from './text';
 
 export default function HomePage() {
   return (
     <>
       <MainLayout>
-        <HomeHero text={heroText} />
-        <SectionHomeServices cardsText={serviceCards} />
-        <SectionEstimate estimateInfo={estimateText} />
-        <SectionTestimonials
-          testimonialsInfo={testimonialsText}
-          title={'What the People Thinks About Us'}
-        />
+        <HomeHero />
+        <SectionHomeServices />
+        <SectionEstimate />
+        <SectionTestimonials />
         <SectionClients />
-        <SectionHomeProjects projects={projects} />
+        <SectionHomeProjects />
       </MainLayout>
       <CustomLayout>
-        <SectionAchievments achievments={achievments} />
-        <SectionHomeNews cardsInfo={newsCards} />
+        <SectionAchievments />
+        <SectionHomeNews />
         <SectionJoinTeam />
       </CustomLayout>
     </>

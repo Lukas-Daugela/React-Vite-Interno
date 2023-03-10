@@ -1,23 +1,19 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import MessageForm from '../MessageForm';
 import styles from './SectionMessageForm.module.scss';
+import formTexts from './texts/formTexts.json';
 
 const cn = classNames.bind(styles);
 
-export default function SectionMessageForm({ className, title, formTexts }) {
+export default function SectionMessageForm() {
   return (
-    <div className={cn('section__message', className)}>
-      <h2 className={cn('section__message__title')}>{title}</h2>
+    <div className={cn('section__message')}>
+      <h2 className={cn('section__message__title')}>
+        Creative project? Let&apos;s have a productive talk.
+      </h2>
       <MessageForm text={formTexts} />
     </div>
   );
 }
-
-SectionMessageForm.propTypes = {
-  className: PropTypes.string,
-  title: PropTypes.string,
-  formTexts: PropTypes.object,
-};

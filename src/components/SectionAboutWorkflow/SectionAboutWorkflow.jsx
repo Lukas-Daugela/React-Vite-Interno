@@ -1,16 +1,16 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../Button';
 import styles from './SectionAboutWorkflow.module.scss';
+import texts from './text/workflowTexts.json';
 
 const cn = classNames.bind(styles);
 
-export default function SectionAboutWorkflow({ texts, className }) {
+export default function SectionAboutWorkflow() {
   return (
-    <div className={cn('workflow', className)}>
+    <div className={cn('workflow')}>
       {texts.map((text) => (
         <div key={text.id} className={cn('workflow-single')}>
           <div className={cn('workflow-single__text-container')}>
@@ -26,8 +26,3 @@ export default function SectionAboutWorkflow({ texts, className }) {
     </div>
   );
 }
-
-SectionAboutWorkflow.propTypes = {
-  texts: PropTypes.array.isRequired,
-  className: PropTypes.string,
-};

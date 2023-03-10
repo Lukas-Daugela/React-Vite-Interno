@@ -1,13 +1,13 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 
+import { employeesText } from '../../shared';
 import TeamMemberCard from '../TeamMemberCard/TeamMemberCard';
 import styles from './SectionTeamCards.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function SectionTeamCards({ employeesText }) {
+export default function SectionTeamCards() {
   return (
     <div className={cn('team-cards')}>
       <h2 className={cn('team-cards__title')}>Our Best Employees</h2>
@@ -19,7 +19,3 @@ export default function SectionTeamCards({ employeesText }) {
     </div>
   );
 }
-
-SectionTeamCards.propTypes = {
-  SectionTeamCards: PropTypes.array,
-};
