@@ -12,7 +12,6 @@ import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
 import { newsCards, projects, serviceCards } from '../../shared';
-import { testimonialsText } from './text';
 
 export default function HomePage() {
   return (
@@ -21,10 +20,7 @@ export default function HomePage() {
         <HomeHero />
         <SectionHomeServices cardsText={serviceCards} />
         <SectionEstimate />
-        <SectionTestimonials
-          testimonialsInfo={testimonialsText}
-          title={'What the People Thinks About Us'}
-        />
+        <SectionTestimonials />
         <SectionClients />
         <SectionHomeProjects projects={projects} />
       </MainLayout>
