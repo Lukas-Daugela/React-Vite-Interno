@@ -22,7 +22,7 @@ export default function About() {
       <MainLayout>
         <Hero title={'About Us'} img={heroImg} />
         <SectionCommaV1 sectionInfo={commaText} />
-        <SectionAboutWorkflow texts={workflowTexts} className={cn('section-workflow')} />
+        <SectionAboutWorkflow texts={workflowTexts} className={cn('section__workflow')} />
       </MainLayout>
       <CustomLayout>
         <SectionTeamCards employeesText={employeesText} />
