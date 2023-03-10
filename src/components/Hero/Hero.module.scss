@@ -5,12 +5,14 @@
   display: flex;
   height: 20rem;
   justify-content: center;
+  margin-bottom: 15rem;
   position: relative;
   text-align: center;
   width: 100%;
 
   @include media-query('md') {
     height: 35.6rem;
+    margin-bottom: 20rem;
   }
 
   &__img {
