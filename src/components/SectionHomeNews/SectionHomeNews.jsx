@@ -1,13 +1,13 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 
+import { newsCards } from '../../shared';
 import NewsCard from '../NewsCard/NewsCard';
 import styles from './SectionHomeNews.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function SectionHomeNews({ cardsInfo }) {
+export default function SectionHomeNews() {
   return (
     <div className={cn('news')}>
       <div className={cn('news__text-container')}>
@@ -18,14 +18,10 @@ export default function SectionHomeNews({ cardsInfo }) {
         </p>
       </div>
       <div className={cn('news__cards-container')}>
-        {cardsInfo.slice(0, 3).map((cardInfo) => (
-          <NewsCard key={cardInfo.id} cardInfo={cardInfo} />
+        {newsCards.slice(0, 3).map((newsCard) => (
+          <NewsCard key={newsCard.id} cardInfo={newsCard} />
         ))}
       </div>
     </div>
   );
 }
-
-SectionHomeNews.propTypes = {
-  cardsInfo: PropTypes.array,
-};

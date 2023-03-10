@@ -70,7 +70,7 @@ export default function MessageForm({ text, checkboxText }) {
           )}
           <div className={cn(btnWrapperCustomClass)}>
             <Button type={'submit'} onClick={handleSubmit}>
-              Submit
+              Send Now
             </Button>
           </div>
         </Form>

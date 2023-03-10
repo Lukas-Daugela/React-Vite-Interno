@@ -10,9 +10,7 @@ import SectionMessageForm from '../../components/SectionMessageForm/SectionMessa
 import SectionTeamCards from '../../components/SectionTeamCards/SectionTeamCards';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import { employeesText } from '../../shared';
 import styles from './About.module.scss';
-import { formTexts } from './texts';
 
 const cn = classNames.bind(styles);
 
@@ -25,12 +23,8 @@ export default function About() {
         <SectionAboutWorkflow />
       </MainLayout>
       <CustomLayout>
-        <SectionTeamCards employeesText={employeesText} />
-        <SectionMessageForm
-          formTexts={formTexts}
-          title={"Creative project? Let's have a productive talk."}
-          className={cn('section__message-form')}
-        />
+        <SectionTeamCards />
+        <SectionMessageForm className={cn('section__message-form')} />
       </CustomLayout>
     </>
   );

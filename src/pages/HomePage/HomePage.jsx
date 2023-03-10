@@ -11,22 +11,21 @@ import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import { newsCards, projects, serviceCards } from '../../shared';
 
 export default function HomePage() {
   return (
     <>
       <MainLayout>
         <HomeHero />
-        <SectionHomeServices cardsText={serviceCards} />
+        <SectionHomeServices />
         <SectionEstimate />
         <SectionTestimonials />
         <SectionClients />
-        <SectionHomeProjects projects={projects} />
+        <SectionHomeProjects />
       </MainLayout>
       <CustomLayout>
         <SectionAchievments />
-        <SectionHomeNews cardsInfo={newsCards} />
+        <SectionHomeNews />
         <SectionJoinTeam />
       </CustomLayout>
     </>
