@@ -11,7 +11,7 @@ import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import { achievments, newsCards, projects, serviceCards } from '../../shared';
+import { newsCards, projects, serviceCards } from '../../shared';
 import { testimonialsText } from './text';
 
 export default function HomePage() {
@@ -29,7 +29,7 @@ export default function HomePage() {
         <SectionHomeProjects projects={projects} />
       </MainLayout>
       <CustomLayout>
-        <SectionAchievments achievments={achievments} />
+        <SectionAchievments />
         <SectionHomeNews cardsInfo={newsCards} />
         <SectionJoinTeam />
       </CustomLayout>

@@ -1,12 +1,12 @@
 import classNames from 'classnames/bind';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import styles from './SectionAchievments.module.scss';
+import achievments from './texts/achievments.json';
 
 const cn = classNames.bind(styles);
 
-export default function SectionAchievments({ achievments }) {
+export default function SectionAchievments() {
   return (
     <div className={cn('achievments')}>
       <div className={cn('achievments__container')}>
@@ -22,7 +22,3 @@ export default function SectionAchievments({ achievments }) {
     </div>
   );
 }
-
-SectionAchievments.propTypes = {
-  achievments: PropTypes.array,
-};
