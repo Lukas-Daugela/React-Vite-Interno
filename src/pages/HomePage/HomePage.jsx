@@ -12,13 +12,13 @@ import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
 import { achievments, newsCards, projects, serviceCards } from '../../shared';
-import { estimateText, heroText, testimonialsText } from './text';
+import { estimateText, testimonialsText } from './text';
 
 export default function HomePage() {
   return (
     <>
       <MainLayout>
-        <HomeHero text={heroText} />
+        <HomeHero />
         <SectionHomeServices cardsText={serviceCards} />
         <SectionEstimate estimateInfo={estimateText} />
         <SectionTestimonials
