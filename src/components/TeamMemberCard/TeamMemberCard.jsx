@@ -8,11 +8,11 @@ import instagramIcon from '/assets/svg/socialMediaIcons/instagram.svg';
 import linkedinIcon from '/assets/svg/socialMediaIcons/linkedin.svg';
 import twitterIcon from '/assets/svg/socialMediaIcons/twitter.svg';
 
-import styles from './TeamPersonCard.module.scss';
+import styles from './TeamMemberCard.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function TeamPersonCard({ text }) {
+export default function TeamMemberCard({ text }) {
   const { name, country, profession, phone, email, imgUrl, socialMedia } = text;
   const { facebookLink, twitterLink, linkedinLink, instagramLink } = socialMedia;
 
@@ -55,6 +55,6 @@ export default function TeamPersonCard({ text }) {
   );
 }
 
-TeamPersonCard.propTypes = {
+TeamMemberCard.propTypes = {
   text: PropTypes.object,
 };
