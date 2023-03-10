@@ -3,6 +3,11 @@
 .workflow {
   display: grid;
   gap: 8rem;
+  @include padding-y($top: 10rem, $bottom: 10rem);
+
+  @include media-query('md') {
+    @include padding-y($top: 20rem, $bottom: 17.3rem);
+  }
 
   @include media-query('lg') {
     gap: 15rem;

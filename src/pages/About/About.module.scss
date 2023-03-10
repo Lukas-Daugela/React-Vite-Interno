@@ -1,13 +1,5 @@
 @import '../../sass/mixins/index';
 
-.section__workflow {
-  @include padding-y($top: 10rem, $bottom: 10rem);
-
-  @include media-query('md') {
-    @include padding-y($top: 20rem, $bottom: 17.3rem);
-  }
-}
-
 .section__message-form {
   @include padding-y($top: 10rem, $bottom: 10rem);
 
