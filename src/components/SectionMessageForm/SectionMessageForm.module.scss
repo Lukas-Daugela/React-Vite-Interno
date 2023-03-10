@@ -1,0 +1,12 @@
+@import '../../sass/mixins/index';
+
+.section__message {
+  margin: 0 auto;
+  max-width: 79.6rem;
+
+  &__title {
+    margin: 0 0 7.7rem;
+    text-align: center;
+    @include heading-styles('large', $weight: 400);
+  }
+}
