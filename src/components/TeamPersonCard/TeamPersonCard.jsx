@@ -14,10 +14,7 @@ const cn = classNames.bind(styles);
 
 export default function TeamPersonCard({ text }) {
   const { name, country, profession, phone, email, imgUrl, socialMedia } = text;
-
   const { facebookLink, twitterLink, linkedinLink, instagramLink } = socialMedia;
-
-  console.log(imgUrl);
 
   return (
     <div className={cn('employee-card')}>

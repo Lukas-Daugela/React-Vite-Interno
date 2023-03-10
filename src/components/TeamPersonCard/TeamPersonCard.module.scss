@@ -1,12 +1,13 @@
 @import '../../sass/mixins/index';
 
+$card-width: 28.3rem;
+
 .employee-card {
-  background: var(--color-white-100);
   cursor: pointer;
   height: 43.3rem;
   position: relative;
   text-align: center;
-  width: 28.4rem;
+  width: $card-width;
 
   &__wrapper {
     height: 100%;
@@ -21,7 +22,7 @@
 }
 
 .card-back {
-  background: var(--color-tertiary);
+  background: var(--color-white-100);
   min-height: 100%;
   min-width: 100%;
   padding: 7rem 2.8rem;
@@ -50,7 +51,7 @@
   &__phone,
   &__email {
     margin: 0;
-    max-width: 28.4rem;
+    max-width: $card-width;
     word-wrap: break-word;
   }
 }
