@@ -12,7 +12,7 @@ import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
 import { employeesText } from '../../shared';
 import styles from './About.module.scss';
-import { commaText, formTexts, workflowTexts } from './texts';
+import { formTexts, workflowTexts } from './texts';
 
 const cn = classNames.bind(styles);
 
@@ -21,7 +21,7 @@ export default function About() {
     <>
       <MainLayout>
         <Hero title={'About Us'} img={heroImg} />
-        <SectionCommaV1 sectionInfo={commaText} />
+        <SectionCommaV1 />
         <SectionAboutWorkflow texts={workflowTexts} className={cn('section__workflow')} />
       </MainLayout>
       <CustomLayout>
