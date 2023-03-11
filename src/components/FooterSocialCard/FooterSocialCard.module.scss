@@ -1,31 +1,18 @@
 @import '../../sass/mixins/index';
 
-.social-card {
-  &__logo-title {
-    align-items: center;
-    display: flex;
-    font-family: var(--font-family-primary);
-    font-size: 4rem;
-    gap: 1rem;
-    line-height: var(--line-height-heading);
-    text-decoration: none;
-  }
-
-  &__description {
-    margin: 1.8rem 0 3.1rem;
-  }
-
-  &__social-links {
-    align-items: center;
-    display: flex;
-    gap: 5.4rem;
-    list-style: none;
-    margin: 0 0 3rem;
-    padding: 0;
-  }
+.social-card__description {
+  margin: 1.8rem 0 3.1rem;
 }
 
-.social-card__logo-title,
+.social-card__social-links {
+  align-items: center;
+  display: flex;
+  gap: 5.4rem;
+  list-style: none;
+  margin: 0 0 3rem;
+  padding: 0;
+}
+
 .link {
   @include reset-link-style;
 }

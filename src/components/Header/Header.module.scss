@@ -10,15 +10,4 @@
   @include media-query('md') {
     @include padding-y(4.5rem);
   }
-
-  &__logo-title {
-    align-items: center;
-    display: flex;
-    font-family: var(--font-family-primary);
-    font-size: 4rem;
-    gap: 1rem;
-    line-height: var(--line-height-heading);
-    text-decoration: none;
-    @include reset-link-style;
-  }
 }

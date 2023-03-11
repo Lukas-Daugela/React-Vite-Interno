@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NavLogo from '../../../public/assets/svg/NavLogo';
+import PageLogo from '../PageLogo/PageLogo';
 import styles from './FooterSocialCard.module.scss';
 
 const cn = classNames.bind(styles);
@@ -13,10 +13,7 @@ export default function FooterSocialCard({ socialInfo }) {
 
   return (
     <div>
-      <Link to="/" className={cn('social-card__logo-title')}>
-        <NavLogo />
-        Interno
-      </Link>
+      <PageLogo />
       <p className={cn('social-card__description')}>{description}</p>
       <ul className={cn('social-card__social-links')}>
         {socialIcons.map((socialIcon) => {
