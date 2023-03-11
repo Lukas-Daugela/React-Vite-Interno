@@ -12,6 +12,6 @@
   &__title {
     margin: 0 0 7.7rem;
     text-align: center;
-    @include heading-styles('large', $weight: 400);
+    @include heading-styles('large');
   }
 }

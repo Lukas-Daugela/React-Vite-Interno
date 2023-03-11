@@ -45,7 +45,7 @@ $body-sizes: (
 
 @mixin heading-styles(
   $type,
-  $weight: 700,
+  $weight: 400,
   $color: var(--color-secondary),
   $line-height: var(--line-height-heading)
 ) {

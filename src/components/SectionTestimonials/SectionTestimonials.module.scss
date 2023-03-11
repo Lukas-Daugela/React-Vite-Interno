@@ -18,7 +18,7 @@
     max-width: 54.7rem;
     text-align: center;
 
-    @include heading-styles('large', $weight: 400);
+    @include heading-styles('large');
   }
 
   &__cards {

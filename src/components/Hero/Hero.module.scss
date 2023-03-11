@@ -47,7 +47,7 @@
 
   &__title {
     margin: 0;
-    @include heading-styles('large', $weight: 400);
+    @include heading-styles('large');
   }
 
   &__backwards-link {

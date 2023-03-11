@@ -46,7 +46,7 @@
     margin: 0;
     padding: 1rem 0 2.1rem;
     @include padding-y($top: 2.1rem, $bottom: 3rem);
-    @include heading-styles('small', $weight: 400);
+    @include heading-styles('small');
 
     @include media-query('md') {
       padding: 2.1rem 3.5rem 3rem 0;

@@ -38,15 +38,18 @@
       @include padding-y(4.1rem);
     }
     @include media-query('lg') {
-      margin-left: 36rem;
+      margin-left: 15%;
       max-width: 56.7rem;
       padding: unset;
+    }
+    @include media-query('xxl') {
+      margin-left: 36rem;
     }
   }
 
   &__description {
     margin: 0 0 2.1rem;
-    @include body-styles('large');
+    @include body-styles('large', $color: var(--color-dark-130));
   }
 
   &__title {
