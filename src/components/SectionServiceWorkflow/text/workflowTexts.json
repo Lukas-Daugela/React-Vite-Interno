@@ -14,5 +14,21 @@
     "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
     "iconUrl": "/assets/svg/workflowStepsIcons/second-step-icon.svg",
     "imgUrl": "/assets/images/workflow/workflow-image.jpg"
+  },
+  {
+    "id": 3,
+    "step": "03",
+    "title": "Design",
+    "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+    "iconUrl": "/assets/svg/workflowStepsIcons/third-step-icon.svg",
+    "imgUrl": "/assets/images/workflow/white-kitchen.jpg"
+  },
+  {
+    "id": 4,
+    "step": "04",
+    "title": "Perfection",
+    "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+    "iconUrl": "/assets/svg/workflowStepsIcons/fourth-step-icon.svg",
+    "imgUrl": "/assets/images/workflow/kitchen-shelf.jpg"
   }
 ]

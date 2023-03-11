@@ -1,67 +1,81 @@
 @import '../../sass/mixins/index';
 
 .workflow {
-  display: grid;
-  gap: 8rem;
-  @include padding-y($top: 10rem, $bottom: 10rem);
-
-  @include media-query('md') {
-    @include padding-y($top: 20rem, $bottom: 17.3rem);
-  }
-
-  @include media-query('lg') {
-    gap: 15rem;
-  }
-}
-
-.workflow-single {
-  display: grid;
-  gap: 4.1rem;
-
-  @include media-query('lg') {
-    display: flex;
-    justify-content: space-between;
-
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-  }
-
-  &__text-container {
-    align-items: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 65rem;
-
-    @include media-query('lg') {
-      max-width: 44rem;
-    }
-  }
+  background-color: var(--color-tertiary);
+  border-radius: 70px;
+  padding: 16rem 11.6rem;
+  text-align: center;
 
   &__title {
+    margin: 0;
     @include heading-styles('large');
   }
 
   &__description {
-    @include padding-y($top: 2.3rem, $bottom: 4.1rem);
+    margin: 1.5rem auto 10rem;
+    max-width: 80.2rem;
     @include body-styles('large');
+  }
+}
+
+.workflow-steps {
+  display: grid;
+  gap: 7rem;
+}
+
+.workflow-step {
+  display: flex;
+  gap: 5.1rem;
+
+  @include media-query('md') {
+    gap: unset;
+    justify-content: space-between;
+  }
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
   }
 
   &__image {
-    border-radius: 40px;
-    max-height: 37.7rem;
+    border-radius: 0 123px 0 326.5px;
+    max-width: 45.3rem;
+    min-height: 48.5rem;
     object-fit: cover;
-    width: 100%;
+  }
+}
 
-    @include media-query('lg') {
-      border-radius: 70px;
-      max-width: 65.9rem;
-    }
+.text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 45.6rem;
+
+  &__icon-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__number {
+    color: var(--color-white-100);
+    font-family: var(--font-family-primary), sans-serif;
+    font-size: 12rem;
+    line-height: --line-height-heading;
+    margin: 0;
+  }
+
+  &__title {
+    margin: 5.8rem 0 1.1rem;
+    @include heading-styles('medium');
+  }
+
+  &__description {
+    margin: 0;
+    @include body-styles('large');
   }
 
   &__title,
   &__description {
-    margin: 0;
+    text-align: start;
   }
 }
