@@ -5,12 +5,7 @@
   padding: 0 2.2rem 3.2rem 0;
 
   &__title {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    user-select: none;
+    @include collapsible-title;
 
     @include heading-styles('small', $line-height: var(--line-height-base));
 
@@ -29,10 +24,8 @@
   }
 
   &__text {
-    cursor: default;
-    margin: 0;
-    max-width: 88%;
     padding: 1.3rem 0 0.2rem;
-    @include body-styles('large');
+
+    @include collapsible-text;
   }
 }
