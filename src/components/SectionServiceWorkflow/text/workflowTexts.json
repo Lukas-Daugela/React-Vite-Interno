@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "step": "01",
+    "title": "Concept & Details",
+    "description": "It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. ",
+    "iconUrl": "/assets/svg/workflowStepsIcons/first-step-icon.svg",
+    "imgUrl": "/assets/images/workflow/presentation-image.jpg"
+  },
+  {
+    "id": 2,
+    "step": "02",
+    "title": "Idea for Work",
+    "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+    "iconUrl": "/assets/svg/workflowStepsIcons/second-step-icon.svg",
+    "imgUrl": "/assets/images/workflow/workflow-image.jpg"
+  }
+]
