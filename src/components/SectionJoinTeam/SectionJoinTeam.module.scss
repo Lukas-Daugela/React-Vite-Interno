@@ -17,7 +17,7 @@
   }
 
   &__title {
-    @include heading-styles('large', $weight: 400, $color: var(--color-white-100));
+    @include heading-styles('large', $color: var(--color-white-100));
   }
 
   &__description {

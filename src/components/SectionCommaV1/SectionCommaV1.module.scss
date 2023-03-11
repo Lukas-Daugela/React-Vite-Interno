@@ -55,7 +55,7 @@
     font-style: italic;
     margin: 2.7rem 0 3.4rem;
 
-    @include heading-styles('medium', $weight: 400);
+    @include heading-styles('medium');
   }
 
   &__author {

@@ -20,7 +20,7 @@
     justify-content: space-between;
     margin: 1rem 0;
 
-    @include heading-styles('small', $weight: 400);
+    @include heading-styles('small');
 
     @include media-query('md') {
       margin: 0 0 1.8rem;

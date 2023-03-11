@@ -8,7 +8,7 @@
   }
 
   &__title {
-    @include heading-styles('large', $weight: 400);
+    @include heading-styles('large');
   }
 
   &__description {

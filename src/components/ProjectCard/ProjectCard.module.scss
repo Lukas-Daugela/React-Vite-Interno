@@ -12,7 +12,7 @@
 }
 
 .project-card__title {
-  @include heading-styles('small', $weight: 400);
+  @include heading-styles('small');
 }
 
 .project-card__category {

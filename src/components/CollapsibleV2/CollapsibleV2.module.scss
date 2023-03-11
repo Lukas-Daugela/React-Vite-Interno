@@ -12,7 +12,7 @@
     list-style: none;
     user-select: none;
 
-    @include heading-styles('small', $weight: 400, $line-height: var(--line-height-base));
+    @include heading-styles('small', $line-height: var(--line-height-base));
 
     &--expanded {
       color: var(--color-primary);

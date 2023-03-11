@@ -17,7 +17,7 @@
 
   &__title {
     margin: 0;
-    @include heading-styles('small', $weight: 400);
+    @include heading-styles('small');
   }
 
   &__description {
