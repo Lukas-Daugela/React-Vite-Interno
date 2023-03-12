@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames/bind';
 
 import HomeHero from '../../components/HomeHero';
 import SectionAchievments from '../../components/SectionAchievments';
@@ -11,6 +12,9 @@ import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
+import styles from './HomePage.module.scss';
+
+const cn = classNames.bind(styles);
 
 export default function HomePage() {
   return (
@@ -26,7 +30,7 @@ export default function HomePage() {
       <CustomLayout>
         <SectionAchievments />
         <SectionHomeNews />
-        <SectionJoinTeam />
+        <SectionJoinTeam className={cn('join-team')} />
       </CustomLayout>
     </>
   );
