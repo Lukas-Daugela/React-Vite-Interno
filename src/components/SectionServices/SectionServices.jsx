@@ -8,7 +8,6 @@ import styles from './SectionServices.module.scss';
 const cn = classNames.bind(styles);
 
 export default function SectionServices() {
-  console.log(serviceCards);
   return (
     <div className={cn('services')}>
       {serviceCards.map((serviceCard) => (
