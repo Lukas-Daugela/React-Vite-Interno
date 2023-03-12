@@ -3,6 +3,7 @@
 .workflow {
   background-color: var(--color-tertiary);
   border-radius: 30px;
+  margin-top: 10rem;
   padding: 6rem 2rem;
   text-align: center;
 
@@ -12,10 +13,14 @@
   }
   @include media-query('lg') {
     @include padding-x(5rem);
+
+    margin-top: 15rem;
   }
 
   @include media-query('xl') {
     @include padding-x(11.6rem);
+
+    margin-top: 20rem;
   }
 
   &__title {
