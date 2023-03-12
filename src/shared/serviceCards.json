@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
+    "serviceId": "Project-Plan",
     "title": "Project Plan",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   },
   {
     "id": 2,
+    "serviceId": "Interior",
     "title": "Interior Work",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   },
   {
     "id": 3,
+    "serviceId": "Retail-Design",
     "title": "Retail Design",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   },
   {
     "id": 4,
+    "serviceId": "2d-3d-Art",
     "title": "2d/3d Art Work",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   },
   {
     "id": 5,
-    "title": "Interior Work",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "serviceId": "Exterior",
+    "title": "Exterior Work",
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   },
   {
     "id": 6,
+    "serviceId": "Decoration",
     "title": "Decoration Work",
-    "description": "There are many variations of the passages of lorem Ipsum from available, majority.",
-    "link": "/"
+    "description": "There are many variations of the passages of lorem Ipsum from available, majority."
   }
 ]
