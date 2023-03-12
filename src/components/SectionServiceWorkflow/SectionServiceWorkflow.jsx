@@ -17,15 +17,15 @@ export default function SectionServiceWorkflow() {
       <div className={cn('workflow-steps')}>
         {texts.map((text) => (
           <div key={text.id} className={cn('workflow-step')}>
-            <img src={text.imgUrl} alt="" className={cn('workflow-step__image')} />
             <div className={cn('text-side')}>
               <div className={cn('text-side__icon-container')}>
-                <img src={text.iconUrl} alt="" />
+                <img src={text.iconUrl} alt="" className={cn('text-side__icon')} />
                 <p className={cn('text-side__number')}>{text.step}</p>
               </div>
               <h3 className={cn('text-side__title')}>{text.title}</h3>
               <p className={cn('text-side__description')}>{text.description}</p>
             </div>
+            <img src={text.imgUrl} alt="" className={cn('workflow-step__image')} />
           </div>
         ))}
       </div>
