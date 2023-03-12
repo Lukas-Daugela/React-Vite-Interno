@@ -3,6 +3,7 @@
 .circle-link {
   background: var(--color-tertiary);
   border-radius: 50%;
+  cursor: pointer;
 
   @include flex-center;
 
@@ -24,6 +25,7 @@
 
 .arrow-link {
   align-items: center;
+  cursor: pointer;
   display: inline-flex;
   height: 1.8rem;
   text-decoration: none;

@@ -1,7 +1,6 @@
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 import { Arrow, Chevron } from '../../../public/assets/svg';
@@ -18,9 +17,9 @@ export function CircleLink({ path, size = 'small', className }) {
   };
 
   return (
-    <Link className={cn('circle-link', customLinkClass, className)} onClick={handleLink}>
+    <a className={cn('circle-link', customLinkClass, className)} onClick={handleLink}>
       <Chevron />
-    </Link>
+    </a>
   );
 }
 
@@ -37,10 +36,10 @@ export function ArrowLink({ children, path }) {
     navigate(path);
   };
   return (
-    <div className={cn('arrow-link')} onClick={handleLink}>
+    <a className={cn('arrow-link')} onClick={handleLink}>
       {children}
       <Arrow className={cn('arrow-link__icon')} />
-    </div>
+    </a>
   );
 }
 
