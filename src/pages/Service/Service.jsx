@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import SectionServiceBenefits from '../../components/SectionServiceBenefits/SectionServiceBenefits';
+import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
+import SectionServiceBenefits from '../../components/SectionServiceBenefits';
 import SectionServiceIntro from '../../components/SectionServiceIntro';
 import MainLayout from '../../layouts/MainLayout';
 import { serviceCards } from '../../shared';
@@ -14,6 +15,7 @@ export default function Service() {
   return (
     <MainLayout>
       <div>Service</div>
+      <SectionGlimpseOfPortfolio />
       <SectionServiceBenefits />
       <SectionServiceIntro introInfo={service} />
     </MainLayout>
