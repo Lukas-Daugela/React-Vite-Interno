@@ -1,0 +1,62 @@
+@import '../../sass/mixins/index';
+
+.benefits {
+  display: grid;
+  gap: 3rem;
+  margin: 0 auto;
+  max-width: 103.6rem;
+
+  @include media-query('lg') {
+    display: flex;
+    gap: unset;
+    justify-content: space-between;
+  }
+
+  &__list-title {
+    margin: 0 0 2.3rem;
+    @include heading-styles('large');
+  }
+
+  @include media-query('xl') {
+    &__list-container {
+      max-width: 43.5rem;
+      position: relative;
+    }
+
+    &__list-container:first-child::after {
+      border: 1px solid #cecece;
+      content: '';
+      height: 72%;
+      position: absolute;
+      right: -10.5rem;
+      top: 14%;
+    }
+  }
+}
+
+.ordered-list {
+  color: var(--color-primary);
+  counter-reset: item;
+  display: grid;
+  font-family: var(--font-family-primary);
+  font-size: 2rem;
+  gap: 2rem;
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: flex;
+  }
+
+  &__item::before {
+    content: counter(item) '  ';
+    counter-increment: item;
+    padding-right: 1.8rem;
+  }
+
+  &__text {
+    margin: 0;
+
+    @include body-styles('large');
+  }
+}
