@@ -6,5 +6,16 @@ import BurgerIcon from './BurgerIcon';
 import CloseIcon from './CloseIcon';
 import PhoneIcon from './PhoneIcon';
 import CommaIcon from './CommaIcon';
+import VideoPlayIcon from './VideoPlayIcon';
 
-export { Arrow, Plus, Minus, Chevron, CloseIcon, BurgerIcon, PhoneIcon, CommaIcon };
+export {
+  Arrow,
+  Plus,
+  Minus,
+  Chevron,
+  CloseIcon,
+  BurgerIcon,
+  VideoPlayIcon,
+  PhoneIcon,
+  CommaIcon,
+};
