@@ -1,6 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
+import heroImage from '/assets/images/heroImages/bright-living-room.jpg';
+
+import Hero from '../../components/Hero';
 import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
 import SectionServiceBenefits from '../../components/SectionServiceBenefits';
 import SectionServiceIntro from '../../components/SectionServiceIntro';
@@ -14,7 +17,7 @@ export default function Service() {
 
   return (
     <MainLayout>
-      <div>Service</div>
+      <Hero title={'Service Single'} img={heroImage} />
       <SectionGlimpseOfPortfolio />
       <SectionServiceBenefits />
       <SectionServiceIntro introInfo={service} />
