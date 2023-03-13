@@ -1,0 +1,61 @@
+@import '../../sass/mixins/index';
+
+.modal-button {
+  background-position: center;
+  background-size: cover;
+  border: unset;
+  border-radius: 70px;
+  height: 37.4rem;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.modal {
+  backdrop-filter: blur(6px);
+  background: rgba(28, 28, 28, 0.19);
+  height: 100%;
+  left: 0;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  &__content {
+    cursor: default;
+    flex-direction: column;
+    height: 100vh;
+
+    @include flex-center;
+  }
+}
+
+.modal-video {
+  height: 100%;
+  max-height: 50rem;
+  max-width: 80rem;
+  width: 100%;
+
+  &__close-icon {
+    background: var(--color-white-100);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    @include flex-center;
+
+    &__vetor {
+      height: 15px;
+      width: 15px;
+    }
+  }
+
+  &__iframe {
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,8 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function CloseIcon() {
+export default function CloseIcon({ className }) {
   return (
     <svg
+      className={className}
       width="26"
       height="26"
       viewBox="0 0 26 26"
@@ -25,4 +27,6 @@ function CloseIcon() {
   );
 }
 
-export default CloseIcon;
+CloseIcon.propTypes = {
+  className: PropTypes.string,
+};

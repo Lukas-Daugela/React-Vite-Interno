@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BurgerIcon() {
+export default function BurgerIcon() {
   return (
     <svg
       width="31"
@@ -24,5 +24,3 @@ function BurgerIcon() {
     </svg>
   );
 }
-
-export default BurgerIcon;
