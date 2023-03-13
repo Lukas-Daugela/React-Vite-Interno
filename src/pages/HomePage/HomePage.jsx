@@ -35,7 +35,7 @@ export default function HomePage() {
         <SectionHomeProjects />
       </MainLayout>
       <CustomLayout>
-        <SectionAchievments />
+        <SectionAchievments className={cn('section-achievments')} />
         <SectionHomeNews />
         <SectionJoinTeam className={cn('join-team')} />
       </CustomLayout>

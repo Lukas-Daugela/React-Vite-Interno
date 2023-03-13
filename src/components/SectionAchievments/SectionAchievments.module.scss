@@ -2,11 +2,9 @@
 
 .achievments {
   background: var(--color-tertiary);
-  margin: 10rem 0;
   @include padding-y(5rem);
 
   @include media-query('lg') {
-    margin: 15rem 0 20rem;
     @include padding-y(15.1rem);
   }
 
