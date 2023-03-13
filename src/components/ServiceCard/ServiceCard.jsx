@@ -8,11 +8,11 @@ import styles from './ServiceCard.module.scss';
 const cn = classNames.bind(styles);
 
 export default function ServiceCard({ text }) {
-  const { title, description, serviceId } = text;
+  const { cardTitle, description, serviceId } = text;
 
   return (
     <div className={cn('service-card')}>
-      <h4 className={cn('service-card__title')}>{title}</h4>
+      <h4 className={cn('service-card__title')}>{cardTitle}</h4>
       <p className={cn('service-card__description')}>{description}</p>
       <ArrowLink path={`/services/${serviceId}`}>Read More</ArrowLink>
     </div>
