@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import heroImage from '/assets/images/heroImages/bright-living-room.jpg';
 
 import Hero from '../../components/Hero';
+import SectionClients from '../../components/SectionClients';
 import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
 import SectionServiceBenefits from '../../components/SectionServiceBenefits';
 import SectionServiceIntro from '../../components/SectionServiceIntro';
@@ -18,9 +19,10 @@ export default function Service() {
   return (
     <MainLayout>
       <Hero title={'Service Single'} img={heroImage} />
-      <SectionGlimpseOfPortfolio />
-      <SectionServiceBenefits />
       <SectionServiceIntro introInfo={service} />
+      <SectionClients />
+      <SectionServiceBenefits />
+      <SectionGlimpseOfPortfolio />
     </MainLayout>
   );
 }
