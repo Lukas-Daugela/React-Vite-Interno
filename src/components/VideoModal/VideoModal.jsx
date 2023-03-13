@@ -2,12 +2,12 @@ import className from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { CloseIcon } from '../../../public/assets/svg';
+import { CloseIcon, VideoPlayIcon } from '../../../public/assets/svg';
 import styles from './VideoModal.module.scss';
 
 const cn = className.bind(styles);
 
-export default function VideoModal({ thumbnail, videoUrl }) {
+export default function VideoModal({ thumbnail, videoUrl, className }) {
   const [modal, setModal] = useState(false);
 
   const openModal = () => {
@@ -17,9 +17,12 @@ export default function VideoModal({ thumbnail, videoUrl }) {
   return (
     <button
       onClick={openModal}
-      className={cn('modal-button')}
+      className={cn('modal-button', className)}
       style={{ backgroundImage: `url("${thumbnail}")` }}
     >
+      <div className={cn('modal-button__play-icon-container')}>
+        <VideoPlayIcon />
+      </div>
       {modal ? (
         <section className={cn('modal')}>
           <div className={cn('modal__content')}>
@@ -48,4 +51,5 @@ export default function VideoModal({ thumbnail, videoUrl }) {
 VideoModal.propTypes = {
   thumbnail: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
