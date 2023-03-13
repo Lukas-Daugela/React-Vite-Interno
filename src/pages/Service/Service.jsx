@@ -8,6 +8,7 @@ import SectionClients from '../../components/SectionClients';
 import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
 import SectionServiceBenefits from '../../components/SectionServiceBenefits';
 import SectionServiceIntro from '../../components/SectionServiceIntro';
+import VideoModal from '../../components/VideoModal/VideoModal';
 import MainLayout from '../../layouts/MainLayout';
 import { serviceCards } from '../../shared';
 
@@ -15,12 +16,14 @@ export default function Service() {
   const { serviceId } = useParams();
 
   const service = serviceCards.find((serviceCard) => serviceCard.serviceId === serviceId);
+  console.log(service);
 
   return (
     <MainLayout>
       <Hero title={'Service Single'} img={heroImage} />
       <SectionServiceIntro introInfo={service} />
       <SectionClients />
+      <VideoModal thumbnail={service.thumbnail} videoUrl={service.videoUrl} />
       <SectionServiceBenefits />
       <SectionGlimpseOfPortfolio />
     </MainLayout>
