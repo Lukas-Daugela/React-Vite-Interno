@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 
 import SliderRadioButton from '../SliderRadioButton';
 import styles from './SlidingButton.module.scss';
-import { buttonsCategories, buttonsInfo } from './texts/texts';
+import { buttonsInfo } from './texts/texts';
+import { buttonsCategories } from '../../shared/constants/texts';
 
 const cn = classNames.bind(styles);
 

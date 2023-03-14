@@ -1,9 +1,5 @@
-export const buttonsCategories = {
-  BATHROOM: 'Bathroom',
-  BEDROOM: 'Bedroom',
-  KITCHAN: 'Kitchan',
-  LIVINGAREA: 'LivingRoom',
-};
+import { buttonsCategories } from '../../../shared/constants/texts';
+
 export const buttonsInfo = [
   {
     id: buttonsCategories.BATHROOM,

@@ -62,5 +62,69 @@
     "serviceCategory": "Decor",
     "placeCategory": "Bathroom",
     "path": "/"
+  },
+  {
+    "id": 9,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 10,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 11,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 12,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 13,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 14,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 15,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
+  },
+  {
+    "id": 16,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Kitchan",
+    "path": "/"
   }
 ]
