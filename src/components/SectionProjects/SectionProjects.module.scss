@@ -1,1 +1,83 @@
 @import '../../sass/mixins/index';
+
+@mixin big-image {
+  .project-card__image {
+    height: 90%;
+  }
+}
+
+.projects {
+  display: grid;
+  gap: 3rem;
+  margin: 6.1rem 0;
+
+  @include media-query('md') {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 61.6rem 29.6rem 61.6rem 61.6rem 29.6rem 61.6rem;
+    row-gap: 3.5rem;
+  }
+}
+
+.project-card {
+  height: 50rem;
+
+  @include media-query('md') {
+    height: 100%;
+
+    &:nth-child(1) {
+      grid-column: 1;
+      grid-row: 1 / 3;
+
+      @include big-image;
+    }
+
+    &:nth-child(4) {
+      grid-column: 2;
+      grid-row: 2 / 4;
+
+      @include big-image;
+    }
+
+    &:nth-child(5) {
+      grid-column: 1;
+      grid-row: 4 / 6;
+
+      @include big-image;
+    }
+
+    &:nth-last-child(1) {
+      height: 61.6rem;
+    }
+  }
+
+  &__image {
+    height: 85%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.project-card__bottom-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+  @include media-query('md') {
+    margin-top: 2.4rem;
+  }
+}
+
+.project-card__title {
+  @include heading-styles('small');
+}
+
+.project-card__category {
+  @include body-styles('large');
+}
+
+.project-card__category,
+.project-card__title {
+  margin: 0;
+}
