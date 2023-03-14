@@ -1,7 +1,5 @@
 @import '../../sass/mixins/index';
 
-$border-radius: 18px;
-
 @mixin slider-transform-translate($yAxis, $xAxis: $yAxis) {
   transform: translateY($yAxis);
 
@@ -23,6 +21,7 @@ $border-radius: 18px;
 
 .button__container {
   border: 1px solid var(--color-primary);
+  border-radius: 18px;
   display: grid;
   margin: 0 auto;
   position: relative;
@@ -79,9 +78,4 @@ $border-radius: 18px;
   &--to-fourth {
     @include slider-transform-translate(300%);
   }
-}
-
-.button__container,
-.button__toggle-button {
-  border-radius: $border-radius;
 }

@@ -22,8 +22,6 @@ export default function SlidingButton() {
     else if (e.target.id === LIVINGAREA) movement('button__active-background--to-fourth');
   };
 
-  console.log(handleClick);
-
   const categoriesButton = buttonsInfo.map((item) => (
     <SliderRadioButton
       onClick={handleClick}
