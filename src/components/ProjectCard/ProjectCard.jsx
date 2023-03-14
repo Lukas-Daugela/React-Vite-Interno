@@ -8,7 +8,7 @@ import styles from './ProjectCard.module.scss';
 const cn = classNames.bind(styles);
 
 export default function ProjectCard({ cardInfo, children }) {
-  const { title, category, path } = cardInfo;
+  const { title, serviceCategory, path } = cardInfo;
 
   return (
     <>
@@ -16,7 +16,9 @@ export default function ProjectCard({ cardInfo, children }) {
       <div className={cn('project-card__bottom-container')}>
         <span className={cn('project-card__title-category')}>
           <p className={cn('project-card__title')}>{title}</p>
-          <p className={cn('project-card__category')}>{category} / Artchitecture</p>
+          <p className={cn('project-card__category')}>
+            {serviceCategory} / Artchitecture
+          </p>
         </span>
         <CircleLink path={path} size="large" />
       </div>

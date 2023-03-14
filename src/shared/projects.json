@@ -3,28 +3,64 @@
     "id": 1,
     "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
     "title": "Modern Kitchen",
-    "category": "Decor",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
     "path": "/"
   },
   {
     "id": 2,
     "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
     "title": "Minimal Living room",
-    "category": "Decor",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
     "path": "/"
   },
   {
     "id": 3,
     "imgUrl": "/assets/images/projectsImages/work-space.jpg",
     "title": "Work space",
-    "category": "Decor",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
     "path": "/"
   },
   {
     "id": 4,
     "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
     "title": "Modern Living room",
-    "category": "Decor",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
+    "path": "/"
+  },
+  {
+    "id": 5,
+    "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
+    "title": "Modern Kitchen",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
+    "path": "/"
+  },
+  {
+    "id": 6,
+    "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
+    "title": "Minimal Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
+    "path": "/"
+  },
+  {
+    "id": 7,
+    "imgUrl": "/assets/images/projectsImages/work-space.jpg",
+    "title": "Work space",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
+    "path": "/"
+  },
+  {
+    "id": 8,
+    "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
+    "title": "Modern Living room",
+    "serviceCategory": "Decor",
+    "placeCategory": "Bathroom",
     "path": "/"
   }
 ]
