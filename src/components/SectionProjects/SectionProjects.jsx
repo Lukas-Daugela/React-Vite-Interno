@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
@@ -31,17 +31,19 @@ export default function SectionProjects() {
     indexOfLastProject,
   );
 
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  }, [currentPage]);
+  // TODO: Need to make it so that when we change page it scroll to the top of projects section
+  // With current solution it scrolls to the top of the whole page which I think is a bad UX
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth',
+  //   });
+  // }, [currentPage]);
 
   return (
-    <>
+    <div className={cn('projects')}>
       <SlidingButton onClick={handleFilter} />
-      <div className={cn('projects')}>
+      <div className={cn('projects__cards')}>
         {displayedProjects.map((project) => (
           <div key={project.id} className={cn('project-card')}>
             <img src={project.imgUrl} alt="" className={cn('project-card__image')} />
@@ -62,6 +64,6 @@ export default function SectionProjects() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
-    </>
+    </div>
   );
 }
