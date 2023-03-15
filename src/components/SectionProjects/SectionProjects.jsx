@@ -10,6 +10,7 @@ import SlidingButton from '../SlidingButton/SlidingButton';
 import styles from './SectionProjects.module.scss';
 
 const cn = classNames.bind(styles);
+
 export default function SectionProjects() {
   const initialProjects = filterProjects(projects, buttonsCategories.BATHROOM);
   const projectsPerPage = 8;
