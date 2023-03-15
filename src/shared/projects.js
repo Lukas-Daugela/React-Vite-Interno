@@ -5,21 +5,4 @@ import {
   livingroom,
 } from '../components/SectionProjects/projectsInfo';
 
-export const projects = [
-  {
-    category: 'bedroom',
-    projectsInfo: bedroom,
-  },
-  {
-    category: 'bathroom',
-    projectsInfo: bathroom,
-  },
-  {
-    category: 'kitchan',
-    projectsInfo: kitchan,
-  },
-  {
-    category: 'livingroom',
-    projectsInfo: livingroom,
-  },
-];
+export const projects = [bedroom, bathroom, kitchan, livingroom];

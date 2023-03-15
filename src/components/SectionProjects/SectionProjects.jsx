@@ -1,9 +1,9 @@
 import classNames from 'classnames/bind';
 import React, { useState } from 'react';
 
-import { projects } from '../../shared';
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
+import { projects } from '../../shared/projects';
 import { CircleLink } from '../CustomLink';
 import SlidingButton from '../SlidingButton/SlidingButton';
 import styles from './SectionProjects.module.scss';
