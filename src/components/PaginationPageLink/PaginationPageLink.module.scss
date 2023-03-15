@@ -8,6 +8,7 @@
   height: 5.2rem;
   width: 5.2rem;
 
+  @include remove-user-selection;
   @include flex-center;
 }
 
