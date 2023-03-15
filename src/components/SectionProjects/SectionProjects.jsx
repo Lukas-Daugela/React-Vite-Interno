@@ -1,27 +1,47 @@
 import classNames from 'classnames/bind';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
 import { projects } from '../../shared/projects';
 import { CircleLink } from '../CustomLink';
+import PagePagination from '../PagePagination';
 import SlidingButton from '../SlidingButton/SlidingButton';
 import styles from './SectionProjects.module.scss';
 
 const cn = classNames.bind(styles);
 export default function SectionProjects() {
   const initialProjects = filterProjects(projects, buttonsCategories.BATHROOM);
+  const projectsPerPage = 8;
+
   const [currentProjects, setCurrentProjects] = useState(initialProjects);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const amountOfPages = Math.ceil(currentProjects.length / projectsPerPage);
 
   const handleFilter = (category) => {
     setCurrentProjects(filterProjects(projects, category));
   };
 
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const displayedProjects = currentProjects.slice(
+    indexOfFirstProject,
+    indexOfLastProject,
+  );
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [currentPage]);
+
   return (
     <>
       <SlidingButton onClick={handleFilter} />
       <div className={cn('projects')}>
-        {currentProjects.map((project) => (
+        {displayedProjects.map((project) => (
           <div key={project.id} className={cn('project-card')}>
             <img src={project.imgUrl} alt="" className={cn('project-card__image')} />
             <div className={cn('project-card__bottom-container')}>
@@ -36,6 +56,11 @@ export default function SectionProjects() {
           </div>
         ))}
       </div>
+      <PagePagination
+        amountOfPages={amountOfPages}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </>
   );
 }
