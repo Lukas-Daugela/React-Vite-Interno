@@ -9,7 +9,7 @@ import { buttonsInfo } from './texts/texts';
 
 const cn = classNames.bind(styles);
 
-export default function SlidingButton({ onClick }) {
+export default function SlidingButton({ onClick, setCurrentPage }) {
   const [currentMovement, setCurrentMovement] = useState(null);
   const { BATHROOM, BEDROOM, KITCHAN, LIVINGAREA } = buttonsCategories;
   const [currentlyActive, setCurrentlyActive] = useState(BATHROOM);
@@ -23,6 +23,8 @@ export default function SlidingButton({ onClick }) {
   };
 
   const handleClick = (e) => {
+    setCurrentPage(1);
+
     if (e.target.id === BATHROOM)
       slideAndFilter(BATHROOM, 'button__active-background--to-first');
     else if (e.target.id === BEDROOM)
@@ -60,4 +62,5 @@ export default function SlidingButton({ onClick }) {
 
 SlidingButton.propTypes = {
   onClick: PropTypes.func,
+  setCurrentPage: PropTypes.func,
 };

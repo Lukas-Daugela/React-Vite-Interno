@@ -42,7 +42,7 @@ export default function SectionProjects() {
 
   return (
     <div className={cn('projects')}>
-      <SlidingButton onClick={handleFilter} />
+      <SlidingButton onClick={handleFilter} setCurrentPage={setCurrentPage} />
       <div className={cn('projects__cards')}>
         {displayedProjects.map((project) => (
           <div key={project.id} className={cn('project-card')}>
