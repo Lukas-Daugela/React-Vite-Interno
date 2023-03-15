@@ -2,10 +2,10 @@ import classNames from 'classnames/bind';
 // import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
+import { buttonsCategories } from '../../shared/constants/texts';
 import SliderRadioButton from '../SliderRadioButton';
 import styles from './SlidingButton.module.scss';
 import { buttonsInfo } from './texts/texts';
-import { buttonsCategories } from '../../shared/constants/texts';
 
 const cn = classNames.bind(styles);
 

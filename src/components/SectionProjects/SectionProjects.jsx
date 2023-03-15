@@ -2,19 +2,24 @@ import classNames from 'classnames/bind';
 import React, { useState } from 'react';
 
 import { projects } from '../../shared';
+import { buttonsCategories } from '../../shared/constants/texts';
+import { filterProjects } from '../../shared/functions/dataFilter';
 import { CircleLink } from '../CustomLink';
 import SlidingButton from '../SlidingButton/SlidingButton';
 import styles from './SectionProjects.module.scss';
 
 const cn = classNames.bind(styles);
-
 export default function SectionProjects() {
-  const [currentProjects, setCurrentProjects] = useState(projects);
-  console.log(setCurrentProjects);
+  const initialProjects = filterProjects(projects, buttonsCategories.BATHROOM);
+  const [currentProjects, setCurrentProjects] = useState(initialProjects);
+
+  const handleFilter = (category) => {
+    setCurrentProjects(filterProjects(projects, category));
+  };
 
   return (
     <>
-      <SlidingButton />
+      <SlidingButton onClick={handleFilter} />
       <div className={cn('projects')}>
         {currentProjects.map((project) => (
           <div key={project.id} className={cn('project-card')}>
