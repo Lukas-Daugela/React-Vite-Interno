@@ -5,7 +5,7 @@ import {
   livingroom,
 } from '../components/SectionProjects/projectsInfo';
 
-export const projectss = [
+export const projects = [
   {
     category: 'bedroom',
     projectsInfo: bedroom,
