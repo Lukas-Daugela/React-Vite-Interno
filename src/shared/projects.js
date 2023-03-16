@@ -1,6 +1,6 @@
 import {
-  bedroom,
   bathroom,
+  bedroom,
   kitchan,
   livingroom,
 } from '../components/SectionProjects/projectsInfo';

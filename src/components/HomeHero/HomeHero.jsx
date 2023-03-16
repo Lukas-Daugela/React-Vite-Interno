@@ -1,9 +1,10 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
+import heroImg from '/assets/images/living-room.jpg';
+
 import Button from '../Button';
 import styles from './HomeHero.module.scss';
-import heroImg from '/assets/images/living-room.jpg';
 
 const cn = classNames.bind(styles);
 

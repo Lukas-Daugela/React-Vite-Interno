@@ -7,6 +7,7 @@ import CloseIcon from './CloseIcon';
 import PhoneIcon from './PhoneIcon';
 import CommaIcon from './CommaIcon';
 import VideoPlayIcon from './VideoPlayIcon';
+import SearchIcon from './SearchIcon';
 
 export {
   Arrow,
@@ -18,4 +19,5 @@ export {
   VideoPlayIcon,
   PhoneIcon,
   CommaIcon,
+  SearchIcon,
 };
