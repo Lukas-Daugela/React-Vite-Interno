@@ -1,6 +1,6 @@
-import bedroom from './bedroom.json';
 import bathroom from './bathroom.json';
+import bedroom from './bedroom.json';
 import kitchan from './kitchan.json';
 import livingroom from './livingroom.json';
 
-export { bedroom, bathroom, kitchan, livingroom };
+export { bathroom, bedroom, kitchan, livingroom };
