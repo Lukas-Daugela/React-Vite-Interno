@@ -1,25 +1,38 @@
 import classNames from 'classnames/bind';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
+import { buttonsCategories } from '../../shared/constants/texts';
 import SliderRadioButton from '../SliderRadioButton';
 import styles from './SlidingButton.module.scss';
-import { buttonsCategories, buttonsInfo } from './texts/texts';
+import { buttonsInfo } from './texts/texts';
 
 const cn = classNames.bind(styles);
 
-export default function SlidingButton() {
+export default function SlidingButton({ onClick, setCurrentPage }) {
   const [currentMovement, setCurrentMovement] = useState(null);
   const { BATHROOM, BEDROOM, KITCHAN, LIVINGAREA } = buttonsCategories;
   const [currentlyActive, setCurrentlyActive] = useState(BATHROOM);
 
   const movement = (value) => setCurrentMovement(value);
+  const slideAndFilter = (category, slidePosition) => {
+    movement(slidePosition);
+    setTimeout(() => {
+      onClick(category);
+    }, 500);
+  };
 
   const handleClick = (e) => {
-    if (e.target.id === BATHROOM) movement('button__active-background--to-first');
-    else if (e.target.id === BEDROOM) movement('button__active-background--to-second');
-    else if (e.target.id === KITCHAN) movement('button__active-background--to-third');
-    else if (e.target.id === LIVINGAREA) movement('button__active-background--to-fourth');
+    setCurrentPage(1);
+
+    if (e.target.id === BATHROOM)
+      slideAndFilter(BATHROOM, 'button__active-background--to-first');
+    else if (e.target.id === BEDROOM)
+      slideAndFilter(BEDROOM, 'button__active-background--to-second');
+    else if (e.target.id === KITCHAN)
+      slideAndFilter(KITCHAN, 'button__active-background--to-third');
+    else if (e.target.id === LIVINGAREA)
+      slideAndFilter(LIVINGAREA, 'button__active-background--to-fourth');
   };
 
   const categoriesButton = buttonsInfo.map((item) => (
@@ -47,6 +60,7 @@ export default function SlidingButton() {
   );
 }
 
-// SlidingButton.propTypes = {
-//   children: PropTypes.string,
-// };
+SlidingButton.propTypes = {
+  onClick: PropTypes.func,
+  setCurrentPage: PropTypes.func,
+};

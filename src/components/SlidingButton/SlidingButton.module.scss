@@ -45,6 +45,7 @@
   transition-property: color;
   z-index: 1;
   @include button-size;
+  @include remove-user-selection;
 
   &.active {
     color: var(--color-white-100);
