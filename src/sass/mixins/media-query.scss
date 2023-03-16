@@ -14,3 +14,9 @@ $breakpoints: (
     }
   }
 }
+
+@mixin media-query-vertical($width, $height) {
+  @media (min-width: map-get($breakpoints, $width)) and (min-height: map-get($breakpoints, $height)) {
+    @content;
+  }
+}

@@ -22,6 +22,11 @@
       width: 100%;
     }
 
+    @include media-query-vertical($width: 'md', $height: 'sm') {
+      height: 612px;
+      width: 100%;
+    }
+
     &--maximized {
       cursor: zoom-out;
       height: 100vh;
@@ -47,6 +52,10 @@
     z-index: 1;
 
     @include body-styles('large', var(--color-white-100));
+
+    @include media-query-vertical($width: 'md', $height: 'sm') {
+      width: 100%;
+    }
 
     &--animated {
       opacity: 0;
