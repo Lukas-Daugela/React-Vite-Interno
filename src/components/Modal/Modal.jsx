@@ -1,10 +1,11 @@
 import className from 'classnames/bind';
 import FocusTrap from 'focus-trap-react';
 import PropTypes from 'prop-types';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
 import { CloseIcon } from '../../../public/assets/svg';
+import useMouseMove from '../../hooks';
 import styles from './Modal.module.scss';
 
 const cn = className.bind(styles);
