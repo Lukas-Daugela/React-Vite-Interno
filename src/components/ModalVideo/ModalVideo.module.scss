@@ -1,44 +1,17 @@
 @import '../../sass/mixins/index';
 
-.modal {
-  backdrop-filter: blur(6px);
-  background: var(--modal-overlay-color);
-  height: 100%;
-  left: 0;
-  padding: 0 2rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-
-  &__content {
-    cursor: default;
-    flex-direction: column;
-    height: 100vh;
-
-    @include flex-center;
-  }
-}
-
 .modal-video {
-  height: 100%;
+  cursor: default;
+  height: 100vh;
+  margin: 0 auto;
   max-height: 50rem;
   max-width: 80rem;
-  width: 100%;
+  padding: 0;
+  position: relative;
+  width: 100vw;
 
-  &__close-icon {
-    background: var(--color-white-100);
-    border-radius: 50%;
-    cursor: pointer;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    @include flex-center;
-
-    &__vetor {
-      height: 15px;
-      width: 15px;
-    }
-  }
+  @include flex-center;
+  @include remove-user-selection;
 
   &__iframe {
     background-color: var(--color-secondary);

@@ -14,7 +14,9 @@ export default function Modal({ children, ariaLabel, isOpen, onClose }) {
   const { handleMouseMove, isMoving } = useMouseMove();
 
   const handleOverlayClose = (e) => {
-    if (e.target.dataset.overlay === 'overlay') onClose();
+    if (e.target.dataset.overlay === 'overlay') {
+      onClose();
+    }
   };
 
   useEffect(() => {

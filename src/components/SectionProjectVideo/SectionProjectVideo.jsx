@@ -21,20 +21,22 @@ export default function SectionProjectVideo({ thumbnail, videoUrl }) {
   };
 
   return (
-    <button
-      onClick={handleModalOpen}
-      className={cn('modal-button')}
-      style={{ backgroundImage: `url("${thumbnail}")` }}
-    >
-      <div className={cn('modal-button__play-icon-container')}>
-        <VideoPlayIcon />
-      </div>
+    <div>
+      <button
+        onClick={handleModalOpen}
+        className={cn('modal-button')}
+        style={{ backgroundImage: `url("${thumbnail}")` }}
+      >
+        <div className={cn('modal-button__play-icon-container')}>
+          <VideoPlayIcon />
+        </div>
+      </button>
       {isOpen && (
         <Modal ariaLabel="video" isOpen={isOpen} onClose={handleModalClose}>
           <ModalVideo videoUrl={videoUrl} />
         </Modal>
       )}
-    </button>
+    </div>
   );
 }
 
