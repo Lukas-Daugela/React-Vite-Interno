@@ -10,21 +10,7 @@ import styles from './Modal.module.scss';
 const cn = className.bind(styles);
 
 export default function Modal({ children, ariaLabel, isOpen, onClose }) {
-  const [isMoving, setIsMoving] = useState(true);
-
-  console.log(isOpen);
-
-  const handleMouseMove = () => {
-    setIsMoving(true);
-  };
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsMoving(false);
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, [isMoving]);
+  const { handleMouseMove, isMoving } = useMouseMove();
 
   const handleOverlayClose = (e) => {
     if (e.target.dataset.overlay === 'overlay') onClose();
