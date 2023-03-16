@@ -42,7 +42,7 @@ export default function Modal({ children, ariaLabel, isOpen, onClose }) {
     };
   }, [onClose]);
 
-  return (
+  return ReactDOM.createPortal(
     <FocusTrap focusTrapOptions={{ active: isOpen, initialFocus: false }}>
       <dialog
         data-overlay="overlay"
@@ -63,7 +63,8 @@ export default function Modal({ children, ariaLabel, isOpen, onClose }) {
         </button>
         {children}
       </dialog>
-    </FocusTrap>
+    </FocusTrap>,
+    document.getElementById('portal'),
   );
 }
 
