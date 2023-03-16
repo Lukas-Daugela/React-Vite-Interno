@@ -5,7 +5,6 @@ import heroImg from '/assets/images/heroImages/modern-kitchen.jpg';
 
 import Hero from '../../components/Hero';
 import SectionJoinTeam from '../../components/SectionJoinTeam';
-import SectionProjectDetailsImage from '../../components/SectionProjectDetailsImage/SectionProjectDetailsImage';
 import SectionServices from '../../components/SectionServices';
 import SectionServiceWorkflow from '../../components/SectionServiceWorkflow';
 import MainLayout from '../../layouts/MainLayout';
@@ -17,7 +16,6 @@ export default function Services() {
   return (
     <MainLayout>
       <Hero title={'Services'} img={heroImg} />
-      <SectionProjectDetailsImage image={heroImg} />
       <SectionServices />
       <SectionServiceWorkflow />
       <SectionJoinTeam className={cn('join-team')} />

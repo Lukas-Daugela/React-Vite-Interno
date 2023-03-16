@@ -5,11 +5,11 @@ import React, { useState } from 'react';
 import { VideoPlayIcon } from '../../../public/assets/svg';
 import Modal from '../Modal';
 import ModalVideo from '../ModalVideo/ModalVideo';
-import styles from './SectionProjectVideo.module.scss';
+import styles from './SectionServiceVideo.module.scss';
 
 const cn = className.bind(styles);
 
-export default function SectionProjectVideo({ thumbnail, videoUrl }) {
+export default function SectionServiceVideo({ thumbnail, videoUrl }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleModalOpen = () => {
@@ -40,7 +40,7 @@ export default function SectionProjectVideo({ thumbnail, videoUrl }) {
   );
 }
 
-SectionProjectVideo.propTypes = {
+SectionServiceVideo.propTypes = {
   thumbnail: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired,
 };
