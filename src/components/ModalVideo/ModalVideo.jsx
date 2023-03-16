@@ -10,9 +10,6 @@ export default function ModalVideo({ videoUrl }) {
   return (
     <section className={cn('modal')}>
       <div className={cn('modal__content')}>
-        <div className={cn('modal-video__close-icon')} onClick={setModal}>
-          <CloseIcon className={cn('modal-video__close-icon__vetor')} />
-        </div>
         <div className={cn('modal-video')}>
           <iframe
             className={cn('modal-video__iframe')}

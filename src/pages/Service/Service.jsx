@@ -8,9 +8,9 @@ import Hero from '../../components/Hero';
 import SectionAchievments from '../../components/SectionAchievments';
 import SectionClients from '../../components/SectionClients';
 import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
+import SectionProjectVideo from '../../components/SectionProjectVideo';
 import SectionServiceBenefits from '../../components/SectionServiceBenefits';
 import SectionServiceIntro from '../../components/SectionServiceIntro';
-import VideoModal from '../../components/VideoModal/VideoModal';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
 import { serviceCards } from '../../shared';
@@ -29,7 +29,7 @@ export default function Service() {
         <Hero title={'Service Single'} img={heroImage} />
         <SectionServiceIntro introInfo={service} />
         <SectionClients />
-        <VideoModal thumbnail={service.thumbnail} videoUrl={service.videoUrl} />
+        <SectionProjectVideo thumbnail={service.thumbnail} videoUrl={service.videoUrl} />
         <SectionServiceBenefits />
         <SectionGlimpseOfPortfolio />
       </MainLayout>
