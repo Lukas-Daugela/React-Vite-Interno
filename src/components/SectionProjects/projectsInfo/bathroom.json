@@ -6,112 +6,112 @@
       "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
       "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "ModernKitchen"
     },
     {
       "id": 2,
       "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
       "title": "Minimal Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 3,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "Work space",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 4,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 5,
       "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
       "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "ModernKitchen"
     },
     {
       "id": 6,
       "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
       "title": "Minimal Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 7,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "Work space",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 8,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 9,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 10,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 11,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 12,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 13,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 14,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 15,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     },
     {
       "id": 16,
       "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "/"
     }
   ]
 }

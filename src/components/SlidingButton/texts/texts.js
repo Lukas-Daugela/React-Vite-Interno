@@ -10,8 +10,8 @@ export const buttonsInfo = [
     value: 'Bedroom',
   },
   {
-    id: buttonsCategories.KITCHAN,
-    value: 'Kitchan',
+    id: buttonsCategories.KITCHEN,
+    value: 'Kitchen',
   },
   {
     id: buttonsCategories.LIVINGAREA,
