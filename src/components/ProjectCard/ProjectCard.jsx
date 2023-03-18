@@ -20,7 +20,7 @@ export default function ProjectCard({ cardInfo, children }) {
             {serviceCategory} / Artchitecture
           </p>
         </span>
-        <CircleLink path={projectId} size="large" />
+        <CircleLink path={`/projects/${projectId}`} size="large" />
       </div>
     </>
   );

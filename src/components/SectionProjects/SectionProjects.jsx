@@ -54,7 +54,7 @@ export default function SectionProjects() {
                   {project.serviceCategory} / Artchitecture
                 </p>
               </span>
-              <CircleLink path={project.path} size="large" />
+              <CircleLink path={`/projects/${project.projectId}`} size="large" />
             </div>
           </div>
         ))}
