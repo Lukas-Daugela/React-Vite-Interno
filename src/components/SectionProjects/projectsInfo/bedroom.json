@@ -6,224 +6,224 @@
       "imgUrl": "/assets/images/projectsImages/bedroom-with-plants.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project1"
     },
     {
       "id": 2,
       "imgUrl": "/assets/images/projectsImages/two-beds-bedroom.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project2"
     },
     {
       "id": 3,
       "imgUrl": "/assets/images/projectsImages/plant-on-table.jpg",
       "title": "Classic Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project3"
     },
     {
       "id": 4,
       "imgUrl": "/assets/images/projectsImages/light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project4"
     },
     {
       "id": 5,
       "imgUrl": "/assets/images/projectsImages/minimalist-bedroom.jpg",
       "title": "Minimal Bedroom table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project5"
     },
     {
       "id": 6,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "System Table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project6"
     },
     {
       "id": 7,
       "imgUrl": "/assets/images/projectsImages/modern-light-bedroom.jpg",
       "title": "Modern Medroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project7"
     },
     {
       "id": 8,
       "imgUrl": "/assets/images/projectsImages/fancy-light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project8"
     },
     {
       "id": 9,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "System Table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project9"
     },
     {
       "id": 10,
       "imgUrl": "/assets/images/projectsImages/minimalist-bedroom.jpg",
       "title": "Minimal Bedroom table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project10"
     },
     {
       "id": 11,
       "imgUrl": "/assets/images/projectsImages/fancy-light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project11"
     },
     {
       "id": 12,
       "imgUrl": "/assets/images/projectsImages/modern-light-bedroom.jpg",
       "title": "Modern Medroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project12"
     },
     {
       "id": 13,
       "imgUrl": "/assets/images/projectsImages/two-beds-bedroom.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project13"
     },
     {
       "id": 14,
       "imgUrl": "/assets/images/projectsImages/bedroom-with-plants.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project14"
     },
     {
       "id": 15,
       "imgUrl": "/assets/images/projectsImages/light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project15"
     },
     {
       "id": 16,
       "imgUrl": "/assets/images/projectsImages/plant-on-table.jpg",
       "title": "Classic Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project16"
     },
     {
       "id": 17,
       "imgUrl": "/assets/images/projectsImages/fancy-light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project17"
     },
     {
       "id": 18,
       "imgUrl": "/assets/images/projectsImages/modern-light-bedroom.jpg",
       "title": "Modern Medroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project18"
     },
     {
       "id": 19,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "System Table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project19"
     },
     {
       "id": 20,
       "imgUrl": "/assets/images/projectsImages/minimalist-bedroom.jpg",
       "title": "Minimal Bedroom table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project20"
     },
     {
       "id": 21,
       "imgUrl": "/assets/images/projectsImages/light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project21"
     },
     {
       "id": 22,
       "imgUrl": "/assets/images/projectsImages/plant-on-table.jpg",
       "title": "Classic Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project22"
     },
     {
       "id": 23,
       "imgUrl": "/assets/images/projectsImages/bedroom-with-plants.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project23"
     },
     {
       "id": 24,
       "imgUrl": "/assets/images/projectsImages/two-beds-bedroom.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project24"
     },
     {
       "id": 25,
       "imgUrl": "/assets/images/projectsImages/bedroom-with-plants.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project25"
     },
     {
       "id": 26,
       "imgUrl": "/assets/images/projectsImages/two-beds-bedroom.jpg",
       "title": "Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project26"
     },
     {
       "id": 27,
       "imgUrl": "/assets/images/projectsImages/plant-on-table.jpg",
       "title": "Classic Minimal Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project27"
     },
     {
       "id": 28,
       "imgUrl": "/assets/images/projectsImages/light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project28"
     },
     {
       "id": 29,
       "imgUrl": "/assets/images/projectsImages/minimalist-bedroom.jpg",
       "title": "Minimal Bedroom table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project29"
     },
     {
       "id": 30,
       "imgUrl": "/assets/images/projectsImages/work-space.jpg",
       "title": "System Table",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project30"
     },
     {
       "id": 31,
       "imgUrl": "/assets/images/projectsImages/modern-light-bedroom.jpg",
       "title": "Modern Medroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project31"
     },
     {
       "id": 32,
       "imgUrl": "/assets/images/projectsImages/fancy-light-bedroom.jpg",
       "title": "Modern Bedroom",
       "serviceCategory": "Decor",
-      "path": "/"
+      "projectId": "bedroom-project32"
     }
   ]
 }
