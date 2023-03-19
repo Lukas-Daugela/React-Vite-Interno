@@ -17,7 +17,7 @@ export default function PageLayout({ children }) {
 
   useEffect(() => {
     if (!path) {
-      document.title = 'Not Found';
+      document.title = 'React Interno';
     } else {
       document.title = path.title;
     }

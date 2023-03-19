@@ -19,7 +19,6 @@
     margin: 6.1rem 0;
 
     @include media-query('md') {
-      grid-auto-flow: column;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 61.6rem 29.6rem 61.6rem 61.6rem 29.6rem 61.6rem;
       row-gap: 3.5rem;
@@ -54,7 +53,7 @@
       @include big-image;
     }
 
-    &:nth-last-child(1) {
+    &:nth-last-child(2) {
       height: 61.6rem;
     }
   }

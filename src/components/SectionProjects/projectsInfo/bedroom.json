@@ -11,7 +11,7 @@
     {
       "id": 2,
       "imgUrl": "/assets/images/projectsImages/two-beds-bedroom.jpg",
-      "title": "Minimal Bedroom",
+      "title": "Classic Bedroom",
       "serviceCategory": "Decor",
       "projectId": "bedroom-project2"
     },
@@ -46,7 +46,7 @@
     {
       "id": 7,
       "imgUrl": "/assets/images/projectsImages/modern-light-bedroom.jpg",
-      "title": "Modern Medroom",
+      "title": "Modern Bedroom",
       "serviceCategory": "Decor",
       "projectId": "bedroom-project7"
     },
