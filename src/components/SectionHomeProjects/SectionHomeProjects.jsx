@@ -10,7 +10,7 @@ import styles from './SectionHomeProjects.module.scss';
 const cn = classNames.bind(styles);
 
 export default function SectionHomeProjects() {
-  const displayedProjects = filterProjects(projects, buttonsCategories.KITCHAN);
+  const displayedProjects = filterProjects(projects, buttonsCategories.LIVINGAREA);
 
   return (
     <div className={cn('projects')}>

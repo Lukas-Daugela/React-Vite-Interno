@@ -1,8 +1,8 @@
 import {
   bathroom,
   bedroom,
-  kitchan,
+  kitchen,
   livingroom,
 } from '../components/SectionProjects/projectsInfo';
 
-export const projects = [bedroom, bathroom, kitchan, livingroom];
+export const projects = [bedroom, bathroom, kitchen, livingroom];

@@ -9,7 +9,7 @@ import styles from './SectionProjectDetailsImage.module.scss';
 
 const cn = className.bind(styles);
 
-export default function SectionProjectDetailsImage({ image }) {
+export default function SectionProjectDetailsImage({ image, className }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleModalOpen = () => {
@@ -21,7 +21,7 @@ export default function SectionProjectDetailsImage({ image }) {
   };
 
   return (
-    <div>
+    <div className={cn(className)}>
       <button
         onClick={handleModalOpen}
         className={cn('modal-button')}
@@ -42,4 +42,5 @@ export default function SectionProjectDetailsImage({ image }) {
 
 SectionProjectDetailsImage.propTypes = {
   image: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };

@@ -11,7 +11,7 @@ const cn = classNames.bind(styles);
 
 export default function SlidingButton({ onClick, setCurrentPage }) {
   const [currentMovement, setCurrentMovement] = useState(null);
-  const { BATHROOM, BEDROOM, KITCHAN, LIVINGAREA } = buttonsCategories;
+  const { BATHROOM, BEDROOM, KITCHEN, LIVINGAREA } = buttonsCategories;
   const [currentlyActive, setCurrentlyActive] = useState(BATHROOM);
 
   const movement = (value) => setCurrentMovement(value);
@@ -19,18 +19,17 @@ export default function SlidingButton({ onClick, setCurrentPage }) {
     movement(slidePosition);
     setTimeout(() => {
       onClick(category);
+      setCurrentPage(1);
     }, 500);
   };
 
   const handleClick = (e) => {
-    setCurrentPage(1);
-
     if (e.target.id === BATHROOM)
       slideAndFilter(BATHROOM, 'button__active-background--to-first');
     else if (e.target.id === BEDROOM)
       slideAndFilter(BEDROOM, 'button__active-background--to-second');
-    else if (e.target.id === KITCHAN)
-      slideAndFilter(KITCHAN, 'button__active-background--to-third');
+    else if (e.target.id === KITCHEN)
+      slideAndFilter(KITCHEN, 'button__active-background--to-third');
     else if (e.target.id === LIVINGAREA)
       slideAndFilter(LIVINGAREA, 'button__active-background--to-fourth');
   };

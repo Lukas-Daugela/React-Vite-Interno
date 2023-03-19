@@ -36,12 +36,12 @@
   }
 
   &__img {
-    max-height: 40rem;
+    height: 40rem;
     object-fit: cover;
     width: 100%;
 
     @include media-query('lg') {
-      max-height: 52.5rem;
+      height: 52.5rem;
     }
   }
 

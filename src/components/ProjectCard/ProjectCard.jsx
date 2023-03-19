@@ -8,7 +8,7 @@ import styles from './ProjectCard.module.scss';
 const cn = classNames.bind(styles);
 
 export default function ProjectCard({ cardInfo, children }) {
-  const { title, serviceCategory, path } = cardInfo;
+  const { title, serviceCategory, projectId } = cardInfo;
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function ProjectCard({ cardInfo, children }) {
             {serviceCategory} / Artchitecture
           </p>
         </span>
-        <CircleLink path={path} size="large" />
+        <CircleLink path={`/projects/${projectId}`} size="large" />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 export const buttonsCategories = {
   BEDROOM: 'bedroom',
   BATHROOM: 'bathroom',
-  KITCHAN: 'kitchan',
+  KITCHEN: 'kitchen',
   LIVINGAREA: 'livingroom',
 };
