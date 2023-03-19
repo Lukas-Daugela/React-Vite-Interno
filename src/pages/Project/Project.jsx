@@ -14,7 +14,6 @@ import styles from './Project.module.scss';
 const cn = classNames.bind(styles);
 
 export default function Project() {
-  console.log(cn);
   const { projectId } = useParams();
 
   let singleProject;
@@ -29,7 +28,10 @@ export default function Project() {
     <MainLayout>
       <Hero img={heroImage} />
       <SectionProjectDetails project={singleProject} />
-      <SectionProjectDetailsImage image={singleProject.imgUrl} />
+      <SectionProjectDetailsImage
+        image={singleProject.imgUrl}
+        className={cn('section-image')}
+      />
     </MainLayout>
   );
 }

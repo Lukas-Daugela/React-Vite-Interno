@@ -19,12 +19,11 @@ export default function SlidingButton({ onClick, setCurrentPage }) {
     movement(slidePosition);
     setTimeout(() => {
       onClick(category);
+      setCurrentPage(1);
     }, 500);
   };
 
   const handleClick = (e) => {
-    setCurrentPage(1);
-
     if (e.target.id === BATHROOM)
       slideAndFilter(BATHROOM, 'button__active-background--to-first');
     else if (e.target.id === BEDROOM)
