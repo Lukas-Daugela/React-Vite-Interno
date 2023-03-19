@@ -3,115 +3,115 @@
   "projectsInfo": [
     {
       "id": 1,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
-      "title": "Modern Kitchen",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project1"
     },
     {
       "id": 2,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Minimal Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom2.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project2"
     },
     {
       "id": 3,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom3.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project3"
     },
     {
       "id": 4,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/classic-minimal-bathroom.jpg",
+      "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project4"
     },
     {
       "id": 5,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
-      "title": "Modern Kitchen",
+      "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom.jpg",
+      "title": "Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "ModernKitchen5"
     },
     {
       "id": 6,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Minimal Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-bathroom.jpg",
+      "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project6"
     },
     {
       "id": 7,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom2.jpg",
+      "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project7"
     },
     {
       "id": 8,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/classic-bathroom.jpg",
+      "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project8"
     },
     {
       "id": 9,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/classic-minimal-bathroom.jpg",
+      "title": "Classic Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project9"
+      "projectId": "bathroom-project4"
     },
     {
       "id": 10,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/classic-bathroom.jpg",
+      "title": "Classic Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project10"
+      "projectId": "bathroom-project8"
     },
     {
       "id": 11,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom2.jpg",
+      "title": "Modern Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project11"
+      "projectId": "bathroom-project7"
     },
     {
       "id": 12,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project12"
+      "projectId": "bathroom-project1"
     },
     {
       "id": 13,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom.jpg",
+      "title": "Minimal Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project13"
+      "projectId": "ModernKitchen5"
     },
     {
       "id": 14,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom3.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project14"
+      "projectId": "bathroom-project3"
     },
     {
       "id": 15,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-bathroom.jpg",
+      "title": "Modern Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project15"
+      "projectId": "bathroom-project6"
     },
     {
       "id": 16,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom2.jpg",
+      "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
-      "projectId": "bathroom-project16"
+      "projectId": "bathroom-project2"
     }
   ]
 }
