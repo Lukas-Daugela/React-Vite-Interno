@@ -1,0 +1,57 @@
+@import '../../sass/mixins/index';
+
+.project-details {
+  align-items: center;
+  display: flex;
+  gap: 4.2rem;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+
+  &__list-wrapper {
+    background-color: var(--color-tertiary);
+    border-radius: 70px;
+    padding: 5.5rem 8.4rem;
+  }
+
+  &__list {
+    display: grid;
+    gap: 3rem;
+    @include reset-list-style;
+  }
+
+  &__list-item {
+    display: flex;
+    gap: 5rem;
+
+    &__title {
+      font-family: var(--font-family-primary);
+      font-size: 2.2rem;
+      font-weight: 400;
+      min-width: 9.8rem;
+    }
+
+    &__text {
+      @include body-styles('large');
+    }
+
+    &__text,
+    &__title {
+      margin: 0;
+    }
+  }
+
+  &__description {
+    max-width: 65.8rem;
+
+    &__title {
+      margin: 0 0 1.1rem;
+
+      @include heading-styles('large');
+    }
+
+    &__text {
+      margin: 0;
+      @include body-styles('large');
+    }
+  }
+}
