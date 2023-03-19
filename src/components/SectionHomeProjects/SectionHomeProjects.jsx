@@ -10,7 +10,8 @@ import styles from './SectionHomeProjects.module.scss';
 const cn = classNames.bind(styles);
 
 export default function SectionHomeProjects() {
-  const displayedProjects = filterProjects(projects, buttonsCategories.KITCHEN);
+  const displayedProjects = filterProjects(projects, buttonsCategories.LIVINGAREA);
+  console.log(displayedProjects);
 
   return (
     <div className={cn('projects')}>
@@ -24,6 +25,8 @@ export default function SectionHomeProjects() {
       <div className={cn('projects__cards-container')}>
         {displayedProjects.slice(0, 4).map((project) => (
           <div key={project.id} className={cn('projects__card')}>
+            {console.log(project.imgUrl)}
+
             <ProjectCard cardInfo={project}>
               <img src={project.imgUrl} alt="" className={cn('projects__img')} />
             </ProjectCard>

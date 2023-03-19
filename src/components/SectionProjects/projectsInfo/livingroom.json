@@ -3,57 +3,57 @@
   "projectsInfo": [
     {
       "id": 1,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
-      "title": "Modern Kitchen",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-living-room-commode.jpg",
+      "title": "Minimal Commode",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project1"
     },
     {
       "id": 2,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Minimal Living room",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/modern-living-room.jpg",
+      "title": "Modern Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project2"
     },
     {
       "id": 3,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-living-room.jpg",
+      "title": "Minimal Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project3"
     },
     {
       "id": 4,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/classic-living-room.jpg",
+      "title": "Classic Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project4"
     },
     {
       "id": 5,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
-      "title": "Modern Kitchen",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/system-table.jpg",
+      "title": "System Table",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project5"
     },
     {
       "id": 6,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-light-living-room.jpg",
       "title": "Minimal Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project6"
     },
     {
       "id": 7,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/modern-light-living-room.jpg",
+      "title": "Modern Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project7"
     },
     {
       "id": 8,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-workspace.jpg",
+      "title": "Minimal Workspace",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project8"
     }
