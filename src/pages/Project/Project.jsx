@@ -28,7 +28,7 @@ export default function Project() {
   return (
     <MainLayout>
       <Hero img={heroImage} />
-      <SectionProjectDetails />
+      <SectionProjectDetails project={singleProject} />
       <SectionProjectDetailsImage image={singleProject.imgUrl} />
     </MainLayout>
   );
