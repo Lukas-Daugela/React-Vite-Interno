@@ -3,171 +3,171 @@
   "projectsInfo": [
     {
       "id": 1,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
-      "title": "Modern Kitchen",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project1"
     },
     {
       "id": 2,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Minimal Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project2"
     },
     {
       "id": 3,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project3"
     },
     {
       "id": 4,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen2.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project4"
     },
     {
       "id": 5,
-      "imgUrl": "/assets/images/projectsImages/modern-kitchen.jpg",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen2.jpg",
       "title": "Modern Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project5"
     },
     {
       "id": 6,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Minimal Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen3.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project6"
     },
     {
       "id": 7,
-      "imgUrl": "/assets/images/projectsImages/work-space.jpg",
-      "title": "Work space",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen4.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project7"
     },
     {
       "id": 8,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/minimal-kitchen.jpg",
+      "title": "Minimal Kitchen",
       "serviceCategory": "Decor",
       "projectId": "kitchen-project8"
     },
     {
       "id": 9,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen2.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project9"
+      "projectId": "kitchen-project4"
     },
     {
       "id": 10,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/minimal-kitchen.jpg",
+      "title": "Minimal Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project10"
+      "projectId": "kitchen-project8"
     },
     {
       "id": 11,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen3.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project11"
+      "projectId": "kitchen-project6"
     },
     {
       "id": 12,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project12"
+      "projectId": "kitchen-project1"
     },
     {
       "id": 13,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen4.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project13"
+      "projectId": "kitchen-project7"
     },
     {
       "id": 14,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project14"
+      "projectId": "kitchen-project3"
     },
     {
       "id": 15,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen2.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project15"
+      "projectId": "kitchen-project5"
     },
     {
       "id": 16,
-      "imgUrl": "/assets/images/projectsImages/modern-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project16"
+      "projectId": "kitchen-project2"
     },
     {
       "id": 17,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen2.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project17"
+      "projectId": "kitchen-project5"
     },
     {
       "id": 18,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project18"
+      "projectId": "kitchen-project3"
     },
     {
       "id": 19,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project19"
+      "projectId": "kitchen-project2"
     },
     {
       "id": 20,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen4.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project20"
+      "projectId": "kitchen-project7"
     },
     {
       "id": 21,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-kitchen.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project21"
+      "projectId": "kitchen-project1"
     },
     {
       "id": 22,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/minimal-kitchen.jpg",
+      "title": "Minimal Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project22"
+      "projectId": "kitchen-project8"
     },
     {
       "id": 23,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/classic-light-kitchen2.jpg",
+      "title": "Classic Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project23"
+      "projectId": "kitchen-project4"
     },
     {
       "id": 24,
-      "imgUrl": "/assets/images/projectsImages/minimal-living-room.jpg",
-      "title": "Modern Living room",
+      "imgUrl": "/assets/images/projectsImages/kitchen/modern-kitchen3.jpg",
+      "title": "Modern Kitchen",
       "serviceCategory": "Decor",
-      "projectId": "kitchen-project24"
+      "projectId": "kitchen-project6"
     }
   ]
 }
