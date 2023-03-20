@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import heroImg from '/assets/images/heroImages/modern-kitchen.jpg';
+import heroImages from '../../shared/heroImages/heroImages.json';
 
 import Hero from '../../components/Hero';
 import SectionJoinTeam from '../../components/SectionJoinTeam';
@@ -13,9 +13,11 @@ import styles from './Services.module.scss';
 const cn = classNames.bind(styles);
 
 export default function Services() {
+  const { services } = heroImages;
+
   return (
     <MainLayout>
-      <Hero title={'Services'} img={heroImg} />
+      <Hero title={'Services'} img={services.image} blurhash={services.blurhash} />
       <SectionServices />
       <SectionServiceWorkflow />
       <SectionJoinTeam className={cn('join-team')} />
