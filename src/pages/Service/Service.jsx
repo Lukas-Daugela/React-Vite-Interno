@@ -34,6 +34,7 @@ export default function Service() {
         <SectionServiceVideo
           thumbnail={serviceInfo.thumbnail}
           videoUrl={serviceInfo.videoUrl}
+          blurhash={serviceInfo.blurhash}
         />
         <SectionServiceBenefits />
         <SectionGlimpseOfPortfolio />
