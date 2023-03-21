@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
 import { projects } from '../../shared/projects';
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import { CircleLink } from '../CustomLink';
 import PagePagination from '../PagePagination';
 import SlidingButton from '../SlidingButton/SlidingButton';
@@ -46,7 +47,11 @@ export default function SectionProjects() {
       <div className={cn('projects__cards')}>
         {displayedProjects.map((project) => (
           <div key={project.id} className={cn('project-card')}>
-            <img src={project.imgUrl} alt="" className={cn('project-card__image')} />
+            <CustomLazyLoadImage
+              blurhash={project.blurhash}
+              imgUrl={project.imgUrl}
+              containerClass={cn('project-card__image-wrapper')}
+            />
             <div className={cn('project-card__bottom-container')}>
               <span className={cn('project-card__title-category')}>
                 <p className={cn('project-card__title')}>{project.title}</p>
