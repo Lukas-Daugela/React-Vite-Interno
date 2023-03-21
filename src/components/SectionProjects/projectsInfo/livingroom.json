@@ -4,6 +4,7 @@
     {
       "id": 1,
       "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-living-room-commode.jpg",
+      "blurhash": "UROC~h~qtl-;?wRje-ayR4M{MxM{f6s:kDaz",
       "title": "Minimal Commode",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project1",
@@ -34,6 +35,7 @@
     {
       "id": 2,
       "imgUrl": "/assets/images/projectsImages/livingRoom/modern-living-room.jpg",
+      "blurhash": "UFNAq|IUtRM__N?H%2o#t7t8xui_NGRQo#oL",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project2",
@@ -64,6 +66,7 @@
     {
       "id": 3,
       "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-living-room.jpg",
+      "blurhash": "UNMjzDx]-=D%~qoJt7j[%1-;D%bH9E9Yx]xu",
       "title": "Minimal Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project3",
@@ -94,6 +97,7 @@
     {
       "id": 4,
       "imgUrl": "/assets/images/projectsImages/livingRoom/classic-living-room.jpg",
+      "blurhash": "UXOMd1R*NG-;?w%Mt7jZDNbHxvogIAozozt7",
       "title": "Classic Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project4",
@@ -124,6 +128,7 @@
     {
       "id": 5,
       "imgUrl": "/assets/images/projectsImages/livingRoom/system-table.jpg",
+      "blurhash": "UkMtBZM{oet7_4ozRjj[s,ofWBayIUayofj[",
       "title": "System Table",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project5",
@@ -154,6 +159,7 @@
     {
       "id": 6,
       "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-light-living-room.jpg",
+      "blurhash": "UdMQnsM{ogM_~qxuj?j]DiRjWUt7MyMxkCay",
       "title": "Minimal Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project6",
@@ -184,6 +190,7 @@
     {
       "id": 7,
       "imgUrl": "/assets/images/projectsImages/livingRoom/modern-light-living-room.jpg",
+      "blurhash": "UFNAq|IUtRM__N?H%2o#t7t8xui_NGRQo#oL",
       "title": "Modern Living room",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project7",
@@ -214,6 +221,7 @@
     {
       "id": 8,
       "imgUrl": "/assets/images/projectsImages/livingRoom/minimal-workspace.jpg",
+      "blurhash": "UEMtaO^+M|og_Nx]IUt7IUMxt7j]Rjt7ofWB",
       "title": "Minimal Workspace",
       "serviceCategory": "Decor",
       "projectId": "livingRoom-project8",
