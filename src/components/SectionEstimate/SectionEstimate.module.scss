@@ -79,26 +79,28 @@
     width: fit-content;
   }
 
-  &__img {
-    border-radius: 0 80px;
-    height: 46rem;
-    object-fit: cover;
-    width: 100%;
-
-    @include media-query('md') {
-      border-radius: 0 123px;
-    }
-    @include media-query('lg') {
-      border-radius: 0 326.5px 0 123px;
-      height: 70rem;
-      width: 65.3rem;
-    }
-  }
-
   &__title,
   &__description,
   &__phone,
   &__phone-text {
     margin: 0;
+  }
+}
+
+.image-wrapper {
+  border-radius: 0 80px;
+  height: 46rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @include media-query('md') {
+    border-radius: 0 123px;
+  }
+
+  @include media-query('lg') {
+    border-radius: 0 326.5px 0 123px;
+    height: 70rem;
+    width: 65.3rem;
   }
 }
