@@ -7,7 +7,7 @@ import SectionMessageForm from '../../components/SectionMessageForm';
 import SectionTeamCards from '../../components/SectionTeamCards';
 import CustomLayout from '../../layouts/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/heroImages/heroImages.json';
+import heroImages from '../../shared/lazyLoadImages/heroImages.json';
 
 export default function About() {
   const { about } = heroImages;

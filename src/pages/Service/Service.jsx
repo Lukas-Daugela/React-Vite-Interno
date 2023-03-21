@@ -12,7 +12,7 @@ import SectionServiceVideo from '../../components/SectionServiceVideo';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
 import { serviceCards } from '../../shared';
-import heroImages from '../../shared/heroImages/heroImages.json';
+import heroImages from '../../shared/lazyLoadImages/heroImages.json';
 import styles from './Service.module.scss';
 
 const cn = classNames.bind(styles);

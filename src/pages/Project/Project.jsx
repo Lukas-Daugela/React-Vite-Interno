@@ -6,7 +6,7 @@ import Hero from '../../components/Hero';
 import SectionProjectDetails from '../../components/SectionProjectDetails/SectionProjectDetails';
 import SectionProjectDetailsImage from '../../components/SectionProjectDetailsImage';
 import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/heroImages/heroImages.json';
+import heroImages from '../../shared/lazyLoadImages/heroImages.json';
 import { projects } from '../../shared/projects';
 import styles from './Project.module.scss';
 
