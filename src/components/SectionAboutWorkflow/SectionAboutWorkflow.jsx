@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../Button';
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import styles from './SectionAboutWorkflow.module.scss';
 import texts from './text/workflowTexts.json';
 
@@ -20,7 +21,11 @@ export default function SectionAboutWorkflow() {
               <Button>{text.buttonTitle}</Button>
             </Link>
           </div>
-          <img className={cn('workflow-single__image')} src={text.imgUrl} alt="" />
+          <CustomLazyLoadImage
+            blurhash={text.blurhash}
+            imgUrl={text.imgUrl}
+            containerClass={cn('workflow-single__image-container')}
+          />
         </div>
       ))}
     </div>
