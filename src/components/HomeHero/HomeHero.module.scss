@@ -2,10 +2,12 @@
 
 .hero {
   align-items: center;
+  border-radius: 0 0 0 30%;
   display: flex;
   height: 60rem;
   justify-content: start;
   margin-bottom: 11.7rem;
+  overflow: hidden;
   position: relative;
   width: 100%;
 
@@ -13,20 +15,16 @@
     height: 70rem;
   }
   @include media-query('lg') {
+    border-radius: 0 0 0 291px;
     height: 83.2rem;
   }
 
   &__img {
-    border-radius: 0 0 0 30%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     width: 100%;
     z-index: -1;
-
-    @include media-query('lg') {
-      border-radius: 0 0 0 291px;
-    }
   }
 
   &__title-container {

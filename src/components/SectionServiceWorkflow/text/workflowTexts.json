@@ -5,7 +5,8 @@
     "title": "Concept & Details",
     "description": "It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. ",
     "iconUrl": "/assets/svg/workflowStepsIcons/first-step-icon.svg",
-    "imgUrl": "/assets/images/workflow/presentation-image.jpg"
+    "imgUrl": "/assets/images/workflow/presentation-image.jpg",
+    "blurhash": "UPMG^+tS.8-:~Wn$oyM{^*%0RjWUS%WYM{tR"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Idea for Work",
     "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
     "iconUrl": "/assets/svg/workflowStepsIcons/second-step-icon.svg",
-    "imgUrl": "/assets/images/workflow/workflow-image.jpg"
+    "imgUrl": "/assets/images/workflow/workflow-image.jpg",
+    "blurhash": "UaKT}RxY.7x]~qM{Mxt7x^xuWCRkn#W?V?V@"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "title": "Design",
     "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
     "iconUrl": "/assets/svg/workflowStepsIcons/third-step-icon.svg",
-    "imgUrl": "/assets/images/workflow/white-kitchen.jpg"
+    "imgUrl": "/assets/images/workflow/white-kitchen.jpg",
+    "blurhash": "UTKw|P%M9Es:~qNGR%xu9ZoLM{ofR+%3RPae"
   },
   {
     "id": 4,
@@ -29,6 +32,7 @@
     "title": "Perfection",
     "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
     "iconUrl": "/assets/svg/workflowStepsIcons/fourth-step-icon.svg",
-    "imgUrl": "/assets/images/workflow/kitchen-shelf.jpg"
+    "imgUrl": "/assets/images/workflow/kitchen-shelf.jpg",
+    "blurhash": "ULNd5d-oNH.8_NozD%Rj.9x]9EMdIUt7RjWB"
   }
 ]

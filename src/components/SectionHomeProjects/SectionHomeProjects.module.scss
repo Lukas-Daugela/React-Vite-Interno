@@ -37,7 +37,8 @@
 
   &__img {
     height: 40rem;
-    object-fit: cover;
+    overflow: hidden;
+    position: relative;
     width: 100%;
 
     @include media-query('lg') {

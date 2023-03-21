@@ -4,6 +4,7 @@
     {
       "id": 1,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom.jpg",
+      "blurhash": "UGE:3un$4nRj~pIUM|RjDjkCM{t8D%-=oeof",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project1",
@@ -34,6 +35,7 @@
     {
       "id": 2,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom2.jpg",
+      "blurhash": "UAK1wO={00%g4.?w9GsmDhH??aWW.9D*IV-;",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project2",
@@ -64,6 +66,7 @@
     {
       "id": 3,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom3.jpg",
+      "blurhash": "UHGu:p_NtRoyDitS-;WB00D$M{oftSM{ITWB",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project3",
@@ -94,6 +97,7 @@
     {
       "id": 4,
       "imgUrl": "/assets/images/projectsImages/bathroom/classic-minimal-bathroom.jpg",
+      "blurhash": "U4I;#69GD*-T~A?bxZ^*ROD%%MaJ_3?bROxu",
       "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project4",
@@ -124,6 +128,7 @@
     {
       "id": 5,
       "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom.jpg",
+      "blurhash": "UjL4ytM{WAt6~qofWAt7t6ofWBRjjsWBWBWB",
       "title": "Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "ModernKitchen5",
@@ -154,6 +159,7 @@
     {
       "id": 6,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-bathroom.jpg",
+      "blurhash": "UKLg;MyY?Gxc_NxaE1n$RjROxuWB%MWqRjsm",
       "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project6",
@@ -184,6 +190,7 @@
     {
       "id": 7,
       "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom2.jpg",
+      "blurhash": "UBL4mJxtr=01~q?GxtE1DjIUWT-=t3t7ogWA",
       "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project7",
@@ -214,6 +221,7 @@
     {
       "id": 8,
       "imgUrl": "/assets/images/projectsImages/bathroom/classic-bathroom.jpg",
+      "blurhash": "UGI}x3Rk${E1?wD*-n?G0O9aawWB03Rk?GkC",
       "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project8",
@@ -244,6 +252,7 @@
     {
       "id": 9,
       "imgUrl": "/assets/images/projectsImages/bathroom/classic-minimal-bathroom.jpg",
+      "blurhash": "U4I;#69GD*-T~A?bxZ^*ROD%%MaJ_3?bROxu",
       "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project4",
@@ -274,6 +283,7 @@
     {
       "id": 10,
       "imgUrl": "/assets/images/projectsImages/bathroom/classic-bathroom.jpg",
+      "blurhash": "UGI}x3Rk${E1?wD*-n?G0O9aawWB03Rk?GkC",
       "title": "Classic Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project8",
@@ -304,6 +314,7 @@
     {
       "id": 11,
       "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom2.jpg",
+      "blurhash": "UBL4mJxtr=01~q?GxtE1DjIUWT-=t3t7ogWA",
       "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project7",
@@ -334,6 +345,7 @@
     {
       "id": 12,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom.jpg",
+      "blurhash": "UGE:3un$4nRj~pIUM|RjDjkCM{t8D%-=oeof",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project1",
@@ -364,6 +376,7 @@
     {
       "id": 13,
       "imgUrl": "/assets/images/projectsImages/bathroom/minimal-bathroom.jpg",
+      "blurhash": "UjL4ytM{WAt6~qofWAt7t6ofWBRjjsWBWBWB",
       "title": "Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "ModernKitchen5",
@@ -394,6 +407,7 @@
     {
       "id": 14,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom3.jpg",
+      "blurhash": "UHGu:p_NtRoyDitS-;WB00D$M{oftSM{ITWB",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project3",
@@ -424,6 +438,7 @@
     {
       "id": 15,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-bathroom.jpg",
+      "blurhash": "UKLg;MyY?Gxc_NxaE1n$RjROxuWB%MWqRjsm",
       "title": "Modern Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project6",
@@ -454,6 +469,7 @@
     {
       "id": 16,
       "imgUrl": "/assets/images/projectsImages/bathroom/modern-minimal-bathroom2.jpg",
+      "blurhash": "UAK1wO={00%g4.?w9GsmDhH??aWW.9D*IV-;",
       "title": "Modern Minimal Bathroom",
       "serviceCategory": "Decor",
       "projectId": "bathroom-project2",

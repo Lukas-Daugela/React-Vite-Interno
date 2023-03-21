@@ -64,23 +64,24 @@
 
   &__image {
     border-radius: 0 72px 0 105.5px;
+    height: 30rem;
     margin: 0 auto;
-    max-width: 80%;
-    min-height: 80%;
-    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
 
     @include media-query('md') {
       border-radius: 0 123px 0 193px;
+      height: 100%;
       margin: unset;
-      max-width: 50%;
-      min-height: 50%;
-      object-fit: cover;
+      min-width: 50%;
       order: -1;
+      width: unset;
     }
     @include media-query('lg') {
       border-radius: 0 123px 0 326.5px;
-      max-width: 45.3rem;
-      min-height: 48.5rem;
+      height: 48.5rem;
+      min-width: 45.3rem;
     }
   }
 }

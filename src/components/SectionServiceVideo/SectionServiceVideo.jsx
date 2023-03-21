@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
 import { VideoPlayIcon } from '../../../public/assets/svg';
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import Modal from '../Modal';
 import ModalVideo from '../ModalVideo/ModalVideo';
 import styles from './SectionServiceVideo.module.scss';
 
 const cn = className.bind(styles);
 
-export default function SectionServiceVideo({ thumbnail, videoUrl }) {
+export default function SectionServiceVideo({ thumbnail, videoUrl, blurhash }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleModalOpen = () => {
@@ -22,11 +23,8 @@ export default function SectionServiceVideo({ thumbnail, videoUrl }) {
 
   return (
     <div>
-      <button
-        onClick={handleModalOpen}
-        className={cn('modal-button')}
-        style={{ backgroundImage: `url("${thumbnail}")` }}
-      >
+      <button onClick={handleModalOpen} className={cn('modal-button')}>
+        <CustomLazyLoadImage blurhash={blurhash} imgUrl={thumbnail} />
         <div className={cn('modal-button__play-icon-container')}>
           <VideoPlayIcon />
         </div>
@@ -43,4 +41,5 @@ export default function SectionServiceVideo({ thumbnail, videoUrl }) {
 SectionServiceVideo.propTypes = {
   thumbnail: PropTypes.string.isRequired,
   videoUrl: PropTypes.string.isRequired,
+  blurhash: PropTypes.string.isRequired,
 };

@@ -1,16 +1,17 @@
 import classNames from 'classnames/bind';
+import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import sideImg from '/assets/images/estimate.jpg';
-
 import { PhoneIcon } from '../../../public/assets/svg';
 import Button from '../Button';
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import styles from './SectionEstimate.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function SectionEstimate() {
+export default function SectionEstimate({ imageInfo }) {
+  const { blurhash, image } = imageInfo;
   return (
     <div className={cn('estimate')}>
       <div className={cn('estimate__text-container')}>
@@ -35,7 +36,15 @@ export default function SectionEstimate() {
           <Button>Get Free Estimate</Button>
         </Link>
       </div>
-      <img className={cn('estimate__img')} src={sideImg} alt="" />
+      <CustomLazyLoadImage
+        blurhash={blurhash}
+        imgUrl={image}
+        containerClass={cn('image-wrapper')}
+      />
     </div>
   );
 }
+
+SectionEstimate.propTypes = {
+  imageInfo: PropTypes.object.isRequired,
+};

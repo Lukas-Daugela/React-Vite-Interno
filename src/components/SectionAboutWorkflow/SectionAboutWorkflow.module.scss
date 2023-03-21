@@ -48,10 +48,12 @@
     @include body-styles('large');
   }
 
-  &__image {
+  &__image-container {
     border-radius: 40px;
+    height: 35rem;
     max-height: 37.7rem;
-    object-fit: cover;
+    overflow: hidden;
+    position: relative;
     width: 100%;
 
     @include media-query('lg') {

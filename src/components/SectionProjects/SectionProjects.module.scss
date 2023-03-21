@@ -1,7 +1,7 @@
 @import '../../sass/mixins/index';
 
 @mixin big-image {
-  .project-card__image {
+  .project-card__image-wrapper {
     height: 90%;
   }
 }
@@ -58,9 +58,9 @@
     }
   }
 
-  &__image {
+  &__image-wrapper {
     height: 85%;
-    object-fit: cover;
+    position: relative;
     width: 100%;
   }
 }

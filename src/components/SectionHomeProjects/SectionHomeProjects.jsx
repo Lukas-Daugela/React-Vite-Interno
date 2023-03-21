@@ -4,6 +4,7 @@ import React from 'react';
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
 import { projects } from '../../shared/projects';
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './SectionHomeProjects.module.scss';
 
@@ -25,7 +26,11 @@ export default function SectionHomeProjects() {
         {displayedProjects.slice(0, 4).map((project) => (
           <div key={project.id} className={cn('projects__card')}>
             <ProjectCard cardInfo={project}>
-              <img src={project.imgUrl} alt="" className={cn('projects__img')} />
+              <CustomLazyLoadImage
+                blurhash={project.blurhash}
+                imgUrl={project.imgUrl}
+                containerClass={cn('projects__img')}
+              />
             </ProjectCard>
           </div>
         ))}

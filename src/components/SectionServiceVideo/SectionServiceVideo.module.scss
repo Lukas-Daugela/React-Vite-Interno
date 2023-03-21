@@ -1,8 +1,6 @@
 @import '../../sass/mixins/index';
 
 .modal-button {
-  background-position: center;
-  background-size: cover;
   border: unset;
   border-radius: 70px;
   height: 25rem;
@@ -19,8 +17,13 @@
     background: var(--color-white-100);
     border-radius: 50%;
     height: 10rem;
+    left: 50%;
     margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
     width: 10rem;
+
     @include flex-center;
 
     @include media-query('xl') {

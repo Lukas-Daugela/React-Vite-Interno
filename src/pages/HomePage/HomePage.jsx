@@ -12,6 +12,7 @@ import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionTestimonials from '../../components/SectionTestimonials';
 import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
 import MainLayout from '../../layouts/MainLayout';
+import homePageImages from '../../shared/lazyLoadImages/homePageImages.json';
 import styles from './HomePage.module.scss';
 
 const cn = classNames.bind(styles);
@@ -22,7 +23,7 @@ export default function HomePage() {
       <MainLayout>
         <HomeHero />
         <SectionHomeServices />
-        <SectionEstimate />
+        <SectionEstimate imageInfo={homePageImages.estimate} />
         <SectionTestimonials />
         <SectionClients />
         <SectionHomeProjects />

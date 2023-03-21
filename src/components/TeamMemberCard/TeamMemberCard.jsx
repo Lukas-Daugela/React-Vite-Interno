@@ -8,12 +8,13 @@ import instagramIcon from '/assets/svg/socialMediaIcons/instagram.svg';
 import linkedinIcon from '/assets/svg/socialMediaIcons/linkedin.svg';
 import twitterIcon from '/assets/svg/socialMediaIcons/twitter.svg';
 
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import styles from './TeamMemberCard.module.scss';
 
 const cn = classNames.bind(styles);
 
 export default function TeamMemberCard({ text }) {
-  const { name, country, profession, phone, email, imgUrl, socialMedia } = text;
+  const { name, country, profession, phone, email, imgUrl, blurhash, socialMedia } = text;
   const { facebookLink, twitterLink, linkedinLink, instagramLink } = socialMedia;
 
   return (
@@ -49,7 +50,11 @@ export default function TeamMemberCard({ text }) {
           <p className={cn('card-back__phone')}>{phone}</p>
           <p className={cn('card-back__email')}>{email}</p>
         </div>
-        <img src={imgUrl} alt="" className={cn('card-front')} />
+        <CustomLazyLoadImage
+          blurhash={blurhash}
+          imgUrl={imgUrl}
+          containerClass={cn('card-front')}
+        />
       </div>
     </div>
   );
