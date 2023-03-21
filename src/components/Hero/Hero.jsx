@@ -11,7 +11,7 @@ const cn = classNames.bind(styles);
 export default function Hero({ title, img, blurhash }) {
   return (
     <div className={cn('hero')}>
-      <CustomLazyLoadImage imgUrl={img} blurhash={blurhash} />
+      <CustomLazyLoadImage imgUrl={img} blurhash={blurhash} backgroundImage />
       {title && (
         <div className={cn('hero__title-container')}>
           <h1 className={cn('hero__title')}>{title}</h1>

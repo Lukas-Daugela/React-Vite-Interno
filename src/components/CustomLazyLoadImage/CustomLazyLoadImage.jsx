@@ -12,6 +12,7 @@ export default function CustomLazyLoadImage({
   imgUrl,
   blurhash,
   containerClass,
+  backgroundImage,
   imageClass,
 }) {
   const [isLoaded, setLoaded] = useState(false);
@@ -25,17 +26,19 @@ export default function CustomLazyLoadImage({
     setLoadStarted(true);
   };
 
+  const customClass = backgroundImage ? 'minus-z-index' : '';
+
   return (
     <div className={cn(containerClass)}>
       <LazyLoadImage
         src={imgUrl}
         onLoad={handleLoad}
         beforeLoad={handleLoadStarted}
-        className={cn('image', imageClass)}
+        className={cn('image', imageClass, customClass)}
       />
       {!isLoaded && isLoadStarted && (
         <Blurhash
-          className={cn('blurhash')}
+          className={cn('blurhash', customClass)}
           hash={blurhash}
           resolutionX={32}
           resolutionY={32}
@@ -51,4 +54,5 @@ CustomLazyLoadImage.propTypes = {
   blurhash: PropTypes.string.isRequired,
   containerClass: PropTypes.string,
   imageClass: PropTypes.string,
+  backgroundImage: PropTypes.bool,
 };

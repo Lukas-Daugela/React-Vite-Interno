@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
+import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import styles from './SectionServiceWorkflow.module.scss';
 import texts from './text/workflowTexts.json';
 
@@ -25,7 +26,11 @@ export default function SectionServiceWorkflow() {
               <h3 className={cn('text-side__title')}>{text.title}</h3>
               <p className={cn('text-side__description')}>{text.description}</p>
             </div>
-            <img src={text.imgUrl} alt="" className={cn('workflow-step__image')} />
+            <CustomLazyLoadImage
+              blurhash={text.blurhash}
+              imgUrl={text.imgUrl}
+              containerClass={cn('workflow-step__image')}
+            />
           </div>
         ))}
       </div>
