@@ -1,8 +1,8 @@
-import useMouseMove from '../../hooks';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useEffect, useState } from 'react';
 
+import useMouseMove from '../../hooks';
 import styles from './ModalImage.module.scss';
 
 const cn = classNames.bind(styles);

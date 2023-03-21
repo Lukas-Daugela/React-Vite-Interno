@@ -1,13 +1,12 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import heroImages from '../../shared/heroImages/heroImages.json';
-
 import Hero from '../../components/Hero';
 import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionServices from '../../components/SectionServices';
 import SectionServiceWorkflow from '../../components/SectionServiceWorkflow';
 import MainLayout from '../../layouts/MainLayout';
+import heroImages from '../../shared/heroImages/heroImages.json';
 import styles from './Services.module.scss';
 
 const cn = classNames.bind(styles);
