@@ -28,7 +28,11 @@ export default function Service() {
   return (
     <>
       <MainLayout>
-        <Hero title={'Service Single'} img={service.image} blurhash={service.blurhash} />
+        <Hero
+          title={serviceInfo.cardTitle}
+          img={service.image}
+          blurhash={service.blurhash}
+        />
         <SectionServiceIntro introInfo={serviceInfo} />
         <SectionClients />
         <SectionServiceVideo
