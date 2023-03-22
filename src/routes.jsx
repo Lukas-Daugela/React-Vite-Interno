@@ -11,16 +11,15 @@ const Project = lazy(() => import('./pages/Project'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const UnderDevelopment = lazy(() => import('./pages/UnderDevelopment'));
 
-// Later change to proper Titles
 const TITLES = {
-  HOMEPAGE: 'TITLE',
-  ABOUT: 'TITLE',
-  PROJECTS: 'TITLE',
-  PROJECT: 'TITLE',
-  BLOGS: 'TITLE',
-  CONTACT: 'TITLE',
-  SERVICES: 'TITLE',
-  SERVICE: 'TITLE',
+  HOMEPAGE: 'Home',
+  ABOUT: 'About Us',
+  PROJECTS: 'Projects',
+  PROJECT: 'Project',
+  BLOGS: 'Blogs',
+  CONTACT: 'Contact',
+  SERVICES: 'Services',
+  SERVICE: 'Service',
   NOTFOUND: 'Not Found',
   UNDERDEVELOPMENT: 'Not ready',
 };
