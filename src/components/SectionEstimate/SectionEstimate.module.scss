@@ -74,11 +74,6 @@
     @include body-styles('large');
   }
 
-  &__button-link {
-    display: grid;
-    width: fit-content;
-  }
-
   &__title,
   &__description,
   &__phone,

@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import heroImages from '../../shared/lazyLoadImages/heroImages.json';
 import Button from '../Button';
@@ -9,7 +10,12 @@ import styles from './HomeHero.module.scss';
 const cn = classNames.bind(styles);
 
 export default function HomeHero() {
+  const navigate = useNavigate();
   const { home } = heroImages;
+
+  const handleNavigate = () => {
+    navigate('/services');
+  };
 
   return (
     <div className={cn('hero')}>
@@ -24,7 +30,7 @@ export default function HomeHero() {
           There are many variations of the passages of lorem Ipsum from available,
           variations of the passages.
         </p>
-        <Button>Get Started</Button>
+        <Button onClick={handleNavigate}>Get Started</Button>
       </div>
     </div>
   );
