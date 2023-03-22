@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { BurgerIcon, CloseIcon } from '../../../public/assets/svg';
+import ROUTES from '../../routes';
 import styles from './Navbar.module.scss';
 
 const cn = classNames.bind(styles);
@@ -31,60 +32,17 @@ export default function Navbar() {
         )}
       >
         <ul className={cn('navigation__wrapper')}>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="/"
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="about"
-            >
-              About Us
-            </NavLink>
-          </li>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="services"
-            >
-              Services
-            </NavLink>
-          </li>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="projects"
-            >
-              Projects
-            </NavLink>
-          </li>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="under-development"
-            >
-              Blogs
-            </NavLink>
-          </li>
-          <li className={cn('navigation__option')}>
-            <NavLink
-              className={cn('navigation__link')}
-              onClick={() => setIsBurgerOpen(false)}
-              to="contact"
-            >
-              Contact
-            </NavLink>
-          </li>
+          {ROUTES.filter((route) => route.nav).map((route) => (
+            <li key={route.title} className={cn('navigation__option')}>
+              <NavLink
+                className={cn('navigation__link')}
+                onClick={() => setIsBurgerOpen(false)}
+                to={route.path}
+              >
+                {route.title}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </nav>
     </>
