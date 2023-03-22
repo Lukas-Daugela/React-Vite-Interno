@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Button from '../Button';
 import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
@@ -15,13 +16,19 @@ export default function SectionError({
   imgUrl,
   blurhash,
 }) {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/');
+  };
+
   return (
     <section className={cn('section')}>
       <div className={cn('section__left-side')}>
         <div className={cn('text-container')}>
           <h1 className={cn('text-container__title')}>{title}</h1>
           <p className={cn('text-container__description')}>{description}</p>
-          <Button>{buttonText}</Button>
+          <Button onClick={handleNavigate}>{buttonText}</Button>
         </div>
       </div>
       <CustomLazyLoadImage
