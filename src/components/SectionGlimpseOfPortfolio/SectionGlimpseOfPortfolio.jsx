@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 import imageUrl from '/assets/images/rest-place.jpg';
 
@@ -10,6 +10,12 @@ import styles from './SectionGlimpseOfPortfolio.module.scss';
 const cn = classNames.bind(styles);
 
 export default function SectionGlimpseOfPortfolio() {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/projects');
+  };
+
   return (
     <div className={cn('section')}>
       <div className={cn('section__text-container')}>
@@ -20,9 +26,7 @@ export default function SectionGlimpseOfPortfolio() {
           It is a long established fact that a reader will be distracted by the of
           readable content .
         </p>
-        <Link to={'/projects'} className={cn('section__button-link')}>
-          <Button>Our Portfolio</Button>
-        </Link>
+        <Button onClick={handleNavigate}>Our Portfolio</Button>
       </div>
       <img src={imageUrl} alt="" className={cn('section__image')} />
     </div>

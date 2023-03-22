@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 import Button from '../Button';
 import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
@@ -10,6 +10,12 @@ import texts from './text/workflowTexts.json';
 const cn = classNames.bind(styles);
 
 export default function SectionAboutWorkflow() {
+  const navigate = useNavigate();
+
+  const handleNavigate = (link) => {
+    navigate(link);
+  };
+
   return (
     <div className={cn('workflow')}>
       {texts.map((text) => (
@@ -17,9 +23,9 @@ export default function SectionAboutWorkflow() {
           <div className={cn('workflow-single__text-container')}>
             <h2 className={cn('workflow-single__title')}>{text.title}</h2>
             <p className={cn('workflow-single__description')}>{text.description}</p>
-            <Link to={text.buttonLink}>
-              <Button>{text.buttonTitle}</Button>
-            </Link>
+            <Button onClick={() => handleNavigate(text.buttonLink)}>
+              {text.buttonTitle}
+            </Button>
           </div>
           <CustomLazyLoadImage
             blurhash={text.blurhash}

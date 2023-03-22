@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 import { PhoneIcon } from '../../../public/assets/svg';
 import Button from '../Button';
@@ -12,6 +12,12 @@ const cn = classNames.bind(styles);
 
 export default function SectionEstimate({ imageInfo }) {
   const { blurhash, image } = imageInfo;
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/contact');
+  };
+
   return (
     <div className={cn('estimate')}>
       <div className={cn('estimate__text-container')}>
@@ -32,9 +38,7 @@ export default function SectionEstimate({ imageInfo }) {
             <p className={cn('estimate__phone-text')}>Call Us Anytime</p>
           </span>
         </div>
-        <Link to="/" className={cn('estimate__button-link')}>
-          <Button>Get Free Estimate</Button>
-        </Link>
+        <Button onClick={handleNavigate}>Get Free Estimate</Button>
       </div>
       <CustomLazyLoadImage
         blurhash={blurhash}
