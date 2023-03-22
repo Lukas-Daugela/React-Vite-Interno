@@ -4,9 +4,9 @@
   display: grid;
   gap: 3rem;
   max-width: 1920px;
-  padding-top: 5rem;
   width: 100%;
 
+  @include padding-y(5rem);
   @include media-query('lg') {
     gap: 4%;
     grid-template-columns: 48% 48%;
@@ -56,19 +56,24 @@
     font-weight: 400;
     line-height: 0.9;
     margin: 0;
+    max-width: 100%;
 
     @include media-query('lg') {
       font-size: 15rem;
     }
 
     @include media-query('xxl') {
-      font-size: 25rem;
+      font-size: 20rem;
     }
   }
 
   &__description {
-    margin: 4.5rem 0 2.3rem;
+    margin: 2.5rem 0 2.3rem;
 
     @include heading-styles('medium', $line-height: var(--line-height-base));
+
+    @include media-query('lg') {
+      margin-top: 4.5rem;
+    }
   }
 }
