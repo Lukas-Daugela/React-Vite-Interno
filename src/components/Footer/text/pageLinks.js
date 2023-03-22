@@ -12,7 +12,7 @@ export const pageLinks = [
       },
       {
         title: 'Our Team',
-        link: '/',
+        link: 'under-development',
       },
       {
         title: 'Contact Us',
@@ -28,24 +28,24 @@ export const pageLinks = [
     title: 'Services',
     links: [
       {
-        title: 'Kitchen',
-        link: '/',
+        title: 'Project Plan',
+        link: '/services/Project-Plan',
       },
       {
-        title: 'Living Area',
-        link: '/',
+        title: 'Interior',
+        link: '/services/Interior',
       },
       {
-        title: 'Bathroom',
-        link: '/',
+        title: 'Retail Design',
+        link: '/services/Retail-Design',
       },
       {
-        title: 'Dining Hall',
-        link: '/',
+        title: '2d/3d Art Work',
+        link: '/services/2d-3d-Art',
       },
       {
-        title: 'Bedroom',
-        link: '/',
+        title: 'Decoration',
+        link: '/services/Decoration',
       },
     ],
   },
