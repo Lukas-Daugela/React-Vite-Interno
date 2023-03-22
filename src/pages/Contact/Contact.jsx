@@ -1,14 +1,13 @@
 import React from 'react';
 
-import ContactForm from '../../components/ContactForm/ContactForm';
+import SectionContactUs from '../../components/SectionContactUs/SectionContactUs';
 import MainLayout from '../../layouts/MainLayout';
-import { formTexts } from './texts';
 
 export default function Contact() {
   return (
     <MainLayout>
       <div>Contact</div>
-      <ContactForm text={formTexts} />
+      <SectionContactUs />
     </MainLayout>
   );
 }
