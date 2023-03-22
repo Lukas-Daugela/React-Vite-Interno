@@ -9,6 +9,7 @@ const Services = lazy(() => import('./pages/Services'));
 const Service = lazy(() => import('./pages/Service'));
 const Project = lazy(() => import('./pages/Project'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const UnderDevelopment = lazy(() => import('./pages/UnderDevelopment'));
 
 // Later change to proper Titles
 const TITLES = {
@@ -21,6 +22,7 @@ const TITLES = {
   SERVICES: 'TITLE',
   SERVICE: 'TITLE',
   NOTFOUND: 'Not Found',
+  UNDERDEVELOPMENT: 'Not ready',
 };
 
 const ROUTES = [
@@ -63,6 +65,11 @@ const ROUTES = [
     path: '/services/:serviceId',
     title: TITLES.SERVICE,
     element: <Service />,
+  },
+  {
+    path: '/under-development',
+    title: TITLES.UNDERDEVELOPMENT,
+    element: <UnderDevelopment />,
   },
   {
     path: '*',

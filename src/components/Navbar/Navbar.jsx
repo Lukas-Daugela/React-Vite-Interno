@@ -71,7 +71,7 @@ export default function Navbar() {
             <NavLink
               className={cn('navigation__link')}
               onClick={() => setIsBurgerOpen(false)}
-              to="blogs"
+              to="under-development"
             >
               Blogs
             </NavLink>

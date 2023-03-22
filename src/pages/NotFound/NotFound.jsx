@@ -2,7 +2,7 @@ import React from 'react';
 
 import SectionError from '../../components/SectionError';
 
-export default function Blogs() {
+export default function NotFound() {
   return (
     <SectionError
       blurhash={'UiIhW[D%Rjt7~qaeNFa#IpWBWBofM{NGt7of'}
