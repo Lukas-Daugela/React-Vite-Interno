@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SectionContactUs from '../../components/SectionContactUs/SectionContactUs';
+import SectionMap from '../../components/SectionMap';
 import MainLayout from '../../layouts/MainLayout';
 
 export default function Contact() {
@@ -8,6 +9,7 @@ export default function Contact() {
     <MainLayout>
       <div>Contact</div>
       <SectionContactUs />
+      <SectionMap />
     </MainLayout>
   );
 }
