@@ -10,7 +10,7 @@ export default function SectionMap() {
   const [selected, setSelected] = useState(false);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyBhvxIMflM5ZwsHEa5X5bCWtHXx_b6htlY',
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
   });
 
   // GoogleMap container style
