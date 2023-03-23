@@ -2,6 +2,9 @@ import { GoogleMap, InfoWindow, Marker, useJsApiLoader } from '@react-google-map
 import classNames from 'classnames/bind';
 import React, { useMemo, useState } from 'react';
 
+import locationIcon from '/assets/svg/location-icon.svg';
+
+import { mapStyles } from './mapStyles';
 import styles from './SectionMap.module.scss';
 
 const cn = classNames.bind(styles);
@@ -34,6 +37,7 @@ export default function SectionMap() {
   // GoogleMap options
   const options = useMemo(
     () => ({
+      styles: mapStyles,
       disableDefaultUI: true,
       clickableIcons: false,
     }),
@@ -49,7 +53,11 @@ export default function SectionMap() {
           options={options}
           mapContainerStyle={containerStyle}
         >
-          <Marker position={center} onClick={() => setSelected(!selected)} />
+          <Marker
+            position={center}
+            icon={locationIcon}
+            onClick={() => setSelected(!selected)}
+          />
         </GoogleMap>
       )}
     </div>
