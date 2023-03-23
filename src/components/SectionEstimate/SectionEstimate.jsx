@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { useNavigate } from 'react-router';
 
-import { PhoneIcon } from '../../../public/assets/svg';
+import phoneIcon from '/assets/svg/phone-icon.svg';
+
 import Button from '../Button';
 import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
 import styles from './SectionEstimate.module.scss';
@@ -31,7 +32,7 @@ export default function SectionEstimate({ imageInfo }) {
         </p>
         <div className={cn('estimate__phone-container')}>
           <div className={cn('estimate__circle')}>
-            <PhoneIcon className={cn('estimate__circle__img')} />
+            <img src={phoneIcon} alt="" className={cn('estimate__circle__img')} />
           </div>
           <span className={cn('estimate__phone-text-container')}>
             <p className={cn('estimate__phone')}>012345678</p>

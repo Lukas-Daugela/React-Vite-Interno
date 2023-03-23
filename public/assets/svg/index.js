@@ -4,7 +4,6 @@ import Minus from './Minus';
 import Chevron from './Chevron';
 import BurgerIcon from './BurgerIcon';
 import CloseIcon from './CloseIcon';
-import PhoneIcon from './PhoneIcon';
 import CommaIcon from './CommaIcon';
 import VideoPlayIcon from './VideoPlayIcon';
 import SearchIcon from './SearchIcon';
@@ -17,7 +16,6 @@ export {
   CloseIcon,
   BurgerIcon,
   VideoPlayIcon,
-  PhoneIcon,
   CommaIcon,
   SearchIcon,
 };

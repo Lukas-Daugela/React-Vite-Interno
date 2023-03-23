@@ -1,3 +1,4 @@
+import contactCard from './contactCard.json';
 import formTexts from './formTexts.json';
 
-export { formTexts };
+export { contactCard, formTexts };
