@@ -1,14 +1,19 @@
 import React from 'react';
 
-import ContactForm from '../../components/ContactForm/ContactForm';
+import Hero from '../../components/Hero';
+import SectionContactUs from '../../components/SectionContactUs/SectionContactUs';
+import SectionMap from '../../components/SectionMap';
 import MainLayout from '../../layouts/MainLayout';
-import { formTexts } from './texts';
+import heroImages from '../../shared/lazyLoadImages/heroImages.json';
 
 export default function Contact() {
+  const { contact } = heroImages;
+
   return (
     <MainLayout>
-      <div>Contact</div>
-      <ContactForm text={formTexts} />
+      <Hero blurhash={contact.blurhash} img={contact.image} title={'Contact Us'} />
+      <SectionContactUs />
+      <SectionMap />
     </MainLayout>
   );
 }
