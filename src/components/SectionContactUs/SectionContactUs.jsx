@@ -10,8 +10,6 @@ import { contactCard, formTexts } from './texts';
 const cn = classNames.bind(styles);
 
 export default function SectionContactUs() {
-  console.log(socialInfo.socialIcons);
-
   return (
     <div>
       <h2 className={cn('contact__title')}>
