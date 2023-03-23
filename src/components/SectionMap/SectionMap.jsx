@@ -4,6 +4,7 @@ import React, { useMemo, useState } from 'react';
 
 import locationIcon from '/assets/svg/location-icon.svg';
 
+import MarkerInfo from '../MarkerInfo';
 import { mapStyles } from './mapStyles';
 import styles from './SectionMap.module.scss';
 
@@ -58,6 +59,12 @@ export default function SectionMap() {
             icon={locationIcon}
             onClick={() => setSelected(!selected)}
           />
+
+          {selected && (
+            <InfoWindow position={center} onCloseClick={() => setSelected(false)}>
+              <MarkerInfo />
+            </InfoWindow>
+          )}
         </GoogleMap>
       )}
     </div>
