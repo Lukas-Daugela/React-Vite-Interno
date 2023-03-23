@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "What we do",
+    "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+    "buttonTitle": "Our Concept",
+    "buttonLink": "/services",
+    "imgUrl": "/assets/images/messy-garage.jpg",
+    "blurhash": "UDFOcRyX.9.T4:-:-:R*00Di4nI9ozIAD%M{"
+  },
+  {
+    "id": 2,
+    "title": "The End Result",
+    "description": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.",
+    "buttonTitle": "Our Portfolio",
+    "buttonLink": "/projects",
+    "imgUrl": "/assets/images/modern-living-room.jpg",
+    "blurhash": "UIOWjD_3?w-=.T?bxa%NDhRjIUM_tSWAxuof"
+  }
+]
