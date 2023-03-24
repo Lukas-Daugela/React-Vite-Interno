@@ -1,5 +1,6 @@
 :root {
   /* Colors */
+  --color-dark-110: #191c20;
   --color-dark-130: #1f2022;
   --color-dark-190: #292f36;
   --color-dark-310: #4d5053;
@@ -15,6 +16,7 @@
 
   --color-red-50: #ff0000;
 
+  --color-golden-570: #b99268;
   --color-golden-630: #cda274;
   --color-golden-940: #f4f0ec;
 
@@ -35,4 +37,11 @@
   --font-size-base: 1.6rem;
 
   --container-width: 1200px;
+
+  /* buttons */
+
+  --btn-base: var(--color-secondary);
+  --btn-primary: var(--color-primary);
+  --btn-secondary: var(--color-dark-110);
+  --btn-tertiary: var(--color-golden-570);
 }

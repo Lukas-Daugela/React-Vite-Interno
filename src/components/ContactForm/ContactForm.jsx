@@ -96,7 +96,11 @@ export default function ContactForm({ text, checkboxText }) {
         )}
       </Formik>
       {showMessage && (
-        <Modal ariaLabel="testing" isOpen={showMessage} onClose={handleModalOnClose}>
+        <Modal
+          ariaLabel="Successful submit message"
+          isOpen={showMessage}
+          onClose={handleModalOnClose}
+        >
           <AfterSubmitMessage />
         </Modal>
       )}
