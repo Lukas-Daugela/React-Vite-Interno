@@ -1,15 +1,5 @@
 @import '../../sass/mixins/index';
 
-@keyframes slide {
-  50% {
-    transform: translateX(10px);
-  }
-
-  100% {
-    transform: translate(0);
-  }
-}
-
 .image {
   width: 1.5rem;
 
@@ -47,7 +37,7 @@
   }
 
   &:hover .image {
-    animation: slide 0.7s ease-in-out;
+    @include arrow-slide-animation(0.7s);
   }
 
   .path {

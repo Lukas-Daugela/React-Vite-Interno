@@ -1,0 +1,13 @@
+@keyframes slide {
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@mixin arrow-slide-animation($seconds) {
+  animation: slide $seconds ease-in-out;
+}
