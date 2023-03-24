@@ -26,7 +26,7 @@ export default function SectionServiceVideo({ thumbnail, videoUrl, blurhash }) {
       <button onClick={handleModalOpen} className={cn('modal-button')}>
         <CustomLazyLoadImage blurhash={blurhash} imgUrl={thumbnail} />
         <div className={cn('modal-button__play-icon-container')}>
-          <VideoPlayIcon />
+          <VideoPlayIcon className={cn('modal-button__icon')} />
         </div>
       </button>
       {isOpen && (

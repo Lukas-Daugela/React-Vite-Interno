@@ -1,5 +1,9 @@
 @import '../../sass/mixins/index';
 
+.modal-button__icon {
+  transition: width 0.2s linear, height 0.2s linear;
+}
+
 .modal-button {
   border: unset;
   border-radius: 70px;
@@ -8,6 +12,10 @@
   padding: 0;
   position: relative;
   width: 100%;
+
+  &:hover &__icon {
+    @include size-animation(2.1rem, 3.2rem, 0.7s);
+  }
 
   @include media-query('md') {
     height: 37.4rem;
@@ -25,10 +33,5 @@
     width: 10rem;
 
     @include flex-center;
-
-    @include media-query('xl') {
-      height: 13.2rem;
-      width: 13.2rem;
-    }
   }
 }
