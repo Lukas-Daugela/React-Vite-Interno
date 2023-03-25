@@ -9,12 +9,12 @@ const cn = classNames.bind(styles);
 
 export default function Button({ children, styleType, type, onClick }) {
   const customBtnClass = styleType ? `button__${styleType}` : '';
-  const customImgClass = styleType ? `image__${styleType}` : '';
+  const customImgClass = styleType ? `path__${styleType}` : '';
 
   return (
     <button onClick={onClick} type={type} className={cn('button', customBtnClass)}>
       {children}
-      <Arrow className={cn('image', customImgClass)} />
+      <Arrow svgClassName={cn('image')} pathClassName={cn('path', customImgClass)} />
     </button>
   );
 }

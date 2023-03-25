@@ -29,16 +29,19 @@ CircleLink.propTypes = {
   className: PropTypes.string,
 };
 
-export function ArrowLink({ children, path }) {
+export function ArrowLink({ children, path, arrowIconClassName, linkClassName }) {
   const navigate = useNavigate();
 
   const handleLink = () => {
     navigate(path);
   };
   return (
-    <a className={cn('arrow-link')} onClick={handleLink}>
+    <a className={cn('arrow-link', linkClassName)} onClick={handleLink}>
       {children}
-      <Arrow className={cn('arrow-link__icon')} />
+      <Arrow
+        pathClassName={cn('arrow-link__path')}
+        svgClassName={cn('arrow-link__icon', arrowIconClassName)}
+      />
     </a>
   );
 }
@@ -46,4 +49,6 @@ export function ArrowLink({ children, path }) {
 ArrowLink.propTypes = {
   children: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
+  arrowIconClassName: PropTypes.string,
+  linkClassName: PropTypes.string,
 };

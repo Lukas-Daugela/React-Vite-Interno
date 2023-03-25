@@ -28,7 +28,7 @@ export default function SectionProjectDetailsImage({ image, className }) {
         style={{ backgroundImage: `url("${image}")` }}
       >
         <div className={cn('modal-button__icon-container')}>
-          <SearchIcon />
+          <SearchIcon className={cn('modal-button__icon')} />
         </div>
       </button>
       {isOpen && (

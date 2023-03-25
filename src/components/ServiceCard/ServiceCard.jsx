@@ -14,7 +14,13 @@ export default function ServiceCard({ text }) {
     <div className={cn('service-card')}>
       <h4 className={cn('service-card__title')}>{cardTitle}</h4>
       <p className={cn('service-card__description')}>{description}</p>
-      <ArrowLink path={`/services/${serviceId}`}>Read More</ArrowLink>
+      <ArrowLink
+        linkClassName={cn('arrow-text')}
+        path={`/services/${serviceId}`}
+        arrowIconClassName={cn('arrow-animation')}
+      >
+        Read More
+      </ArrowLink>
     </div>
   );
 }
