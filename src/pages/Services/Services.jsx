@@ -1,12 +1,12 @@
+import Hero from '@components/molecules/Hero';
+import MainLayout from '@layouts/MainLayout';
+import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import Hero from '@components/molecules/Hero';
 import SectionJoinTeam from '../../components/SectionJoinTeam';
-import SectionServices from '../../components/SectionServices';
-import SectionServiceWorkflow from '../../components/SectionServiceWorkflow';
-import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/lazyLoadImages/heroImages.json';
+import SectionServices from './components/SectionServices';
+import SectionServiceWorkflow from './components/SectionServiceWorkflow';
 import styles from './Services.module.scss';
 
 const cn = classNames.bind(styles);
