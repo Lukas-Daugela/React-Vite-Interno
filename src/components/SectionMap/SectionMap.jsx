@@ -4,7 +4,7 @@ import React, { useMemo, useState } from 'react';
 
 import locationIcon from '/assets/svg/location-icon.svg';
 
-import MarkerInfo from '../MarkerInfo';
+import MarkerInfo from '@components/atoms/MarkerInfo';
 import { mapStyles } from './mapStyles';
 import styles from './SectionMap.module.scss';
 

@@ -2,9 +2,9 @@ import className from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { SearchIcon } from '../../../public/assets/svg';
+import { SearchIcon } from '@assets/svg';
 import Modal from '../Modal';
-import ModalImage from '../ModalImage';
+import ModalImage from '@components/atoms/ModalImage';
 import styles from './SectionProjectDetailsImage.module.scss';
 
 const cn = className.bind(styles);

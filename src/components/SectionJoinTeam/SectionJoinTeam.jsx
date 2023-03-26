@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Button from '../Button';
+import Button from '@components/atoms/Button';
 import styles from './SectionJoinTeam.module.scss';
 
 const cn = classNames.bind(styles);

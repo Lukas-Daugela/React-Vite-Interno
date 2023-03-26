@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import PaginationPageLink from '../PaginationPageLink/PaginationPageLink';
+import PaginationPageLink from '@components/atoms/PaginationPageLink';
 import styles from './PagePagination.module.scss';
 
 const cn = classNames.bind(styles);

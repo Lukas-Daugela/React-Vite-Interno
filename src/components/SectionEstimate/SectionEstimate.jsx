@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router';
 
 import phoneIcon from '/assets/svg/phone-icon.svg';
 
-import Button from '../Button';
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import Button from '@components/atoms/Button';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './SectionEstimate.module.scss';
 
 const cn = classNames.bind(styles);

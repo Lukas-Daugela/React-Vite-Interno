@@ -4,7 +4,7 @@ import React from 'react';
 import { buttonsCategories } from '../../shared/constants/texts';
 import { filterProjects } from '../../shared/functions/dataFilter';
 import { projects } from '../../shared/projects';
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './SectionHomeProjects.module.scss';
 

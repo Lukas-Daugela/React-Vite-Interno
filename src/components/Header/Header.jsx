@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import Navbar from '../Navbar';
-import PageLogo from '../PageLogo/PageLogo';
+import PageLogo from '@components/atoms/PageLogo';
 import styles from './Header.module.scss';
 
 const cn = classNames.bind(styles);

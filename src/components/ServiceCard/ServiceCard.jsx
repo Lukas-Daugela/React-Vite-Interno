@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { ArrowLink } from '../CustomLink';
+import { ArrowLink } from '@components/atoms/CustomLink';
 import styles from './ServiceCard.module.scss';
 
 const cn = classNames.bind(styles);

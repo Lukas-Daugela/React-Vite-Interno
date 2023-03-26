@@ -3,8 +3,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import heroImages from '../../shared/lazyLoadImages/heroImages.json';
-import Button from '../Button';
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import Button from '@components/atoms/Button';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './HomeHero.module.scss';
 
 const cn = classNames.bind(styles);

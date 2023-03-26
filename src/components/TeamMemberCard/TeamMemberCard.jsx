@@ -8,7 +8,7 @@ import instagramIcon from '/assets/svg/socialMediaIcons/instagram.svg';
 import linkedinIcon from '/assets/svg/socialMediaIcons/linkedin.svg';
 import twitterIcon from '/assets/svg/socialMediaIcons/twitter.svg';
 
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './TeamMemberCard.module.scss';
 
 const cn = classNames.bind(styles);

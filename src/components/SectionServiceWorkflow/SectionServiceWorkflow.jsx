@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './SectionServiceWorkflow.module.scss';
 import texts from './text/workflowTexts.json';
 

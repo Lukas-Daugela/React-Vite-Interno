@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './Hero.module.scss';
 
 const cn = classNames.bind(styles);

@@ -2,10 +2,10 @@ import className from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { VideoPlayIcon } from '../../../public/assets/svg';
-import CustomLazyLoadImage from '../CustomLazyLoadImage/CustomLazyLoadImage';
+import { VideoPlayIcon } from '@assets/svg';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import Modal from '../Modal';
-import ModalVideo from '../ModalVideo/ModalVideo';
+import ModalVideo from '@components/atoms/ModalVideo';
 import styles from './SectionServiceVideo.module.scss';
 
 const cn = className.bind(styles);

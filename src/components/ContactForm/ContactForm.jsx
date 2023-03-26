@@ -6,13 +6,13 @@ import React, { useState } from 'react';
 import {
   contactCheckboxValidationSchema,
   contactValidationSchema,
-} from '../../shared/form/validation/validationSchema';
-import AfterSubmitMessage from '../AfterSubmitMessage/AfterSubmitMessage';
-import Button from '../Button';
-import Checkbox from '../Checkbox';
+} from '@shared/form/validation/validationSchema';
+import AfterSubmitMessage from '@components/atoms/AfterSubmitMessage';
+import Button from '@components/atoms/Button';
+import Checkbox from '@components/atoms/Checkbox';
 import Modal from '../Modal';
-import TextArea from '../TextArea';
-import TextInput from '../TextInput';
+import TextArea from '@components/atoms/TextArea';
+import TextInput from '@components/atoms/TextInput';
 import styles from './ContactForm.module.scss';
 
 const cn = classNames.bind(styles);

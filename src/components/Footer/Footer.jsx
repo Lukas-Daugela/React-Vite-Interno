@@ -1,9 +1,9 @@
+import FooterListCard from '@components/atoms/FooterListCard';
+import FooterSocialCard from '@components/atoms/FooterSocialCard';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import FooterListCard from '../FooterListCard';
-import FooterSocialCard from '../FooterSocialCard/FooterSocialCard';
 import styles from './Footer.module.scss';
 import { contactInfo, pageLinks, socialInfo } from './text';
 

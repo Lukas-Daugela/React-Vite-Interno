@@ -1,7 +1,7 @@
+import Loader from '@components/atoms/Loader';
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Loader from './components/Loader/Loader';
 import PageLayout from './layouts/PageLayout';
 import ROUTES from './routes';
 

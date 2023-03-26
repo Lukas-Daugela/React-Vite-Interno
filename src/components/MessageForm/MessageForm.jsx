@@ -1,18 +1,18 @@
+import AfterSubmitMessage from '@components/atoms/AfterSubmitMessage';
+import Button from '@components/atoms/Button';
+import Checkbox from '@components/atoms/Checkbox';
+import TextArea from '@components/atoms/TextArea';
+import TextInput from '@components/atoms/TextInput';
+import {
+  messageCheckboxValidationSchema,
+  messageValidationSchema,
+} from '@shared/form/validation/validationSchema';
 import classNames from 'classnames/bind';
 import { Form, Formik } from 'formik';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import {
-  messageCheckboxValidationSchema,
-  messageValidationSchema,
-} from '../../shared/form/validation/validationSchema';
-import AfterSubmitMessage from '../AfterSubmitMessage';
-import Button from '../Button';
-import Checkbox from '../Checkbox';
 import Modal from '../Modal';
-import TextArea from '../TextArea';
-import TextInput from '../TextInput';
 import styles from './MessageForm.module.scss';
 
 const cn = classNames.bind(styles);

@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { CircleLink } from '../CustomLink/CustomLink';
+import { CircleLink } from '@components/atoms/CustomLink';
 import styles from './ProjectCard.module.scss';
 
 const cn = classNames.bind(styles);
