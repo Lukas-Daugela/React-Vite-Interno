@@ -1,8 +1,8 @@
+import NewsCard from '@components/molecules/NewsCard';
+import { newsCards } from '@shared';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import { newsCards } from '@shared';
-import NewsCard from '@components/molecules/NewsCard';
 import styles from './SectionHomeNews.module.scss';
 
 const cn = classNames.bind(styles);

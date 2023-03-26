@@ -1,3 +1,5 @@
+import Button from '@components/atoms/Button';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -5,8 +7,6 @@ import { useNavigate } from 'react-router';
 
 import phoneIcon from '/assets/svg/phone-icon.svg';
 
-import Button from '@components/atoms/Button';
-import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import styles from './SectionEstimate.module.scss';
 
 const cn = classNames.bind(styles);

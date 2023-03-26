@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import React from 'react';
 
 import { employeesText } from '../../shared';
-import TeamMemberCard from '@components/moleculesTeamMemberCard';
+import TeamMemberCard from '@components/molecules/TeamMemberCard';
 import styles from './SectionTeamCards.module.scss';
 
 const cn = classNames.bind(styles);
