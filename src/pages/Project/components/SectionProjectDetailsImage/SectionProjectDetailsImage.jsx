@@ -1,10 +1,10 @@
+import { SearchIcon } from '@assets/svg';
+import ModalImage from '@components/atoms/ModalImage';
+import Modal from '@components/molecules/Modal';
 import className from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { SearchIcon } from '@assets/svg';
-import Modal from '@components/molecules/Modal';
-import ModalImage from '@components/atoms/ModalImage';
 import styles from './SectionProjectDetailsImage.module.scss';
 
 const cn = className.bind(styles);

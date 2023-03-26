@@ -1,8 +1,8 @@
+import ProjectDetailsCard from '@components/atoms/ProjectDetailsCard';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import ProjectDetailsCard from '@components/atoms/ProjectDetailsCard';
 import styles from './SectionProjectDetails.module.scss';
 
 const cn = classNames.bind(styles);
