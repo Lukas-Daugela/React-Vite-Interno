@@ -1,13 +1,13 @@
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
+import { CircleLink } from '@components/atoms/CustomLink';
+import PagePagination from '@components/molecules/PagePagination';
+import SlidingButton from '@components/molecules/SlidingButton';
+import { buttonsCategories } from '@shared/constants/texts';
+import { filterProjects } from '@shared/functions/dataFilter';
+import { projects } from '@shared/projects';
 import classNames from 'classnames/bind';
 import React, { useState } from 'react';
 
-import { buttonsCategories } from '../../shared/constants/texts';
-import { filterProjects } from '../../shared/functions/dataFilter';
-import { projects } from '../../shared/projects';
-import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
-import { CircleLink } from '@components/atoms/CustomLink';
-import PagePagination from '../PagePagination';
-import SlidingButton from '../SlidingButton/SlidingButton';
 import styles from './SectionProjects.module.scss';
 
 const cn = classNames.bind(styles);

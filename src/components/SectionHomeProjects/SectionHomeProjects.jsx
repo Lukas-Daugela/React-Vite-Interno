@@ -1,11 +1,11 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import { buttonsCategories } from '../../shared/constants/texts';
-import { filterProjects } from '../../shared/functions/dataFilter';
-import { projects } from '../../shared/projects';
+import { buttonsCategories } from '@shared/constants/texts';
+import { filterProjects } from '@shared/functions/dataFilter';
+import { projects } from '@shared/projects';
 import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
-import ProjectCard from '../ProjectCard/ProjectCard';
+import ProjectCard from '@components/molecules/ProjectCard';
 import styles from './SectionHomeProjects.module.scss';
 
 const cn = classNames.bind(styles);

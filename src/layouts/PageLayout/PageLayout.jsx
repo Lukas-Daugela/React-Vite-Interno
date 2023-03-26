@@ -1,10 +1,10 @@
+import Footer from '@components/molecules/Footer';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
+import Header from '@components/Header';
 import ROUTES from '../../routes';
 import styles from './PageLayout.module.scss';
 

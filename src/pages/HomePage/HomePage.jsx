@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import HomeHero from '../../components/HomeHero';
+import HomeHero from '@components/molecules/HomeHero';
 import SectionAchievments from '../../components/SectionAchievments';
 import SectionClients from '../../components/SectionClients';
 import SectionEstimate from '../../components/SectionEstimate';

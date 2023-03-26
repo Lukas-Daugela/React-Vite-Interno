@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import Hero from '../../components/Hero';
+import Hero from '@components/molecules/Hero';
 import SectionJoinTeam from '../../components/SectionJoinTeam';
 import SectionServices from '../../components/SectionServices';
 import SectionServiceWorkflow from '../../components/SectionServiceWorkflow';

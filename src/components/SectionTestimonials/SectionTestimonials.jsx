@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import TestimonialCard from '../TestimonialCard';
+import TestimonialCard from '@components/molecules/TestimonialCard';
 import styles from './SectionTestimonials.module.scss';
 import testimonialsInfo from './text/testimonialsText.json';
 

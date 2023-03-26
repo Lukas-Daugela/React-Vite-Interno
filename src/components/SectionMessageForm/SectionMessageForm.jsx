@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import MessageForm from '../MessageForm';
+import MessageForm from '@components/molecules/MessageForm';
 import styles from './SectionMessageForm.module.scss';
 import formTexts from './texts/formTexts.json';
 

@@ -1,9 +1,9 @@
+import ContactForm from '@components/molecules/ContactForm';
+import { socialInfo } from '@components/molecules/Footer/text/socialAndContact';
 import classNames from 'classnames/bind';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ContactForm from '../ContactForm/ContactForm';
-import { socialInfo } from '../Footer/text/socialAndContact';
 import styles from './SectionContactUs.module.scss';
 import { contactCard, formTexts } from './texts';
 

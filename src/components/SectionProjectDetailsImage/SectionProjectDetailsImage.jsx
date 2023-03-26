@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
 import { SearchIcon } from '@assets/svg';
-import Modal from '../Modal';
+import Modal from '@components/molecules/Modal';
 import ModalImage from '@components/atoms/ModalImage';
 import styles from './SectionProjectDetailsImage.module.scss';
 

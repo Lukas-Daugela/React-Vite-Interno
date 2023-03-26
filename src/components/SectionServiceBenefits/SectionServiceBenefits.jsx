@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import BenefitsOrderedList from '../BenefitsOrderedList/BenefitsOrderedList';
+import BenefitsOrderedList from '@components/molecules/BenefitsOrderedList';
 import styles from './SectionServiceBenefits.module.scss';
 import benefitLists from './texts/benefitLists.json';
 

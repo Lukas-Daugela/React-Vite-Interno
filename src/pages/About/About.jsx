@@ -1,6 +1,6 @@
+import Hero from '@components/molecules/Hero';
 import React from 'react';
 
-import Hero from '../../components/Hero';
 import SectionAboutWorkflow from '../../components/SectionAboutWorkflow';
 import SectionCommaV1 from '../../components/SectionCommaV1';
 import SectionMessageForm from '../../components/SectionMessageForm';

@@ -1,8 +1,8 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import { serviceCards } from '../../shared';
-import ServiceCard from '../ServiceCard';
+import { serviceCards } from '@shared';
+import ServiceCard from '@components/molecules/ServiceCard';
 import styles from './SectionHomeServices.module.scss';
 
 const cn = classNames.bind(styles);

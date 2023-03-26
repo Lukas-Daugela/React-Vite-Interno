@@ -1,1 +1,1 @@
-export { default } from './BenefitsOrderedList';
+export { default } from './SectionContactUs';

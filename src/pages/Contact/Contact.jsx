@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Hero from '../../components/Hero';
+import Hero from '@components/molecules/Hero';
 import SectionContactUs from '../../components/SectionContactUs/SectionContactUs';
 import SectionMap from '../../components/SectionMap';
 import MainLayout from '../../layouts/MainLayout';
