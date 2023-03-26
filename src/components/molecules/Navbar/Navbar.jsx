@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import ROUTES from '../../../routes';
+import ROUTES from '@shared/routes';
 import styles from './Navbar.module.scss';
 
 const cn = classNames.bind(styles);

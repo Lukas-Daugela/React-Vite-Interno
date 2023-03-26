@@ -3,7 +3,7 @@ import PageLayout from '@layouts/PageLayout';
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import ROUTES from '../../routes';
+import ROUTES from '@shared/routes';
 
 export default function App() {
   return (

@@ -1,15 +1,15 @@
 import React, { lazy } from 'react';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const About = lazy(() => import('./pages/About'));
-const Projects = lazy(() => import('./pages/Projects'));
-// const Blogs = lazy(() => import('./pages/Blogs'));
-const Contact = lazy(() => import('./pages/Contact'));
-const Services = lazy(() => import('./pages/Services'));
-const Service = lazy(() => import('./pages/Service'));
-const Project = lazy(() => import('./pages/Project'));
-const NotFound = lazy(() => import('./pages/NotFound'));
-const UnderDevelopment = lazy(() => import('./pages/UnderDevelopment'));
+const HomePage = lazy(() => import('../pages/HomePage'));
+const About = lazy(() => import('../pages/About'));
+const Projects = lazy(() => import('../pages/Projects'));
+// const Blogs = lazy(() => import('../pages/Blogs'));
+const Contact = lazy(() => import('../pages/Contact'));
+const Services = lazy(() => import('../pages/Services'));
+const Service = lazy(() => import('../pages/Service'));
+const Project = lazy(() => import('../pages/Project'));
+const NotFound = lazy(() => import('../pages/NotFound'));
+const UnderDevelopment = lazy(() => import('../pages/UnderDevelopment'));
 
 const TITLES = {
   HOMEPAGE: 'Home',
