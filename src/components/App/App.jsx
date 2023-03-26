@@ -1,11 +1,11 @@
 import Loader from '@components/atoms/Loader';
+import PageLayout from '@layouts/PageLayout';
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import PageLayout from './layouts/PageLayout';
-import ROUTES from './routes';
+import ROUTES from '../../routes';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <PageLayout>
@@ -20,5 +20,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
