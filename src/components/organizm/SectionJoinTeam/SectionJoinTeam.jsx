@@ -12,7 +12,7 @@ export default function SectionJoinTeam({ className }) {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('contact');
+    navigate('/contact');
   };
 
   return (
