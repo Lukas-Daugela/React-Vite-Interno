@@ -3,6 +3,6 @@ import {
   bedroom,
   kitchen,
   livingroom,
-} from '../components/SectionProjects/projectsInfo';
+} from '../pages/Projects/components/SectionProjects/projectsInfo';
 
 export const projects = [bedroom, bathroom, kitchen, livingroom];
