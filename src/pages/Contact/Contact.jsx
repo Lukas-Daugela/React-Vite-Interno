@@ -1,10 +1,10 @@
+import Hero from '@components/molecules/Hero';
+import MainLayout from '@layouts/MainLayout';
+import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import React from 'react';
 
-import Hero from '@components/molecules/Hero';
-import SectionContactUs from '../../components/SectionContactUs/SectionContactUs';
-import SectionMap from '../../components/SectionMap';
-import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/lazyLoadImages/heroImages.json';
+import SectionContactUs from './components/SectionContactUs/';
+import SectionMap from './components/SectionMap';
 
 export default function Contact() {
   const { contact } = heroImages;

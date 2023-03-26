@@ -1,10 +1,10 @@
+import MarkerInfo from '@components/atoms/MarkerInfo';
 import { GoogleMap, InfoWindow, Marker, useJsApiLoader } from '@react-google-maps/api';
 import classNames from 'classnames/bind';
 import React, { useMemo, useState } from 'react';
 
 import locationIcon from '/assets/svg/location-icon.svg';
 
-import MarkerInfo from '@components/atoms/MarkerInfo';
 import { mapStyles } from './mapStyles';
 import styles from './SectionMap.module.scss';
 
