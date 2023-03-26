@@ -1,10 +1,10 @@
+import Button from '@components/atoms/Button';
 import classNames from 'classnames/bind';
 import React from 'react';
 import { useNavigate } from 'react-router';
 
 import imageUrl from '/assets/images/rest-place.jpg';
 
-import Button from '@components/atoms/Button';
 import styles from './SectionGlimpseOfPortfolio.module.scss';
 
 const cn = classNames.bind(styles);

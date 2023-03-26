@@ -1,11 +1,11 @@
+import { VideoPlayIcon } from '@assets/svg';
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
+import ModalVideo from '@components/atoms/ModalVideo';
+import Modal from '@components/molecules/Modal';
 import className from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import { VideoPlayIcon } from '@assets/svg';
-import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
-import Modal from '@components/molecules/Modal';
-import ModalVideo from '@components/atoms/ModalVideo';
 import styles from './SectionServiceVideo.module.scss';
 
 const cn = className.bind(styles);
