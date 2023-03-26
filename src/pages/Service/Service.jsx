@@ -1,18 +1,18 @@
+import Hero from '@components/molecules/Hero';
+import SectionAchievments from '@components/organizm/SectionAchievments';
+import CustomLayout from '@layouts/CustomLayout/CustomLayout';
+import MainLayout from '@layouts/MainLayout';
+import { serviceCards } from '@shared';
+import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import classNames from 'classnames/bind';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import Hero from '../../components/Hero';
-import SectionAchievments from '../../components/SectionAchievments';
-import SectionClients from '../../components/SectionClients';
-import SectionGlimpseOfPortfolio from '../../components/SectionGlimpseOfPortfolio/SectionGlimpseOfPortfolio';
-import SectionServiceBenefits from '../../components/SectionServiceBenefits';
-import SectionServiceIntro from '../../components/SectionServiceIntro';
-import SectionServiceVideo from '../../components/SectionServiceVideo';
-import CustomLayout from '../../layouts/CustomLayout/CustomLayout';
-import MainLayout from '../../layouts/MainLayout';
-import { serviceCards } from '../../shared';
-import heroImages from '../../shared/lazyLoadImages/heroImages.json';
+import SectionClients from '@components/organizm/SectionClients';
+import SectionGlimpseOfPortfolio from './components/SectionGlimpseOfPortfolio';
+import SectionServiceBenefits from './components/SectionServiceBenefits';
+import SectionServiceIntro from './components/SectionServiceIntro';
+import SectionServiceVideo from './components/SectionServiceVideo';
 import styles from './Service.module.scss';
 
 const cn = classNames.bind(styles);

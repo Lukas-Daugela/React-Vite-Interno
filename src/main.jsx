@@ -1,9 +1,8 @@
-import './sass/index.scss';
+import '@sass/index.scss';
 
+import App from '@components/App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

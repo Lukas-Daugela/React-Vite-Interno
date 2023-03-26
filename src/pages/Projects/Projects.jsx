@@ -1,9 +1,9 @@
+import Hero from '@components/molecules/Hero';
+import MainLayout from '@layouts/MainLayout';
+import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import React from 'react';
 
-import Hero from '../../components/Hero';
-import SectionProjects from '../../components/SectionProjects/SectionProjects';
-import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/lazyLoadImages/heroImages.json';
+import SectionProjects from './components/SectionProjects';
 
 export default function Projects() {
   const { projects } = heroImages;

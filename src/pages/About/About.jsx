@@ -1,13 +1,13 @@
+import Hero from '@components/molecules/Hero';
+import SectionCommaV1 from '@components/organizm/SectionCommaV1';
+import SectionMessageForm from '@components/organizm/SectionMessageForm';
+import CustomLayout from '@layouts/CustomLayout';
+import MainLayout from '@layouts/MainLayout';
+import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import React from 'react';
 
-import Hero from '../../components/Hero';
-import SectionAboutWorkflow from '../../components/SectionAboutWorkflow';
-import SectionCommaV1 from '../../components/SectionCommaV1';
-import SectionMessageForm from '../../components/SectionMessageForm';
-import SectionTeamCards from '../../components/SectionTeamCards';
-import CustomLayout from '../../layouts/CustomLayout';
-import MainLayout from '../../layouts/MainLayout';
-import heroImages from '../../shared/lazyLoadImages/heroImages.json';
+import SectionTeamCards from '@components/organizm/SectionTeamCards';
+import SectionAboutWorkflow from './components/SectionAboutWorkflow';
 
 export default function About() {
   const { about } = heroImages;

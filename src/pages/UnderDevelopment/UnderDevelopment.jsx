@@ -1,6 +1,5 @@
+import SectionError from '@components/organizm/SectionError';
 import React from 'react';
-
-import SectionError from '../../components/SectionError';
 
 export default function UnderDevelopment() {
   return (
