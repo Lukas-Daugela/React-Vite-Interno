@@ -1,12 +1,12 @@
+import SectionAchievments from '@components/organizm/SectionAchievments';
 import CustomLayout from '@layouts/CustomLayout/CustomLayout';
 import MainLayout from '@layouts/MainLayout';
 import homePageImages from '@shared/lazyLoadImages/homePageImages.json';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import SectionAchievments from '../../components/SectionAchievments';
-import SectionClients from '../../components/SectionClients';
-import SectionJoinTeam from '../../components/SectionJoinTeam';
+import SectionClients from '@components/organizm/SectionClients';
+import SectionJoinTeam from '@components/organizm/SectionJoinTeam';
 import HomeHero from './components/HomeHero';
 import SectionEstimate from './components/SectionEstimate';
 import SectionHomeNews from './components/SectionHomeNews';

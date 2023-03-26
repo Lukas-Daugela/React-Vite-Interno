@@ -4,7 +4,7 @@ import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import SectionJoinTeam from '../../components/SectionJoinTeam';
+import SectionJoinTeam from '@components/organizm/SectionJoinTeam';
 import SectionServices from './components/SectionServices';
 import SectionServiceWorkflow from './components/SectionServiceWorkflow';
 import styles from './Services.module.scss';

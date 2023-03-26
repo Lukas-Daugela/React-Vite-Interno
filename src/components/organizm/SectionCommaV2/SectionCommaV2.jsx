@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import { CommaIcon } from '../../../public/assets/svg';
+import { CommaIcon } from '@assets/svg';
 import styles from './SectionCommaV2.module.scss';
 
 const cn = classNames.bind(styles);

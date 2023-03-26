@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SectionError from '../../components/SectionError';
+import SectionError from '@components/organizm/SectionError';
 
 export default function NotFound() {
   return (

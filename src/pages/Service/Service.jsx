@@ -1,4 +1,5 @@
 import Hero from '@components/molecules/Hero';
+import SectionAchievments from '@components/organizm/SectionAchievments';
 import CustomLayout from '@layouts/CustomLayout/CustomLayout';
 import MainLayout from '@layouts/MainLayout';
 import { serviceCards } from '@shared';
@@ -7,8 +8,7 @@ import classNames from 'classnames/bind';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import SectionAchievments from '../../components/SectionAchievments';
-import SectionClients from '../../components/SectionClients';
+import SectionClients from '@components/organizm/SectionClients';
 import SectionGlimpseOfPortfolio from './components/SectionGlimpseOfPortfolio';
 import SectionServiceBenefits from './components/SectionServiceBenefits';
 import SectionServiceIntro from './components/SectionServiceIntro';

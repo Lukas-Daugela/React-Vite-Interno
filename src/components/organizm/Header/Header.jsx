@@ -1,9 +1,9 @@
 import PageLogo from '@components/atoms/PageLogo';
+import Navbar from '@components/molecules/Navbar';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Navbar from '@components/molecules/Navbar';
 import styles from './Header.module.scss';
 
 const cn = classNames.bind(styles);

@@ -1,9 +1,9 @@
+import Button from '@components/atoms/Button';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import Button from '@components/atoms/Button';
 import styles from './SectionJoinTeam.module.scss';
 
 const cn = classNames.bind(styles);

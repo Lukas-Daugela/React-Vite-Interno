@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Header from '@components/Header';
+import Header from '@components/organizm/Header';
 import ROUTES from '../../routes';
 import styles from './PageLayout.module.scss';
 
