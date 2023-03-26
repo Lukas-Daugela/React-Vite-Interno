@@ -12,6 +12,12 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
       '@fonts': path.resolve(__dirname, 'src/sass/fonts'),
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@shared': path.resolve(__dirname, 'src/shared'),
+      '@sass': path.resolve(__dirname, 'src/sass'),
+      '@layouts': path.resolve(__dirname, 'src/layouts'),
+      '@assets': path.resolve(__dirname, 'public/assets'),
+      '@hooks': path.resolve(__dirname, 'src/hooks'),
     },
   },
   plugins: [
