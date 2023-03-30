@@ -3,7 +3,7 @@ import React, { lazy } from 'react';
 const HomePage = lazy(() => import('../pages/HomePage'));
 const About = lazy(() => import('../pages/About'));
 const Projects = lazy(() => import('../pages/Projects'));
-// const Blogs = lazy(() => import('../pages/Blogs'));
+const Blogs = lazy(() => import('../pages/Blogs'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Services = lazy(() => import('../pages/Services'));
 const Service = lazy(() => import('../pages/Service'));
@@ -62,7 +62,7 @@ const ROUTES = [
   {
     path: '/blogs',
     title: TITLES.BLOGS,
-    element: <UnderDevelopment />,
+    element: <Blogs />,
     nav: true,
   },
   {
