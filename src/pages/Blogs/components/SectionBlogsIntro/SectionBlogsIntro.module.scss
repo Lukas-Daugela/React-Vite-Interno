@@ -1,1 +1,15 @@
 @import '@sass/mixins/index';
+
+.latest-card {
+  display: grid;
+  grid-template-columns: 47% 41%;
+  height: 200px;
+
+  &__image-container {
+    border-radius: 50px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+}

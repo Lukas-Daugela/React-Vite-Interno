@@ -1,3 +1,4 @@
+import CustomLazyLoadImage from '@components/atoms/CustomLazyLoadImage';
 import { newsCards } from '@shared';
 import { formatDate } from '@shared/functions/dateFormatter.js';
 import classNames from 'classnames/bind';
@@ -20,8 +21,15 @@ export default function SectionBlogsIntro() {
   const latestNewsCard = findLatestNewsCard(newsCards);
 
   return (
-    <div className={cn('Intro')}>
-      <h2 className={cn('Intro__title')}>Latest Post</h2>
+    <div className={cn('intro')}>
+      <h2 className={cn('intro__title')}>Latest Post</h2>
+      <div className={cn('latest-card')}>
+        <CustomLazyLoadImage
+          imgUrl={latestNewsCard.imgUrl}
+          blurhash={latestNewsCard.blurhash}
+          containerClass={cn('latest-card__image-container')}
+        />
+      </div>
     </div>
   );
 }
