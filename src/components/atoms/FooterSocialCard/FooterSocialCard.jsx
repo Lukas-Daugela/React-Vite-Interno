@@ -1,9 +1,9 @@
+import PageLogo from '@components/atoms/PageLogo';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import PageLogo from '@components/atoms/PageLogo';
 import styles from './FooterSocialCard.module.scss';
 
 const cn = classNames.bind(styles);

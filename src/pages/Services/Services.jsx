@@ -1,10 +1,10 @@
 import Hero from '@components/molecules/Hero';
+import SectionJoinTeam from '@components/organizm/SectionJoinTeam';
 import MainLayout from '@layouts/MainLayout';
 import heroImages from '@shared/lazyLoadImages/heroImages.json';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import SectionJoinTeam from '@components/organizm/SectionJoinTeam';
 import SectionServices from './components/SectionServices';
 import SectionServiceWorkflow from './components/SectionServiceWorkflow';
 import styles from './Services.module.scss';

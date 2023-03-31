@@ -3,6 +3,7 @@ import Button from '@components/atoms/Button';
 import Checkbox from '@components/atoms/Checkbox';
 import TextArea from '@components/atoms/TextArea';
 import TextInput from '@components/atoms/TextInput';
+import Modal from '@components/molecules/Modal';
 import {
   contactCheckboxValidationSchema,
   contactValidationSchema,
@@ -12,7 +13,6 @@ import { Form, Formik } from 'formik';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
-import Modal from '@components/molecules/Modal';
 import styles from './ContactForm.module.scss';
 
 const cn = classNames.bind(styles);

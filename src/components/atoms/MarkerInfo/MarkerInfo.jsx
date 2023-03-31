@@ -1,7 +1,7 @@
+import PageLogo from '@components/atoms/PageLogo';
 import classNames from 'classnames/bind';
 import React from 'react';
 
-import PageLogo from '@components/atoms/PageLogo';
 import styles from './MarkerInfo.module.scss';
 import markerText from './markerText.json';
 

@@ -1,9 +1,8 @@
 import Loader from '@components/atoms/Loader';
 import PageLayout from '@layouts/PageLayout';
+import ROUTES from '@shared/routes';
 import React, { Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import ROUTES from '@shared/routes';
 
 export default function App() {
   return (
