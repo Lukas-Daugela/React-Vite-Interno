@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "blogId": "blog-construction-work",
     "imgUrl": "/assets/images/kitchen-design-one.jpg",
     "blurhash": "UaLqFLxtM{ay?wM{t7R*aKoLozaetRxuV@t7",
     "tag": "Kitchen Design",
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "blogId": "blog-design-ideas",
     "imgUrl": "/assets/images/kitchen-design-two.jpg",
     "blurhash": "UMJ[0C_N9wn$-;kCi]ae-oNH%MjYtSt7s:bI",
     "tag": "Kitchen Design",
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "blogId": "blog-interior-solution",
     "imgUrl": "/assets/images/kitchen-design-three.jpg",
     "blurhash": "UDKnl5%g_NWrIUM{xuRjM}WAj[j?RkWCxuj[",
     "tag": "Kitchen Design",
@@ -31,6 +34,7 @@
   },
   {
     "id": 4,
+    "blogId": "blog-construction-work-2",
     "imgUrl": "/assets/images/kitchen-design-four.jpg",
     "blurhash": "UYOfiLWA%M%M_NxuM|RjRPjZjFWCNHM|oJt7",
     "tag": "Kitchen Design",
@@ -41,6 +45,7 @@
   },
   {
     "id": 5,
+    "blogId": "blog-design-ideas-2",
     "imgUrl": "/assets/images/living-room.jpg",
     "blurhash": "UNOzJN%gxv4m~q-;kCt68_WYIUt7-;tRoft7",
     "tag": "Living room Design",
@@ -51,6 +56,7 @@
   },
   {
     "id": 6,
+    "blogId": "blog-interior-solution-2",
     "imgUrl": "/assets/images/kitchen-design-five.jpg",
     "blurhash": "UWL|ib-nWBoz~qM{j[WBe.jYs.e-t7WXRjof",
     "tag": "Kitchen Design",

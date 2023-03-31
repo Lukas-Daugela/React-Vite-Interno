@@ -21,7 +21,7 @@ export default function SectionBlogsIntro() {
 
   const latestNewsCard = findLatestNewsCard(newsCards);
 
-  const { blurhash, imgUrl, title, description, postDate } = latestNewsCard;
+  const { blurhash, imgUrl, title, description, postDate, blogId } = latestNewsCard;
 
   return (
     <div className={cn('intro')}>
@@ -37,7 +37,7 @@ export default function SectionBlogsIntro() {
           <p className={cn('latest-card__text-side__description')}>{description}</p>
           <div className={cn('latest-card__text-side__button-container')}>
             {postDate}
-            <CircleLink path={'/'} />
+            <CircleLink path={`/blogs/${blogId}`} />
           </div>
         </div>
       </div>

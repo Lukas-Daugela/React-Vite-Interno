@@ -4,6 +4,7 @@ const HomePage = lazy(() => import('../pages/HomePage'));
 const About = lazy(() => import('../pages/About'));
 const Projects = lazy(() => import('../pages/Projects'));
 const Blogs = lazy(() => import('../pages/Blogs'));
+const Blog = lazy(() => import('../pages/Blog'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Services = lazy(() => import('../pages/Services'));
 const Service = lazy(() => import('../pages/Service'));
@@ -17,6 +18,7 @@ const TITLES = {
   PROJECTS: 'Projects',
   PROJECT: 'Project',
   BLOGS: 'Blogs',
+  BLOG: 'Blog',
   CONTACT: 'Contact',
   SERVICES: 'Services',
   SERVICE: 'Service',
@@ -63,6 +65,12 @@ const ROUTES = [
     path: '/blogs',
     title: TITLES.BLOGS,
     element: <Blogs />,
+    nav: true,
+  },
+  {
+    path: '/blogs/:blogId',
+    title: TITLES.BLOG,
+    element: <Blog />,
     nav: true,
   },
   {
