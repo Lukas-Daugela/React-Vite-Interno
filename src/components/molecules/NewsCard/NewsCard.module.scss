@@ -1,9 +1,14 @@
 @import '@sass/mixins/index';
 
+.news-card__link {
+  transition: background-color 0.5s linear;
+}
+
 .news-card {
   border: 1px solid var(--color-white-910);
   border-radius: 35px;
   padding: 1rem;
+  transition: background-color 0.5s linear;
 
   @include media-query('md') {
     border-radius: 62px;
