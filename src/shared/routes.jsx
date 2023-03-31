@@ -71,7 +71,6 @@ const ROUTES = [
     path: '/blogs/:blogId',
     title: TITLES.BLOG,
     element: <Blog />,
-    nav: true,
   },
   {
     path: '/contact',
