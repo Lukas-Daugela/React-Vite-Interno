@@ -8,7 +8,7 @@ import styles from './NewsCard.module.scss';
 const cn = classNames.bind(styles);
 
 export default function NewsCard({ cardInfo }) {
-  const { imgUrl, tag, title, postDate, link } = cardInfo;
+  const { imgUrl, tag, title, postDate, blogId } = cardInfo;
 
   return (
     <div className={cn('news-card')}>
@@ -19,7 +19,7 @@ export default function NewsCard({ cardInfo }) {
       <h4 className={cn('news-card__title')}>{title}</h4>
       <div className={cn('news-card__bottom-container')}>
         <p>{postDate}</p>
-        <CircleLink path={link} className={cn('news-card__link')} />
+        <CircleLink path={`/blogs/${blogId}`} className={cn('news-card__link')} />
       </div>
     </div>
   );

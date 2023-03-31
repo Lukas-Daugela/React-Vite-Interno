@@ -1,11 +1,11 @@
 import Footer from '@components/molecules/Footer';
+import Header from '@components/organizm/Header';
+import ROUTES from '@shared/routes';
 import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Header from '@components/organizm/Header';
-import ROUTES from '@shared/routes';
 import styles from './PageLayout.module.scss';
 
 const cn = classNames.bind(styles);
