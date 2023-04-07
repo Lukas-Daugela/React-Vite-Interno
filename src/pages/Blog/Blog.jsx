@@ -1,8 +1,9 @@
 import MainLayout from '@layouts/MainLayout';
+import { newsCards } from '@shared';
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
-import Tag from './components/Tag';
+import SectionBlogIntro from './components/SectionBlogIntro/SectionBlogIntro';
 
 export default function Blog() {
   const navigate = useNavigate();
@@ -11,12 +12,14 @@ export default function Blog() {
     navigate('/blogs');
   };
 
+  const { blogId } = useParams();
+
+  const blogInfo = newsCards.find((blogCard) => blogCard.blogId === blogId);
+
   return (
     <MainLayout>
       <div>Blog</div>
-      <Tag active onClick={handleNavigate}>
-        Kitchen
-      </Tag>
+      <SectionBlogIntro blogInfo={blogInfo} />
     </MainLayout>
   );
 }

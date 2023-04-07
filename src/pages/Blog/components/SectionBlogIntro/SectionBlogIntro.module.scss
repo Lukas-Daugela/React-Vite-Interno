@@ -1,0 +1,19 @@
+@import '@sass/mixins/index';
+
+.intro {
+  display: grid;
+  max-width: 80rem;
+
+  &__title {
+    @include heading-styles('large');
+  }
+
+  &__image {
+    border-radius: 50px;
+    margin: 2.1rem 0 4.6rem;
+  }
+
+  &__description {
+    @include body-styles('large');
+  }
+}
