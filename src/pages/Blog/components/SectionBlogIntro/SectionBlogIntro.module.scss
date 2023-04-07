@@ -11,6 +11,8 @@
   &__image {
     border-radius: 50px;
     margin: 2.1rem 0 4.6rem;
+    object-fit: cover;
+    width: 100%;
   }
 
   &__description {
