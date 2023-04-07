@@ -1,0 +1,15 @@
+@import '@sass/mixins/index';
+
+.tag {
+  background-color: var(--color-tertiary);
+  border: unset;
+  border-radius: 10px;
+  padding: 1.3rem 2.2rem;
+
+  @include body-styles('small');
+
+  &--active {
+    background-color: var(--color-secondary);
+    color: var(--color-white-100);
+  }
+}
