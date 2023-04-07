@@ -4,6 +4,7 @@ import React from 'react';
 import imgUrl from '/assets/images/kitchen-design-four.jpg';
 
 import styles from './SectionBlogAdvertisement.module.scss';
+import listOptions from './text/listOptions.json';
 
 const cn = classNames.bind(styles);
 
@@ -17,18 +18,11 @@ export default function SectionBlogAdvertisement() {
         available, but the majority have suffered.
       </p>
       <ol className={cn('advertisement__list')}>
-        <li className={cn('advertisement__option')}>
-          Contrary to popular belief.There are many variations of passages of Lorem Ipsum
-          available, but the majority have suffered.
-        </li>
-        <li className={cn('advertisement__option')}>
-          Contrary to popular belief.There are many variations of passages of Lorem Ipsum
-          available, but the majority have suffered.
-        </li>
-        <li className={cn('advertisement__option')}>
-          Contrary to popular belief.There are many variations of passages of Lorem Ipsum
-          available, but the majority have suffered.
-        </li>
+        {listOptions.map((option, i) => (
+          <li key={i} className={cn('advertisement__option')}>
+            {option}
+          </li>
+        ))}
       </ol>
       <img src={imgUrl} alt="" className={cn('advertisement__image')} />
       <p className={cn('advertisement__description')}>
