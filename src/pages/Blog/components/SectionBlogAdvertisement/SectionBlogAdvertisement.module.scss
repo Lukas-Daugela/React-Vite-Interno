@@ -4,7 +4,6 @@
   display: grid;
 
   &__title {
-    margin: 0;
     @include heading-styles('large');
   }
 
@@ -28,12 +27,17 @@
   &__list {
     display: grid;
     gap: 3.2rem;
-    margin: 0;
     padding-left: 2.6rem;
   }
 
   &__option::marker {
     color: var(--color-primary);
+  }
+
+  &__description,
+  &__list,
+  &__title {
+    margin: 0;
   }
 
   &__description,

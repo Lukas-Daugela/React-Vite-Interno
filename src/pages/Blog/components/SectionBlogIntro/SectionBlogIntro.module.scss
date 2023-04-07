@@ -2,7 +2,6 @@
 
 .intro {
   display: grid;
-  max-width: 80rem;
 
   &__title {
     @include heading-styles('large');
@@ -15,7 +14,13 @@
     width: 100%;
   }
 
+  &__post-date,
+  &__title {
+    margin: 0;
+  }
+
   &__description {
+    margin: 4.8rem 0 0;
     @include body-styles('large');
   }
 }
