@@ -3,7 +3,8 @@ import { newsCards } from '@shared';
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
-import SectionBlogIntro from './components/SectionBlogIntro/SectionBlogIntro';
+import SectionBlogAdvertisement from './components/SectionBlogAdvertisement';
+import SectionBlogIntro from './components/SectionBlogIntro';
 
 export default function Blog() {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ export default function Blog() {
     <MainLayout>
       <div>Blog</div>
       <SectionBlogIntro blogInfo={blogInfo} />
+      <SectionBlogAdvertisement />
     </MainLayout>
   );
 }

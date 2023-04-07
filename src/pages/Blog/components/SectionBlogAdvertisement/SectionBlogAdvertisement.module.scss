@@ -1,0 +1,44 @@
+@import '@sass/mixins/index';
+
+.advertisement {
+  display: grid;
+
+  &__title {
+    margin: 0;
+    @include heading-styles('large');
+  }
+
+  &__image {
+    border-radius: 50px;
+    height: 36.5rem;
+    height: 30rem;
+    margin: 4.4rem 0 3.5rem;
+    object-fit: cover;
+    width: 100%;
+
+    @include media-query('md') {
+      height: 53.9rem;
+    }
+  }
+
+  &__introduction {
+    margin: 2rem 0 2.4rem;
+  }
+
+  &__list {
+    display: grid;
+    gap: 3.2rem;
+    margin: 0;
+    padding-left: 2.6rem;
+  }
+
+  &__option::marker {
+    color: var(--color-primary);
+  }
+
+  &__description,
+  &__option,
+  &__introduction {
+    @include body-styles('large');
+  }
+}
